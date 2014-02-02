@@ -22,18 +22,20 @@ class InfoBox
       @result[k] = v
     end
 
-    # parse languages links
-    @result['influenced_by_links'] = @rows.find { |r| r.content['Influenced by'] }
-      .search('td > a')
-      .map { |a| a.attribute('href').text }
+    # clean up language names and parse language links
+    if @result['influenced']
+      @result['influenced'] = @result['influenced'].gsub(/\[\d\]|\s+/, '').split(',')
+      @result['influenced_links'] = @rows.find { |r| r.content[/Influenced\s*$/] }
+        .search('td > a')
+        .map { |a| a.attribute('href').text }
+    end
 
-    @result['influenced_links'] = @rows.find { |r| r.content[/Influenced\s*$/] }
-      .search('td > a')
-      .map { |a| a.attribute('href').text }
-
-    # clean up language names
-    @result['influenced'] = @result['influenced'].gsub(/\[\d\]|\s+/, '').split(',')
-    @result['influenced_by'] = @result['influenced_by'].gsub(/\[\d\]|\s+/, '').split(',')
+    if @result['influenced_by']
+      @result['influenced_by'] = @result['influenced_by'].gsub(/\[\d\]|\s+/, '').split(',')
+      @result['influenced_by_links'] = @rows.find { |r| r.content['Influenced by'] }
+        .search('td > a')
+        .map { |a| a.attribute('href').text }
+    end
 
     # clean up appeared_in
     @result['appeared_in'] = @result['appeared_in'][/\d\d\d\d/]

@@ -63,6 +63,6 @@ class InfoBoxTest < Minitest::Test
 
   def test_empty_influenced_or_influenced_by_links
     @potion_wiki = InfoBox.new('/wiki/potion_(programming_language)').result
-    assert_equal [], @potion_wiki['influenced_links']
+    assert_nil @potion_wiki['influenced_links']
   end
 end
