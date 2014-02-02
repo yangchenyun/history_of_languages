@@ -2454,9 +2454,7 @@
         "influenced_by": [
             "Prolog",
             "Smalltalk",
-            "Objective-C;logicprogramming",
-            "object-orientedprogramming",
-            "prototype-basedprogramming"
+            "Objective-C"
         ],
         "license": "Artistic License 2.0 (2.x) / GNU GPL v3 (3.x)",
         "name": "Logtalk",
@@ -2467,15 +2465,6 @@
         "preview_release": "3.00.0 Alpha 34 (January\u00a030,\u00a02014\u00a0(2014-01-30))",
         "stable_release": "2.44.1 (May\u00a028,\u00a02012\u00a0(2012-05-28))",
         "website": "logtalk.org"
-    },
-    {
-        "name": "Prototype-based programming"
-    },
-    {
-        "name": "Object-oriented programming"
-    },
-    {
-        "name": "Logic programming"
     },
     {
         "initial_release": "1963",
