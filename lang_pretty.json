@@ -24,7 +24,7 @@
             "Lisp",
             "Perl",
             "Python",
-            "Smalltalk"
+            "SmallTalk"
         ],
         "license": "Ruby License or BSD License[7][8]",
         "major_implementations": "Ruby MRI, YARV, Rubinius, MagLev, JRuby, MacRuby, RubyMotion, HotRuby, IronRuby, mruby",
@@ -51,7 +51,8 @@
             "Ocaml",
             "Lua",
             "REBOL",
-            "SmalltalkandC"
+            "SmallTalk",
+            "C"
         ],
         "license": "MIT License",
         "name": "potion",
@@ -72,7 +73,7 @@
         "dialects": "Cyclone, Unified Parallel C, Split-C, Cilk, C*",
         "influenced": [
             "Numerous:AMPL",
-            "AWK",
+            "Awk",
             "csh",
             "C++",
             "C--",
@@ -94,8 +95,8 @@
             "Verilog(HDL)"
         ],
         "influenced_by": [
-            "B(BCPL",
-            "CPL)",
+            "BCPL",
+            "CPL",
             "ALGOL68",
             "Assembly",
             "PL/I",
@@ -188,7 +189,7 @@
             "Modula",
             "Mesa",
             "Pascal",
-            "Algol-W"
+            "ALGOLW"
         ],
         "major_implementations": "\nETH compiler written by Niklaus Wirth,\nADW Modula-2\nGNU Modula-2\nObjective Modula-2\nUlm Modula-2\np1 Modula-2\nXDS Modula-2\n",
         "name": "Modula-2",
@@ -301,8 +302,9 @@
         "influenced": [
             "BASIC",
             "TELCOMP",
-            "CAL(Jossfamily)",
-            "FOCALandMUMPS"
+            "CAL",
+            "FOCAL",
+            "MUMPS"
         ],
         "influenced_by": [
             "ALGOL58"
@@ -311,9 +313,6 @@
     },
     {
         "name": "FOCAL"
-    },
-    {
-        "name": "CAL (Joss family)"
     },
     {
         "appeared_in": "1965",
@@ -410,16 +409,6 @@
         "website": "msdn.microsoft.com/en-us/vstudio/hh388573"
     },
     {
-        "developers": "Microsoft",
-        "initial_release": "13\u00a0February 2002; 11 years ago\u00a0(2002-02-13)",
-        "license": "Proprietary; BCL under Microsoft Reference Source License[1]",
-        "name": ".NET Framework",
-        "operating_system": "Windows 98 or later, Windows NT 4.0 or later",
-        "stable_release": "4.5.50938.18408 / 17\u00a0October 2013; 3 months ago\u00a0(2013-10-17)",
-        "type": "Software framework",
-        "website": "www.microsoft.com/net"
-    },
-    {
         "appeared_in": "1991",
         "developer": "Microsoft",
         "influenced": [
@@ -505,7 +494,7 @@
         "influenced_by": [
             "ALGOL58"
         ],
-        "name": "ALGOL 60",
+        "name": "ALGOL60",
         "paradigms": [
             "procedural",
             "imperative",
@@ -537,7 +526,7 @@
         "appeared_in": "1967",
         "designed_by": "Ole-Johan Dahl, Kristen Nygaard",
         "influenced_by": [
-            "ALGOL 60"
+            "ALGOL60"
         ],
         "name": "Simula",
         "paradigms": [
@@ -552,15 +541,13 @@
         "appeared_in": "1958",
         "designed_by": "Friedrich L. Bauer, Hermann Bottenbruch, Heinz Rutishauser, Klaus Samelson, John Backus, Charles Katz, Alan Perlis, Joseph Henry Wegstein",
         "influenced": [
-            "Mostsubsequentimperativelanguages(Algol-like)"
+            "Mostsubsequentimperativelanguages(ALGOL-like)"
         ],
         "influenced_by": [
             "FORTRAN",
-            "IT",
-            "Plankalk\u00fcl",
-            "SequentielleFormel\u00fcbersetzung"
+            "IT"
         ],
-        "name": "ALGOL 58",
+        "name": "ALGOL58",
         "paradigms": [
             "procedural",
             "imperative",
@@ -930,7 +917,7 @@
             "Q"
         ],
         "influenced_by": [
-            "mathematicalnotation"
+            "Mathematical Notation"
         ],
         "major_implementations": "Dyalog APL, IBM APL2, APL2000, Sharp APL, APLX, NARS2000, GNU APL[1]",
         "name": "APL",
@@ -975,7 +962,7 @@
             "Q"
         ],
         "influenced_by": [
-            "mathematicalnotation"
+            "Mathematical Notation"
         ],
         "major_implementations": "Dyalog APL, IBM APL2, APL2000, Sharp APL, APLX, NARS2000, GNU APL[1]",
         "name": "APL",
@@ -1011,7 +998,7 @@
         "designed_by": "Mike Jenkins",
         "developer": "Nial Systems Ltd",
         "influenced_by": [
-            "APLLisp"
+            "APL"
         ],
         "major_implementations": "Q'Nial",
         "name": "Nial",
@@ -1162,7 +1149,7 @@
         "website": "fpstefan.de"
     },
     {
-        "name": "Mathematical notation"
+        "name": "Mathematical Notation"
     },
     {
         "appeared_in": "1993",
@@ -1218,7 +1205,7 @@
             "ISLISP"
         ],
         "influenced_by": [
-            "CommonLispInterLispLeLispLisp/VMSchemeTCLOS",
+            "CommonLisp",
             "ObjVlisp",
             "OaklispDylan"
         ],
@@ -1248,7 +1235,7 @@
         "influenced_by": [
             "Scheme",
             "T",
-            "Smalltalk"
+            "SmallTalk"
         ],
         "major_implementations": "Oaklisp",
         "name": "Oaklisp",
@@ -1440,7 +1427,7 @@
             "Rebol",
             "Racket",
             "Ruby",
-            "Smalltalk",
+            "SmallTalk",
             "Tcl"
         ],
         "influenced_by": [
@@ -1464,7 +1451,7 @@
             "Tea"
         ],
         "influenced_by": [
-            "AWK",
+            "Awk",
             "Lisp"
         ],
         "major_implementations": "ActiveTcl",
@@ -1754,7 +1741,7 @@
             "REBOL"
         ],
         "influenced_by": [
-            "Smalltalk"
+            "SmallTalk"
         ],
         "major_implementations": "Self",
         "name": "Self",
@@ -1831,7 +1818,7 @@
         "designed_by": "Beno\u00eet Sonntag",
         "developer": "Beno\u00eet Sonntag & J\u00e9r\u00f4me Boutet",
         "influenced_by": [
-            "Smalltalk",
+            "SmallTalk",
             "Self",
             "Eiffel"
         ],
@@ -1852,7 +1839,7 @@
         "operating_system": "Cross-platform (multi-platform): Unix-like, Mac OS X, iOS, Windows, more",
         "original_authors": "Alan Kay, Dan Ingalls, Adele Goldberg",
         "stable_release": "4.4 / December\u00a031,\u00a02012\u00a0(2012-12-31)",
-        "type": "Smalltalk virtual machine, development environment",
+        "type": "SmallTalk virtual machine, development environment",
         "website": "www.squeak.org"
     },
     {
@@ -1861,7 +1848,7 @@
     {
         "appeared_in": "1998",
         "influenced_by": [
-            "Smalltalk",
+            "SmallTalk",
             "Self",
             "Forth",
             "NewtonScript",
@@ -1905,7 +1892,7 @@
             "Luna"
         ],
         "influenced_by": [
-            "Smalltalk",
+            "SmallTalk",
             "NewtonScript",
             "Self",
             "Lua",
@@ -1947,7 +1934,7 @@
         "developer": "Wally Feurzeig, Seymour Papert",
         "dialects": "StarLogo, NetLogo",
         "influenced": [
-            "Smalltalk",
+            "SmallTalk",
             "Etoys",
             "Scratch",
             "NetLogo",
@@ -2029,7 +2016,7 @@
         "implementation_language": "Squeak, ActionScript (Scratch 2.0)",
         "influenced_by": [
             "Logo",
-            "Smalltalk",
+            "SmallTalk",
             "HyperCard",
             "StarLogo",
             "AgentSheets",
@@ -2057,7 +2044,7 @@
         "influenced_by": [
             "Lisp",
             "Logo",
-            "Smalltalk"
+            "SmallTalk"
         ],
         "name": "AgentSheets",
         "paradigms": [
@@ -2088,7 +2075,7 @@
         ],
         "influenced_by": [
             "Logo",
-            "Smalltalk",
+            "SmallTalk",
             "HyperCard",
             "StarLogo",
             "AgentSheets"
@@ -2149,7 +2136,6 @@
             "REBOL"
         ],
         "influenced_by": [
-            "Burroughslargesystems",
             "Lisp",
             "APL"
         ],
@@ -2216,7 +2202,6 @@
             "REBOL"
         ],
         "influenced_by": [
-            "Burroughslargesystems",
             "Lisp",
             "APL"
         ],
@@ -2285,7 +2270,6 @@
         ],
         "influenced_by": [
             "Lisp",
-            "LispMachineLisp",
             "MacLisp",
             "Scheme",
             "InterLisp"
@@ -2372,13 +2356,13 @@
             "Logo",
             "Sketchpad"
         ],
-        "major_implementations": "Pharo, Squeak, GNU Smalltalk, VisualWorks, Dolphin Smalltalk, Smalltalk/X, VA Smalltalk",
-        "name": "Smalltalk",
+        "major_implementations": "Pharo, Squeak, GNU SmallTalk, VisualWorks, Dolphin SmallTalk, SmallTalk/X, VA SmallTalk",
+        "name": "SmallTalk",
         "os": "Cross-platform (multi-platform)",
         "paradigms": [
             "object-oriented"
         ],
-        "stable_release": "Smalltalk-80 version 2 (1980)",
+        "stable_release": "SmallTalk-80 version 2 (1980)",
         "typing_discipline": "strong, dynamic"
     },
     {
@@ -2386,7 +2370,7 @@
         "developer": "Google",
         "influenced_by": [
             "JavaScript",
-            "Smalltalk",
+            "SmallTalk",
             "Erlang",
             "Strongtalk",
             "C#"
@@ -2411,9 +2395,9 @@
         "influenced_by": [
             "Haskell",
             "JavaScript",
-            "Perl5",
+            "Perl",
             "Ruby",
-            "Smalltalk"
+            "SmallTalk"
         ],
         "license": "GNU General Public License, Artistic License",
         "major_implementations": "Rakudo, Niecza",
@@ -2453,7 +2437,7 @@
         "designed_by": "Paulo Moura",
         "influenced_by": [
             "Prolog",
-            "Smalltalk",
+            "SmallTalk",
             "Objective-C"
         ],
         "license": "Artistic License 2.0 (2.x) / GNU GPL v3 (3.x)",
@@ -2613,7 +2597,7 @@
             "StandardML",
             "OCaml",
             "Scheme",
-            "Smalltalk",
+            "SmallTalk",
             "Oz"
         ],
         "license": "BSD[citation needed]",
@@ -2637,7 +2621,7 @@
         "influenced_by": [
             "Java",
             "Scala",
-            "Smalltalk"
+            "SmallTalk"
         ],
         "license": "Apache v2",
         "name": "Ceylon",
@@ -2994,7 +2978,7 @@
             "StandardML",
             "OCaml",
             "Scheme",
-            "Smalltalk",
+            "SmallTalk",
             "Oz"
         ],
         "license": "BSD[citation needed]",
@@ -3055,7 +3039,7 @@
             "Clean",
             "FP",
             "Gofer",
-            "HopeandHope+",
+            "Hope",
             "Id",
             "ISWIM",
             "KRC",
@@ -3328,7 +3312,7 @@
     {
         "developer": "Microsoft Corporation",
         "influenced_by": [
-            "JScript/ECMAScript"
+            "ECMAScript"
         ],
         "name": "JScript .NET",
         "paradigms": [
@@ -3343,7 +3327,7 @@
         "influenced_by": [
             "Self",
             "HyperTalk",
-            "AWK",
+            "Awk",
             "C",
             "Perl",
             "Python",
@@ -3471,7 +3455,7 @@
             "Clean",
             "FP",
             "Gofer",
-            "HopeandHope+",
+            "Hope",
             "Id",
             "ISWIM",
             "KRC",
@@ -3778,7 +3762,7 @@
         ],
         "influenced_by": [
             "Pascal",
-            "Smalltalk"
+            "SmallTalk"
         ],
         "major_implementations": "Delphi (x86, ARM and CLI), Oxygene (CLI, Java, Native Cocoa), Free Pascal (x86, x86-64, PowerPC, ppc64, SPARC and ARM), Virtual Pascal (x86), Turbo51 (Intel 8051), Smart Mobile Studio (JavaScript)",
         "name": "Object Pascal",
@@ -3813,22 +3797,6 @@
             "object-oriented"
         ],
         "typing_discipline": "strong, static"
-    },
-    {
-        "appeared_in": "1966",
-        "developer": "Niklaus Wirth, C. A. R. Hoare",
-        "influenced": [
-            "Pascal"
-        ],
-        "influenced_by": [
-            "ALGOL60"
-        ],
-        "name": "ALGOL W",
-        "paradigms": [
-            "procedural",
-            "imperative",
-            "structured"
-        ]
     },
     {
         "appeared_in": "2001",
@@ -4023,7 +3991,7 @@
         "typing_discipline": "Static, strong"
     },
     {
-        "name": "Communicating sequential processes"
+        "name": "Communicating Sequential Processes"
     },
     {
         "appeared_in": "1995",
@@ -4079,17 +4047,17 @@
             "Vala"
         ],
         "influenced_by": [
-            "Ada83",
+            "Ada",
             "C++",
             "C#",
             "Eiffel",
-            "GenericJava",
+            "Generic Java",
             "Mesa",
             "Modula-3",
             "Oberon",
             "Objective-C",
             "UCSDPascal",
-            "Smalltalk"
+            "SmallTalk"
         ],
         "license": "GNU General Public License, Java Community Process",
         "major_implementations": "OpenJDK, many others",
@@ -4135,7 +4103,8 @@
         "appeared_in": "2002",
         "developer": "Microsoft",
         "influenced_by": [
-            "JavaandVisualJ++"
+            "Java",
+            "Visual J++"
         ],
         "name": "Visual J#",
         "paradigms": [
@@ -4270,7 +4239,7 @@
         "developer": "Alexander Aiken",
         "dialects": "Cool 2004, Cool 2005, Cool 2006, Cool 2007, Cool 2008, unCool",
         "influenced_by": [
-            "Sather164",
+            "Sather",
             "Java",
             "ML",
             "Pascal"
@@ -4382,7 +4351,7 @@
         ],
         "influenced_by": [
             "C",
-            "Smalltalk"
+            "SmallTalk"
         ],
         "major_implementations": "Clang, GCC",
         "name": "Objective-C",
@@ -4420,12 +4389,12 @@
             "ML",
             "Icon",
             "Haskell",
-            "C\u03c9",
-            "F#[note1]"
+            "C#",
+            "F#"
         ],
         "license": "CLR is proprietary, Mono compiler is dual GPLv3, MIT/X11 and libraries are LGPLv2, DotGNU is dual GPL and LGPLv2",
         "major_implementations": "Visual C\u266f, .NET Framework, Mono, DotGNU",
-        "name": "C\u266f",
+        "name": "C#",
         "paradigms": [
             "structured",
             "imperative",
@@ -4572,8 +4541,7 @@
             "JoinsConcurrencyLibrary"
         ],
         "influenced_by": [
-            "C#",
-            "PolyphonicC#"
+            "C#"
         ],
         "name": "C\u03c9",
         "os": "Cross-platform",
@@ -4720,7 +4688,7 @@
     {
         "appeared_in": "1977",
         "designed_by": "Alfred Aho, Peter Weinberger, and Brian Kernighan",
-        "dialects": "old awk oawk 1977, new awk nawk 1985, GNU Awk gawk",
+        "dialects": "old Awk oawk 1977, new Awk nawk 1985, GNU Awk gawk",
         "influenced": [
             "Tcl",
             "AMPL",
@@ -4732,11 +4700,11 @@
         ],
         "influenced_by": [
             "C",
-            "SNOBOL4",
+            "SNOBOL",
             "Bourneshell"
         ],
-        "major_implementations": "awk, GNU Awk, mawk, nawk, MKS AWK, Thompson AWK (compiler), Awka (compiler)",
-        "name": "AWK",
+        "major_implementations": "Awk, GNU Awk, mawk, nawk, MKS Awk, Thompson Awk (compiler), Awka (compiler)",
+        "name": "Awk",
         "os": "Cross-platform",
         "paradigms": [
             "scripting",
@@ -4773,7 +4741,7 @@
         "appeared_in": "1985",
         "designed_by": "Robert Fourer\nDavid GayBrian KernighanBell Labs",
         "influenced_by": [
-            "AWK",
+            "Awk",
             "C"
         ],
         "license": "Proprietary (translator), free and open-source (AMPL Solver Library)",
@@ -4850,7 +4818,7 @@
         ],
         "influenced_by": [
             "PL/I",
-            "Algol",
+            "ALGOL",
             "EXEC2"
         ],
         "major_implementations": "VM/SP and later, TSO/E V2 and later, IBM NetRexx, Object REXX, Open Object Rexx,[1] Regina,[2] others",
@@ -4907,7 +4875,7 @@
         "name": "EXEC 2"
     },
     {
-        "name": "Algol"
+        "name": "ALGOL"
     },
     {
         "appeared_in": "1974",
@@ -4975,7 +4943,7 @@
         ],
         "influenced_by": [
             "Euclid",
-            "CommunicatingSequentialProcesses"
+            "Communicating Sequential Processes"
         ],
         "name": "Concurrent Euclid (ConEuc)",
         "os": "Cross-platform: PDP-11, VAX-11, Motorola 68000, Motorola 6809",
@@ -5030,7 +4998,7 @@
         ],
         "influenced_by": [
             "Euclid",
-            "CommunicatingSequentialProcesses"
+            "Communicating Sequential Processes"
         ],
         "name": "Concurrent Euclid (ConEuc)",
         "os": "Cross-platform: PDP-11, VAX-11, Motorola 68000, Motorola 6809",
@@ -5042,7 +5010,7 @@
         "typing_discipline": "strong, static"
     },
     {
-        "name": "CommunicatingSequentialProcesses"
+        "name": "Communicating Sequential Processes"
     },
     {
         "appeared_in": "1959",
@@ -5126,7 +5094,7 @@
     {
         "appeared_in": "1968",
         "designed_by": "A. van Wijngaarden, B.J. Mailloux, J.E.L. Peck and C.H.A. Koster, et al.",
-        "dialects": "ALGOL 68/FR (Final Reportr0)",
+        "dialects": "ALGOL68/FR (Final Reportr0)",
         "influenced": [
             "C",
             "C++",
@@ -5142,13 +5110,13 @@
             "ALGOL60",
             "ALGOLY"
         ],
-        "major_implementations": "ALGOL 68C, ALGOL 68G (recent), ALGOL 68R, ALGOL 68RS, ALGOL 68S, FLACC, \u0410\u043b\u0433\u043e\u043b 68 \u041b\u0435\u043d\u0438\u043d\u0433\u0440\u0430\u0434/Leningrad Unit, Odra ALGOL 68",
-        "name": "ALGOL 68",
+        "major_implementations": "ALGOL68C, ALGOL68G (recent), ALGOL68R, ALGOL68RS, ALGOL68S, FLACC, \u0410\u043b\u0433\u043e\u043b 68 \u041b\u0435\u043d\u0438\u043d\u0433\u0440\u0430\u0434/Leningrad Unit, Odra ALGOL68",
+        "name": "ALGOL68",
         "paradigms": [
             "concurrent",
             "imperative"
         ],
-        "stable_release": "Algol 68/RR (Revised Report: 1973r1)",
+        "stable_release": "ALGOL68/RR (Revised Report: 1973r1)",
         "typing_discipline": "static, strong, safe, structural"
     },
     {
@@ -5386,7 +5354,7 @@
             "Luna"
         ],
         "influenced_by": [
-            "Smalltalk",
+            "SmallTalk",
             "NewtonScript",
             "Self",
             "Lua",
@@ -5478,7 +5446,7 @@
         "designed_by": "Ola Bini",
         "influenced_by": [
             "Io",
-            "Smalltalk",
+            "SmallTalk",
             "Lisp",
             "Ruby"
         ],
@@ -5504,7 +5472,7 @@
             "Python",
             "Ruby",
             "Perl",
-            "Smalltalk",
+            "SmallTalk",
             "Objective-C"
         ],
         "license": "Apache License v2.0",
@@ -5526,7 +5494,7 @@
         "designed_by": "Christopher Bertels",
         "developer": "Christopher Bertels",
         "influenced_by": [
-            "Smalltalk",
+            "SmallTalk",
             "Ruby",
             "Erlang",
             "Io"
@@ -5574,13 +5542,13 @@
             "Logo",
             "Sketchpad"
         ],
-        "major_implementations": "Pharo, Squeak, GNU Smalltalk, VisualWorks, Dolphin Smalltalk, Smalltalk/X, VA Smalltalk",
-        "name": "Smalltalk",
+        "major_implementations": "Pharo, Squeak, GNU SmallTalk, VisualWorks, Dolphin SmallTalk, SmallTalk/X, VA SmallTalk",
+        "name": "SmallTalk",
         "os": "Cross-platform (multi-platform)",
         "paradigms": [
             "object-oriented"
         ],
-        "stable_release": "Smalltalk-80 version 2 (1980)",
+        "stable_release": "SmallTalk-80 version 2 (1980)",
         "typing_discipline": "strong, dynamic"
     },
     {
@@ -5591,7 +5559,7 @@
             "C++",
             "Perl",
             "Lua",
-            "Smalltalk",
+            "SmallTalk",
             "PHP",
             "Lisp",
             "Python",
@@ -5655,7 +5623,7 @@
         ],
         "license": "GPL/Artistic (DMD frontend),Boost (standard and runtime libraries),\nsource available (DMD backend),[4]\nFully open-source (LDC and GDC)[5]",
         "major_implementations": "DMD (reference implementation), GDC, LDC",
-        "name": "D programming language",
+        "name": "D",
         "os": "DMD: Unix-like, Windows, Mac OS X",
         "paradigms": [
             "imperative",
@@ -5707,13 +5675,13 @@
             "Logo",
             "Sketchpad"
         ],
-        "major_implementations": "Pharo, Squeak, GNU Smalltalk, VisualWorks, Dolphin Smalltalk, Smalltalk/X, VA Smalltalk",
-        "name": "Smalltalk",
+        "major_implementations": "Pharo, Squeak, GNU SmallTalk, VisualWorks, Dolphin SmallTalk, SmallTalk/X, VA SmallTalk",
+        "name": "SmallTalk",
         "os": "Cross-platform (multi-platform)",
         "paradigms": [
             "object-oriented"
         ],
-        "stable_release": "Smalltalk-80 version 2 (1980)",
+        "stable_release": "SmallTalk-80 version 2 (1980)",
         "typing_discipline": "strong, dynamic"
     },
     {
@@ -5741,7 +5709,7 @@
             "Icon",
             "Java",
             "Lisp",
-            "[10]Modula-3",
+            "Modula-3",
             "Perl"
         ],
         "license": "Python Software Foundation License",
@@ -5789,7 +5757,8 @@
             "Python"
         ],
         "influenced_by": [
-            "SETL&ALGOL68"
+            "SETL",
+            "ALGOL68"
         ],
         "name": "ABC",
         "paradigms": [
@@ -5843,8 +5812,8 @@
             "Qore"
         ],
         "influenced_by": [
-            "AWK",
-            "Smalltalk80",
+            "Awk",
+            "SmallTalk80",
             "Lisp",
             "C",
             "C++",
@@ -5871,16 +5840,13 @@
         "website": "www.perl.org"
     },
     {
-        "name": "Unix shell"
-    },
-    {
         "appeared_in": "1974",
         "designed_by": "Lee E. McMahon",
         "implementation_language": "C",
         "influenced": [
             "Chomski",
             "Perl",
-            "AWK"
+            "Awk"
         ],
         "influenced_by": [
             "ed"
@@ -5910,7 +5876,7 @@
     {
         "appeared_in": "1977",
         "designed_by": "Alfred Aho, Peter Weinberger, and Brian Kernighan",
-        "dialects": "old awk oawk 1977, new awk nawk 1985, GNU Awk gawk",
+        "dialects": "old Awk oawk 1977, new Awk nawk 1985, GNU Awk gawk",
         "influenced": [
             "Tcl",
             "AMPL",
@@ -5922,11 +5888,11 @@
         ],
         "influenced_by": [
             "C",
-            "SNOBOL4",
+            "SNOBOL",
             "Bourneshell"
         ],
-        "major_implementations": "awk, GNU Awk, mawk, nawk, MKS AWK, Thompson AWK (compiler), Awka (compiler)",
-        "name": "AWK",
+        "major_implementations": "Awk, GNU Awk, mawk, nawk, MKS Awk, Thompson Awk (compiler), Awka (compiler)",
+        "name": "Awk",
         "os": "Cross-platform",
         "paradigms": [
             "scripting",
@@ -5973,19 +5939,19 @@
             "Logo",
             "Sketchpad"
         ],
-        "major_implementations": "Pharo, Squeak, GNU Smalltalk, VisualWorks, Dolphin Smalltalk, Smalltalk/X, VA Smalltalk",
-        "name": "Smalltalk",
+        "major_implementations": "Pharo, Squeak, GNU SmallTalk, VisualWorks, Dolphin SmallTalk, SmallTalk/X, VA SmallTalk",
+        "name": "SmallTalk",
         "os": "Cross-platform (multi-platform)",
         "paradigms": [
             "object-oriented"
         ],
-        "stable_release": "Smalltalk-80 version 2 (1980)",
+        "stable_release": "SmallTalk-80 version 2 (1980)",
         "typing_discipline": "strong, dynamic"
     },
     {
         "appeared_in": "1977",
         "designed_by": "Alfred Aho, Peter Weinberger, and Brian Kernighan",
-        "dialects": "old awk oawk 1977, new awk nawk 1985, GNU Awk gawk",
+        "dialects": "old Awk oawk 1977, new Awk nawk 1985, GNU Awk gawk",
         "influenced": [
             "Tcl",
             "AMPL",
@@ -5997,11 +5963,11 @@
         ],
         "influenced_by": [
             "C",
-            "SNOBOL4",
+            "SNOBOL",
             "Bourneshell"
         ],
-        "major_implementations": "awk, GNU Awk, mawk, nawk, MKS AWK, Thompson AWK (compiler), Awka (compiler)",
-        "name": "AWK",
+        "major_implementations": "Awk, GNU Awk, mawk, nawk, MKS Awk, Thompson Awk (compiler), Awka (compiler)",
+        "name": "Awk",
         "os": "Cross-platform",
         "paradigms": [
             "scripting",
@@ -6045,7 +6011,7 @@
             "Rebol",
             "Racket",
             "Ruby",
-            "Smalltalk",
+            "SmallTalk",
             "Tcl"
         ],
         "influenced_by": [
@@ -6088,7 +6054,7 @@
         "typing_discipline": "static"
     },
     {
-        "name": "Z notation"
+        "name": "Z"
     },
     {
         "appeared_in": "1990",
@@ -6168,7 +6134,7 @@
             "Lisp",
             "Perl",
             "Python",
-            "Smalltalk"
+            "SmallTalk"
         ],
         "license": "Ruby License or BSD License[7][8]",
         "major_implementations": "Ruby MRI, YARV, Rubinius, MagLev, JRuby, MacRuby, RubyMotion, HotRuby, IronRuby, mruby",
@@ -6243,7 +6209,7 @@
             "ALGOL68",
             "Pascal",
             "C++",
-            "Smalltalk",
+            "SmallTalk",
             "Java",
             "Eiffel"
         ],
