@@ -1,4 +1,5 @@
 Lang = Struct.new(:name,
+                  :link,
                   :paradigm,
                   :appear_in,
                   :designer,

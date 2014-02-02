@@ -8,6 +8,7 @@ class LangTest < MiniTest::Test
 
   def test_setter_getter_methods
     [:name,
+     :link,
      :paradigm,
      :appear_in,
      :designer,
@@ -16,7 +17,7 @@ class LangTest < MiniTest::Test
      :influenced].each do |prop|
       obj = Object.new
       @lang.send("#{prop}=", obj)
-      assert_equal @lang.send(prop), obj
+      assert_same @lang.send(prop), obj
     end
   end
 
