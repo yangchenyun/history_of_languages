@@ -6253,10 +6253,10 @@
         "influenced_by": [
             "ALGOL68",
             "Pascal",
-            "C++(Ada95)",
-            "Smalltalk(Ada95)",
-            "Java(Ada2005)",
-            "Eiffel(Ada2012)"
+            "C++",
+            "Smalltalk",
+            "Java",
+            "Eiffel"
         ],
         "major_implementations": "\nAdaCore GNAT,Green Hills Software Optimising Ada 95 compiler,\nAonix ObjectAda,[2]\nDDC-I Score",
         "name": "Ada",
