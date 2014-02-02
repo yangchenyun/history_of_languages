@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require 'ostruct'
-require '../visitor.rb'
-require '../infobox.rb'
+require File.expand_path '../../lib/visitor.rb', __FILE__
+require File.expand_path '../../lib/infobox.rb', __FILE__
 
 visitor = Visitor.new
 visitor.add_link '/wiki/Ruby_(programming_language)'
