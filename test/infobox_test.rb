@@ -2,31 +2,36 @@ require_relative 'test_helper.rb'
 require 'fakeweb'
 require 'infobox'
 
-FakeWeb.register_uri(:get,
-    "http://en.wikipedia.org/wiki/Ruby_(programming_language)",
-    body: File.read(File.expand_path('../stub/Ruby_programming_language.html', __FILE__)),
-    content_type: "text/html")
+[
+  'Ruby_(programming_language)',
+  'Potion_(programming_language)'
+].each do |page|
+  FakeWeb.register_uri(:get,
+      "http://en.wikipedia.org/wiki/#{page}",
+      body: File.read(File.expand_path("../stub/#{page}", __FILE__)),
+      content_type: "text/html")
+end
 
 class InfoBoxTest < Minitest::Test
   def setup
-    @infobox = InfoBox.new('/wiki/Ruby_(programming_language)').result
+    @ruby_wiki = InfoBox.new('/wiki/Ruby_(programming_language)').result
   end
 
   def test_parse_caption_reserve_capitalize
-    assert_equal 'Ruby', @infobox['name']
+    assert_equal 'Ruby', @ruby_wiki['name']
   end
 
   def test_parse_paradigms
-    assert_equal "object-oriented, imperative, functional, reflective".split(", "), @infobox['paradigms']
+    assert_equal "object-oriented, imperative, functional, reflective".split(", "), @ruby_wiki['paradigms']
   end
 
   def test_parse_appeard_in
-    assert_equal '1995', @infobox['appeared_in']
+    assert_equal '1995', @ruby_wiki['appeared_in']
   end
 
   def test_parse_influenced_by_and_influenced
-    assert_equal "Ada,C++,CLU,Dylan,Eiffel,Lisp,Perl,Python,Smalltalk".split(','), @infobox['influenced_by']
-    assert_equal "D,Elixir,Falcon,Fancy,Groovy,Ioke,Mirah,Nu,Reia,potion".split(','), @infobox['influenced']
+    assert_equal "Ada,C++,CLU,Dylan,Eiffel,Lisp,Perl,Python,Smalltalk".split(','), @ruby_wiki['influenced_by']
+    assert_equal "D,Elixir,Falcon,Fancy,Groovy,Ioke,Mirah,Nu,Reia,potion".split(','), @ruby_wiki['influenced']
   end
 
   def test_parse_influenced_by_and_influenced_links
@@ -40,7 +45,7 @@ class InfoBoxTest < Minitest::Test
       "/wiki/Perl",
       "/wiki/Python_(programming_language)",
       "/wiki/Smalltalk"
-    ], @infobox['influenced_by_links']
+    ], @ruby_wiki['influenced_by_links']
 
     assert_equal [
       "/wiki/D_(programming_language)",
@@ -53,6 +58,11 @@ class InfoBoxTest < Minitest::Test
       "/wiki/Nu_(programming_language)",
       "/wiki/Reia_(programming_language)",
       "/wiki/Potion_(programming_language)"
-      ], @infobox['influenced_links']
+      ], @ruby_wiki['influenced_links']
+  end
+
+  def test_empty_influenced_or_influenced_by_links
+    @potion_wiki = InfoBox.new('/wiki/potion_(programming_language)').result
+    assert_equal [], @potion_wiki['influenced_links']
   end
 end
