@@ -296,9 +296,6 @@
         "os": "Cross-platform"
     },
     {
-        "name": "Profile Scripting Language"
-    },
-    {
         "appeared_in": "1966",
         "developer": "Cliff Shaw, RAND",
         "influenced": [
@@ -1010,9 +1007,6 @@
         "typing_discipline": "dynamic, strong"
     },
     {
-        "name": "Polymorphic Programming Language"
-    },
-    {
         "appeared_in": "1981",
         "designed_by": "Mike Jenkins",
         "developer": "Nial Systems Ltd",
@@ -1374,9 +1368,6 @@
     },
     {
         "name": "ObjVlisp"
-    },
-    {
-        "name": "Common Lisp Object System"
     },
     {
         "appeared_in": "1980",
@@ -4598,35 +4589,6 @@
         "written_in": "Compiled to C++, but the languages are dialects of BASIC"
     },
     {
-        "appeared_in": "2004",
-        "available_in": "English",
-        "designed_by": "Mark Sibly",
-        "developer": "Blitz Research Ltd.",
-        "developers": "Blitz Research Ltd.",
-        "influenced": [
-            "Monkey"
-        ],
-        "influenced_by": [
-            "BlitzBasic"
-        ],
-        "license": "Proprietary",
-        "name": "BlitzBasicBlitzMax",
-        "operating_system": "IDE for Microsoft Windows, Mac OS X, Linux",
-        "os": "Microsoft Windows, Mac OS X, Linux",
-        "paradigms": [
-            "imperative",
-            "object-oriented",
-            "modular",
-            "reflective"
-        ],
-        "platform": "Crossplatform",
-        "stable_release": "1.42 (March\u00a031, 2011; 2 years ago\u00a0(2011-03-31))",
-        "type": "Game creation system",
-        "typing_discipline": "Static, Weak, Strong (Optional)",
-        "website": "BlitzBasic",
-        "written_in": "Compiled to C++, but the languages are dialects of BASIC"
-    },
-    {
         "appeared_in": "2003",
         "designed_by": "Microsoft Research andMicrosoft SQL Server WebData team",
         "developer": "Microsoft Research andMicrosoft SQL Server WebData team",
@@ -4849,9 +4811,6 @@
         "stable_release": "20131012 (October 12, 2013)",
         "usual_filename_extensions": ".mod .dat .run",
         "website": "www.ampl.com"
-    },
-    {
-        "name": "Category:C programming language family"
     },
     {
         "appeared_in": "1957",
