@@ -55,36 +55,4 @@ class InfoBoxTest < Minitest::Test
       "/wiki/Potion_(programming_language)"
       ], @infobox['influenced_links']
   end
-
-  def test_other_properties
-    keys = [
-      "designed_by",
-      "developer",
-      "stable_release",
-      "typing_discipline",
-      "scope",
-      "major_implementations",
-      "os",
-      "license",
-      "usual_filename_extensions",
-      "website"
-    ]
-
-    values = [
-      "Yukihiro Matsumoto",
-      "Yukihiro Matsumoto, et al.",
-      "2.1.0 (December 25, 2013 (2013-12-25))",
-      "duck, dynamic",
-      "lexical, sometimes dynamic",
-      "Ruby MRI, YARV, Rubinius, MagLev, JRuby, MacRuby, RubyMotion, HotRuby, IronRuby, mruby",
-      "Cross-platform",
-      "Ruby License or BSD License[7][8]",
-      ".rb, .rbw",
-      "www.ruby-lang.org"
-    ]
-
-    keys.each_with_index do |k, i|
-      assert_equal values[i], @infobox[k]
-    end
-  end
 end
