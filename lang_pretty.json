@@ -3048,26 +3048,19 @@
             "C++11/Concepts",
             "C#/LINQ",
             "[10]CAL",
-            "[citationneeded]Cayenne",
             "Clean",
             "Clojure",
             "[11]CoffeeScript",
             "[12]Curry",
             "Elm",
             "Epigram",
-            "[citationneeded]Escher",
-            "[citationneeded]F#",
             "[13]Isabelle",
             "Java/Generics",
             "Kaya",
-            "[citationneeded]Mercury",
             "Omega",
-            "[citationneeded]Perl6",
             "[14]Python",
             "[15]Qi",
-            "[citationneeded]Scala",
-            "[16]Timber",
-            "[citationneeded]VisualBasic9.0"
+            "[16]Timber"
         ],
         "influenced_by": [
             "Clean",
@@ -3471,26 +3464,19 @@
             "C++11/Concepts",
             "C#/LINQ",
             "[10]CAL",
-            "[citationneeded]Cayenne",
             "Clean",
             "Clojure",
             "[11]CoffeeScript",
             "[12]Curry",
             "Elm",
             "Epigram",
-            "[citationneeded]Escher",
-            "[citationneeded]F#",
             "[13]Isabelle",
             "Java/Generics",
             "Kaya",
-            "[citationneeded]Mercury",
             "Omega",
-            "[citationneeded]Perl6",
             "[14]Python",
             "[15]Qi",
-            "[citationneeded]Scala",
-            "[16]Timber",
-            "[citationneeded]VisualBasic9.0"
+            "[16]Timber"
         ],
         "influenced_by": [
             "Clean",
@@ -5097,9 +5083,7 @@
         "appeared_in": "1983",
         "designed_by": "SAP AG",
         "influenced_by": [
-            "Objective-C[citationneeded]",
-            "COBOL",
-            "SQL[citationneeded]"
+            "COBOL"
         ],
         "major_implementations": "SAP R/2, SAP R/3",
         "name": "ABAP/4",
@@ -5756,7 +5740,6 @@
             "Falcon",
             "Go",
             "Groovy",
-            "JavaScript[citationneeded]",
             "Ruby[11]"
         ],
         "influenced_by": [
@@ -6290,8 +6273,7 @@
     {
         "appeared_in": "1980",
         "influenced_by": [
-            "Ada",
-            "Pascal[citationneeded]"
+            "Ada"
         ],
         "name": "VHDL",
         "paradigms": [
