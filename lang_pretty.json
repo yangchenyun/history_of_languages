@@ -310,7 +310,7 @@
         "name": "JOSS"
     },
     {
-        "name": "FOCAL (programming language)"
+        "name": "FOCAL"
     },
     {
         "name": "CAL (Joss family)"
@@ -375,7 +375,7 @@
         "website": "www.autoitscript.com/autoit3/"
     },
     {
-        "name": "GRASS (programming language)"
+        "name": "GRASS"
     },
     {
         "available_in": "English, Spanish, French, German, Chinese, Italian, Japanese, Portuguese",
@@ -1193,7 +1193,7 @@
         "name": "XLispStat"
     },
     {
-        "name": "Kernel (programming language)"
+        "name": "Kernel"
     },
     {
         "appeared_in": "2006",
@@ -1405,7 +1405,7 @@
         "name": "Interlisp"
     },
     {
-        "name": "MDL (programming language)"
+        "name": "MDL"
     },
     {
         "appeared_in": "1958",
@@ -1856,7 +1856,7 @@
         "website": "www.squeak.org"
     },
     {
-        "name": "Agora (programming language)"
+        "name": "Agora"
     },
     {
         "appeared_in": "1998",
@@ -1930,10 +1930,10 @@
         "name": "Actor model middle history"
     },
     {
-        "name": "Shen (programming language)"
+        "name": "Shen"
     },
     {
-        "name": "Qi (programming language)"
+        "name": "Qi"
     },
     {
         "name": "POP-11"
@@ -2515,7 +2515,7 @@
         "name": "KL0"
     },
     {
-        "name": "Strand (programming language)"
+        "name": "Strand"
     },
     {
         "appeared_in": "1991",
@@ -2588,7 +2588,7 @@
         "website": "www.mercurylang.org"
     },
     {
-        "name": "Hope (programming language)"
+        "name": "Hope"
     },
     {
         "developers": "Prolog Development Center",
@@ -2903,7 +2903,7 @@
         "typing_discipline": "Typeless"
     },
     {
-        "name": "Lustre (programming language)"
+        "name": "Lustre"
     },
     {
         "appeared_in": "1996",
@@ -3092,7 +3092,7 @@
         "website": "haskell.org"
     },
     {
-        "name": "Timber (programming language)"
+        "name": "Timber"
     },
     {
         "developers": "Portland State University",
@@ -3431,7 +3431,7 @@
         "name": "YAML"
     },
     {
-        "name": "Cayenne (programming language)"
+        "name": "Cayenne"
     },
     {
         "appeared_in": "2004",
@@ -3565,10 +3565,10 @@
         ]
     },
     {
-        "name": "Id (programming language)"
+        "name": "Id"
     },
     {
-        "name": "Gofer (programming language)"
+        "name": "Gofer"
     },
     {
         "appeared_in": "1996",
@@ -3851,7 +3851,7 @@
             "C"
         ],
         "license": "GPL, LGPL",
-        "name": "ProcessingProcessing (programming language)",
+        "name": "Processing",
         "os": "Cross-platform",
         "paradigms": [
             "object-oriented"
@@ -4324,7 +4324,7 @@
         "name": "Napier88"
     },
     {
-        "name": "Hermes (programming language)"
+        "name": "Hermes"
     },
     {
         "appeared_in": "2006",
@@ -4407,7 +4407,7 @@
         "website": "developer.apple.com/library/mac/navigation"
     },
     {
-        "name": "TOM (object-oriented programming language)"
+        "name": "TOM"
     },
     {
         "appeared_in": "2000",
@@ -5053,7 +5053,7 @@
         "typing_discipline": "strong, static"
     },
     {
-        "name": "Communicating sequential processes"
+        "name": "CommunicatingSequentialProcesses"
     },
     {
         "appeared_in": "1959",
@@ -6152,7 +6152,7 @@
         "typing_discipline": "strong"
     },
     {
-        "name": "Argus (programming language)"
+        "name": "Argus"
     },
     {
         "appeared_in": "1995",
