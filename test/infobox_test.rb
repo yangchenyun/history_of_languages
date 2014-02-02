@@ -1,17 +1,15 @@
 require_relative 'test_helper.rb'
 require 'fakeweb'
-
 require 'infobox'
 
-result = File.read(File.expand_path('../stub/Ruby_programming_language.html', __FILE__))
 FakeWeb.register_uri(:get,
-    "http://http://en.wikipedia.org/wiki/Ruby_(programming_language)",
-    body: result,
+    "http://en.wikipedia.org/wiki/Ruby_(programming_language)",
+    body: File.read(File.expand_path('../stub/Ruby_programming_language.html', __FILE__)),
     content_type: "text/html")
 
 class InfoBoxTest < Minitest::Test
   def setup
-    @infobox = InfoBox.new('/wiki/Ruby_(programming_language)')
+    @infobox = InfoBox.new('/wiki/Ruby_(programming_language)').result
   end
 
   def test_parse_caption_reserve_capitalize
@@ -23,7 +21,7 @@ class InfoBoxTest < Minitest::Test
   end
 
   def test_parse_appeard_in
-    assert_equal 1995, @infobox['appeared_in']
+    assert_equal '1995', @infobox['appeared_in']
   end
 
   def test_parse_influenced_by_and_influenced
@@ -75,7 +73,7 @@ class InfoBoxTest < Minitest::Test
     values = [
       "Yukihiro Matsumoto",
       "Yukihiro Matsumoto, et al.",
-      "2.1.0 (December 25, 2013 (2013-12-25))",
+      "2.1.0 (December 25, 2013 (2013-12-25))",
       "duck, dynamic",
       "lexical, sometimes dynamic",
       "Ruby MRI, YARV, Rubinius, MagLev, JRuby, MacRuby, RubyMotion, HotRuby, IronRuby, mruby",
