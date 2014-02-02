@@ -335,7 +335,7 @@
         "influenced": [
             "COMAL",
             "VisualBasic",
-            "VisualBasic.NET",
+            ".NET",
             "Realbasic",
             "GRASS",
             "AutoIt",
@@ -346,7 +346,7 @@
             "FORTRANII",
             "JOSS"
         ],
-        "major_implementations": "Apple BASIC, Atari BASIC, Sinclair BASIC, Commodore BASIC, Microsoft BASIC, Liberty BASIC, BBC BASIC, TI-BASIC, Visual Basic",
+        "major_implementations": "Apple BASIC, Atari BASIC, Sinclair BASIC, Commodore BASIC, Microsoft BASIC, Liberty BASIC, BBC BASIC, TI-BASIC, VisualBasic",
         "name": "BASIC",
         "paradigms": [
             "unstructured",
@@ -391,12 +391,12 @@
         "appeared_in": "2001",
         "designed_by": "Microsoft",
         "developer": "Microsoft",
-        "dialects": "Microsoft Visual Basic",
+        "dialects": "Microsoft VisualBasic",
         "influenced_by": [
             ".NETFramework"
         ],
         "major_implementations": "Microsoft Visual Studio, Microsoft Visual Studio Express, SharpDevelop, MonoDevelop, .NET Framework SDK and Mono",
-        "name": "Visual Basic .NET",
+        "name": ".NET",
         "os": "Chiefly Windows\nAlso on Android, BSD, iOS, Linux, Mac OS X, Solaris and Unix",
         "paradigms": [
             "structured",
@@ -423,7 +423,7 @@
         "appeared_in": "1991",
         "developer": "Microsoft",
         "influenced": [
-            "VisualBasic.NET",
+            ".NET",
             "Gambas",
             "REALbasicandBasic4ppc"
         ],
@@ -431,7 +431,7 @@
             "BASIC"
         ],
         "major_implementations": "Microsoft Visual Studio",
-        "name": "Visual Basic",
+        "name": "VisualBasic",
         "os": "Microsoft Windows and MS-DOS",
         "paradigms": [
             "object-based and event-driven"
@@ -1515,7 +1515,7 @@
         ],
         "initial_release": "November\u00a014, 2006; 7 years ago\u00a0(2006-11-14)",
         "license": "Proprietary software; a component of Microsoft Windows",
-        "name": "Windows PowerShellPowerShell",
+        "name": "PowerShell",
         "operating_system": "Windows XP and later",
         "os": "Microsoft Windows",
         "paradigms": [
@@ -1578,7 +1578,7 @@
             "CQL",
             "LINQ",
             "SOQL",
-            "WindowsPowerShell",
+            "PowerShell",
             "JQPL",
             "jOOQ"
         ],
@@ -1644,7 +1644,7 @@
         "designed_by": "Digital Equipment Corporation",
         "developer": "Digital Equipment Corporation",
         "influenced": [
-            "WindowsPowerShell"
+            "PowerShell"
         ],
         "name": "DIGITAL Command Language",
         "os": "RSX-11, OpenVMS",
@@ -1656,7 +1656,7 @@
         "designed_by": "IBM",
         "developer": "IBM",
         "influenced": [
-            "WindowsPowerShell"
+            "PowerShell"
         ],
         "influenced_by": [
             "JobControlLanguage",
@@ -5864,7 +5864,7 @@
             "Ruby",
             "ECMAScript",
             "LPC",
-            "WindowsPowerShell",
+            "PowerShell",
             "JavaScript",
             "Falcon",
             "Perl6",
