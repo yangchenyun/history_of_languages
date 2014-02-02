@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" /><title>AutoHotkey - Wikipedia, the free encyclopedia</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" /><meta name="generator" content="MediaWiki 1.23wmf11" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=AutoHotkey&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=AutoHotkey&amp;action=edit" />
+<link rel="apple-touch-icon" href="//bits.wikimedia.org/apple-touch/wikipedia.png" />
+<link rel="shortcut icon" href="//bits.wikimedia.org/favicon/wikipedia.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="canonical" href="http://en.wikipedia.org/wiki/AutoHotkey" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.geshi.local%7Cext.rtlcite%2Cwikihiero%7Cext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.common.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:3904d24a08aa08f6a68dc338f9be277e */</style>
+
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"AutoHotkey","wgTitle":"AutoHotkey","wgCurRevisionId":591968987,"wgRevisionId":591968987,"wgArticleId":1485612,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia references cleanup from August 2012","All articles needing references cleanup","Articles covered by WikiProject Wikify from August 2012","All articles covered by WikiProject Wikify","Personal computer automation software","Free system software","Free software programmed in C++","Windows-only free software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"AutoHotkey","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false,"aft-noone":false},"wgBetaFeaturesFeatures":[],"wgVisualEditor":{"isPageWatched":false,"magnifyClipIconURL":"//bits.wikimedia.org/static-1.23wmf11/skins/common/images/magnify-clip.png","pageLanguageCode":"en","pageLanguageDir":"ltr"},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgULSAcceptLanguageList":["en-us","en"],"wgULSCurrentAutonym":"English","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":1485612,"title":"AutoHotkey","namespace":0,"categories":["All articles covered by WikiProject Wikify","All articles needing references cleanup","Articles covered by WikiProject Wikify from August 2012","Free software programmed in C++","Free system software","Personal computer automation software","Wikipedia references cleanup from August 2012","Windows-only free software"],"permissionLevel":false},"wgWikibaseItemId":"Q784816"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"showhiddencats":false,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"vector-simplesearch":1,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,
+"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"useeditwarning":1,"prefershttps":1,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"visualeditor-enable":0,"visualeditor-enable-experimental":0,"visualeditor-enable-mwmath":0,"visualeditor-betatempdisable":0,"wikilove-enabled":1,"echo-subscriptions-web-page-review":true,"echo-subscriptions-email-page-review":false,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"echo-subscriptions-web-education-program":true,"echo-subscriptions-email-education-program":false,"echo-notify-show-link":true,"echo-show-alert":true,"echo-email-frequency":0,"echo-email-format":"html","echo-subscriptions-email-system":true,"echo-subscriptions-web-system":true,"echo-subscriptions-email-other":false,"echo-subscriptions-web-other":true,
+"echo-subscriptions-email-edit-user-talk":false,"echo-subscriptions-web-edit-user-talk":true,"echo-subscriptions-email-reverted":false,"echo-subscriptions-web-reverted":true,"echo-subscriptions-email-article-linked":false,"echo-subscriptions-web-article-linked":false,"echo-subscriptions-email-mention":false,"echo-subscriptions-web-mention":true,"echo-subscriptions-web-edit-thank":true,"echo-subscriptions-email-edit-thank":false,"gettingstarted-task-toolbar-show-intro":true,"uls-preferences":"","uls-enable":"","language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,
+"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs118":false,"searchNs119":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"searchNs828":false,"searchNs829":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:264b5b04c69e37444d5b2d63c2a65dc9 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.centralauth.centralautologin","ext.visualEditor.viewPageTarget.init","wikibase.client.init","ext.centralNotice.bannerController","skins.vector.js"]);
+}</script>
+<style type="text/css">/*<![CDATA[*/
+.source-autohotkey {line-height: normal;}
+.source-autohotkey li, .source-autohotkey pre {
+	line-height: normal; border: 0px none white;
+}
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for autohotkey
+ * CSS class: source-autohotkey, CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.autohotkey.source-autohotkey .de1, .autohotkey.source-autohotkey .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;font-family: monospace, monospace;}
+.autohotkey.source-autohotkey  {font-family:monospace;}
+.autohotkey.source-autohotkey .imp {font-weight: bold; color: red;}
+.autohotkey.source-autohotkey li, .autohotkey.source-autohotkey .li1 {font-weight: normal; vertical-align:top;}
+.autohotkey.source-autohotkey .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.autohotkey.source-autohotkey .li2 {font-weight: bold; vertical-align:top;}
+.autohotkey.source-autohotkey .kw1 {color: #AAAAFF; font-weight: bold;}
+.autohotkey.source-autohotkey .kw2 {color: #88FF88;}
+.autohotkey.source-autohotkey .kw3 {color: #FF00FF; font-style: italic;}
+.autohotkey.source-autohotkey .kw4 {color: #888844; font-weight: bold;}
+.autohotkey.source-autohotkey .kw5 {color: #000000; font-style: italic;}
+.autohotkey.source-autohotkey .kw6 {color: #FF0000; font-style: italic;}
+.autohotkey.source-autohotkey .kw7 {color: #000000; font-style: italic;}
+.autohotkey.source-autohotkey .kw8 {color: #000000; font-style: italic;}
+.autohotkey.source-autohotkey .coMULTI {font-style: italic; color: #669900;}
+.autohotkey.source-autohotkey .co1 {font-style: italic; color: #009933;}
+.autohotkey.source-autohotkey .br0 {color: #00FF00; font-weight: bold;}
+.autohotkey.source-autohotkey .sy0 {color: #000000; font-weight: italic;}
+.autohotkey.source-autohotkey .st0 {font-weight: bold; color: #008080;}
+.autohotkey.source-autohotkey .nu0 {color: #0000dd;}
+.autohotkey.source-autohotkey .me1 {color: #0000FF; font-style: italic; font-weight: italic;}
+.autohotkey.source-autohotkey .re0 {font-weight: italic; color: #A00A0;}
+.autohotkey.source-autohotkey .re1 {color: #CC0000; font-style: italic;}
+.autohotkey.source-autohotkey .re2 {color: #DD0000; font-style: italic;}
+.autohotkey.source-autohotkey .re3 {color: #88FF88;}
+.autohotkey.source-autohotkey .ln-xtra, .autohotkey.source-autohotkey li.ln-xtra, .autohotkey.source-autohotkey div.ln-xtra {background-color: #ffc;}
+.autohotkey.source-autohotkey span.xtra { display:block; }
+
+/*]]>*/
+</style><script src="//bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="//meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/static-1.23wmf11/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-AutoHotkey skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<div id="siteNotice"><!-- CentralNotice --></div>
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">AutoHotkey</span></h1>
+			<div id="bodyContent">
+								<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-navigation">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="metadata plainlinks ambox ambox-style ambox-citation_style" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px;"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" /></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>has an unclear citation style</b>. <span class="hide-when-compact">The references used may be made clearer with a different or consistent style of <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">citation</a>, <a href="/wiki/Help:Footnotes" title="Help:Footnotes">footnoting</a>, or <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">external linking</a>. <em>Violates Wikipedia:External links: "Wikipedia articles may include links to web pages outside Wikipedia (external links), but they should not normally be used in the body of an article.".</em></span> <small><i>(August 2012)</i></small></span></td>
+</tr>
+</table>
+<table class="infobox vevent" cellspacing="3" style="border-spacing:3px;width:22em;">
+<caption class="summary">AutoHotkey</caption>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/File:AutoHotkey_logo.png" class="image"><img alt="AutoHotkey logo.png" src="//upload.wikimedia.org/wikipedia/commons/3/36/AutoHotkey_logo.png" width="228" height="133" /></a></td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left;white-space: nowrap;;"><a href="/wiki/Software_developer" title="Software developer">Developer(s)</a></th>
+<td>Chris Mallett, Steve Gray</td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left;white-space: nowrap;;"><a href="/wiki/Software_release_life_cycle" title="Software release life cycle">Stable release</a></th>
+<td>1.1.14.01 / 15&#160;January 2014<span class="noprint">; 9 days ago</span><span style="display:none">&#160;(<span class="bday dtstart published updated">2014-01-15</span>)</span><sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left;white-space: nowrap;;"><a href="/wiki/Software_release_life_cycle" title="Software release life cycle">Preview release</a></th>
+<td>2.0-a044 / January&#160;11, 2014<span class="noprint">; 13 days ago</span><span style="display:none">&#160;(<span class="bday dtstart published updated">2014-01-11</span>)</span></td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left;white-space: nowrap;;"><a href="/wiki/Operating_system" title="Operating system">Operating system</a></th>
+<td><a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Microsoft Windows</a></td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left;white-space: nowrap;;"><a href="/wiki/List_of_software_categories" title="List of software categories">Type</a></th>
+<td><a href="/wiki/Scripting_language" title="Scripting language">Scripting language</a> <a href="/wiki/Automation" title="Automation">Automation</a> <a href="/wiki/Graphical_user_interface" title="Graphical user interface">GUI</a> <a href="/wiki/Utility_software" title="Utility software">utility</a></td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left;white-space: nowrap;;"><a href="/wiki/Software_license" title="Software license">License</a></th>
+<td><a href="/wiki/GNU_General_Public_License" title="GNU General Public License">GPL</a></td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left;white-space: nowrap;;">Website</th>
+<td><span class="url"><a rel="nofollow" class="external text" href="http://www.autohotkey.com/">www.autohotkey.com</a></span></td>
+</tr>
+</table>
+<p><b>AutoHotkey</b> is a <a href="/wiki/Free_software" title="Free software">free</a>, <a href="/wiki/Open-source_software" title="Open-source software">open-source</a> <a href="/wiki/Macro_(computer_science)#Keyboard_and_mouse_macros" title="Macro (computer science)">macro</a>-creation and <a href="/wiki/Automation" title="Automation">automation</a> <a href="/wiki/Software" title="Software">software</a> utility that allows users to automate repetitive tasks in <a href="/wiki/Windows" title="Windows" class="mw-redirect">Microsoft Windows</a>. Any application user interface can be modified by AutoHotkey (for example, overriding the default Windows <a href="/wiki/Control_key" title="Control key">control key</a> commands with their <a href="/wiki/Emacs" title="Emacs">Emacs</a> equivalents).<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> It is driven by a custom <a href="/wiki/Script_(computer_programming)" title="Script (computer programming)" class="mw-redirect">scripting</a> <a href="/wiki/Programming_language" title="Programming language">language</a> that is aimed specifically at providing <a href="/wiki/Keyboard_shortcut" title="Keyboard shortcut">keyboard shortcuts</a> or hotkeys.</p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Features"><span class="tocnumber">1</span> <span class="toctext">Features</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#History"><span class="tocnumber">2</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Examples"><span class="tocnumber">3</span> <span class="toctext">Examples</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Community"><span class="tocnumber">4</span> <span class="toctext">Community</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#User-contributed_features"><span class="tocnumber">5</span> <span class="toctext">User-contributed features</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Features">Features</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=AutoHotkey&amp;action=edit&amp;section=1" title="Edit section: Features">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>AutoHotkey scripts can be used to launch <a href="/wiki/Computer_program" title="Computer program">programs</a>, open documents, send <a href="/wiki/Keystrokes" title="Keystrokes" class="mw-redirect">keystrokes</a> and send <a href="/wiki/Mouse_(computing)" title="Mouse (computing)">mouse</a> clicks and movements.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> AutoHotkey scripts can also assign, retrieve, and manipulate <a href="/wiki/Variable_(programming)" title="Variable (programming)" class="mw-redirect">variables</a>, run <a href="/wiki/Program_loops" title="Program loops" class="mw-redirect">loops</a> and manipulate <a href="/wiki/Window_(computing)" title="Window (computing)">windows</a>, <a href="/wiki/Computer_file" title="Computer file">files</a>, and <a href="/wiki/Directory_(file_systems)" title="Directory (file systems)" class="mw-redirect">folders</a>. These commands can be triggered by a <a href="/wiki/Keyboard_shortcut" title="Keyboard shortcut">hotkey</a>, such as a script that would open an <a href="/wiki/Internet" title="Internet">internet</a> <a href="/wiki/Web_browser" title="Web browser">browser</a> whenever the <a href="/wiki/User_(computing)" title="User (computing)">user</a> presses <kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;"><span class="Unicode">^</span> Ctrl</kbd>+<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;"><span class="Unicode">⎇</span> Alt</kbd>+<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;">i</kbd> on the keyboard. Keyboard keys can also be remapped or disabled, such that pressing the letter <i>q</i>, for example, might result in the <a href="/wiki/Computer" title="Computer">computer</a> receiving a letter <i>r</i>, or nothing at all.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> AutoHotkey also allows for 'hotstrings' that will automatically replace certain text as it is typed; the most typical use for hotstrings is expanding abbreviations, such as assigning the string "btw" to send the text "by the way" when typed, or the text "%o" to send "percentage of".<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup></p>
+<p>More complex tasks can be achieved with custom data entry forms (<a href="/wiki/Graphical_user_interface" title="Graphical user interface">GUI windows</a>), working with the <a href="/wiki/Windows_Registry" title="Windows Registry">system registry</a>, or using the Windows <a href="/wiki/Application_programming_interface" title="Application programming interface">API</a> by calling functions from <a href="/wiki/Dynamic-link_library" title="Dynamic-link library">DLLs</a>. The scripts can be <a href="/wiki/Compiler" title="Compiler">compiled</a> into an <a href="/wiki/Executable" title="Executable">executable</a> file that can be run on other computers that do not have AutoHotkey installed. The source code is in C++ and can be compiled with <a href="/wiki/Microsoft_Visual_Studio_Express" title="Microsoft Visual Studio Express">Visual Studio Express</a>.</p>
+<p>Memory access through pointers is allowed just as in C.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<p>Common AutoHotkey tasks:</p>
+<ul>
+<li>Remapping the keyboard, such as from <a href="/wiki/QWERTY" title="QWERTY">QWERTY</a> to <a href="/wiki/Dvorak_Simplified_Keyboard" title="Dvorak Simplified Keyboard">Dvorak</a> or other alternative keyboard layouts.</li>
+<li>Using shortcuts to fill in frequently-used filenames or other phrases.</li>
+<li>Controlling the mouse cursor with a keyboard or <a href="/wiki/Joystick" title="Joystick">joystick</a>.</li>
+<li>Opening programs, documents, and websites with simple keystrokes.</li>
+<li>Adding a <a href="/wiki/Signature" title="Signature">signature</a> to <a href="/wiki/E-mail" title="E-mail" class="mw-redirect">e-mail</a>, <a href="/wiki/Internet_forum" title="Internet forum">message boards</a>, etc.</li>
+<li>Monitoring a system and automatically closing unwanted programs.</li>
+<li>Scheduling an automatic <a href="/wiki/Reminder_software" title="Reminder software">reminder</a>, system scan, or <a href="/wiki/Backup" title="Backup">backup</a>.</li>
+<li>Automating repetitive tasks in <a href="/wiki/Online_games" title="Online games" class="mw-redirect">online games</a> (often in violation of said games' terms of service)</li>
+<li>Filling out contest and freebie forms automatically (i.e., it can type in your name, address, etc. automatically)</li>
+<li>Quick code testing before implementing in another (more time consuming) programming language.</li>
+</ul>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=AutoHotkey&amp;action=edit&amp;section=2" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The first public <a href="/wiki/Beta_version" title="Beta version" class="mw-redirect">beta</a> of AutoHotkey was released on November 10, 2003<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> after author Chris Mallett's proposal to integrate <a href="/wiki/Hotkey" title="Hotkey" class="mw-redirect">hotkey</a> support into <a href="/wiki/AutoIt" title="AutoIt">AutoIt</a> v2 failed to generate response from the AutoIt community.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup><sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> So the author began his own program from scratch basing the syntax on AutoIt v2 and using AutoIt v3 for some commands and the compiler.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup> Later, AutoIt v3 switched from <a href="/wiki/GPL" title="GPL" class="mw-redirect">GPL</a> to <a href="/wiki/Closed_source" title="Closed source" class="mw-redirect">closed source</a> because of "other projects repeatedly taking AutoIt code" and "setting themselves up as competitors."<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup></p>
+<p>AutoHotkey has even been used by doctors in the radiology world.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup></p>
+<p>As of October 10, 2010, the author has stated that AutoHotkey_L has become the ongoing development of AutoHotkey and this has been placed in the download section on the website.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup><sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup></p>
+<p>Programmers within the AutoHotkey community have also begun development on their own versions/ports of the program:</p>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://l.autohotkey.net/">Autohotkey_L (AHK v1.1)</a> – now the main development branch</li>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/topic43049.html">AutoHotkey.dll</a> – <a href="/wiki/Dynamically_loaded_library" title="Dynamically loaded library" class="mw-redirect">DLL</a> version of AutoHotkey</li>
+</ul>
+<h2><span class="mw-headline" id="Examples">Examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=AutoHotkey&amp;action=edit&amp;section=3" title="Edit section: Examples">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>This script swaps control and alt keys.</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="autohotkey source-autohotkey">
+<pre class="de1">
+<span class="kw6">LCtrl</span>::<span class="kw6">Alt</span>
+<span class="kw6">LAlt</span>::<span class="kw6">Ctrl</span>
+</pre></div>
+</div>
+<p>The following script will allow a user to search for a particular word or phrase using <a href="/wiki/Google" title="Google">Google</a>. After copying text from any application to the Clipboard, pressing the configurable hotkey <kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;"><span class="Unicode">⌘</span> Win</kbd>+<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;">g</kbd> will open the user's default <a href="/wiki/Web_browser" title="Web browser">web browser</a> and perform the search.</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="autohotkey source-autohotkey">
+<pre class="de1">
+#g:: <span class="co1">; Win+g</span>
+   <span class="kw3">Run</span> http:<span class="sy0">//</span>www<span class="sy0">.</span>google<span class="sy0">.</span>com<span class="sy0">/</span>search?q<span class="sy0">=</span><span class="re0">%clipboard%</span>
+<span class="kw1">Return</span>
+</pre></div>
+</div>
+<p>The following is an example of the script required to create the hotstring "afaik," which is automatically replaced by "as far as I know":</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="autohotkey source-autohotkey">
+<pre class="de1">
+<span class="re1">::afaik::</span>as far as I know
+</pre></div>
+</div>
+<p>The following is an example of a simple function in AutoHotkey. When a URL is copied to the Clipboard, the hotkey <kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;"><span class="Unicode">⎇</span> Alt</kbd>+<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;">x</kbd> will check the URL for any/all parentheses and replace them with alternate characters before pasting the URL from the Clipboard:</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="autohotkey source-autohotkey">
+<pre class="de1">
+!x:: <span class="co1">; Alt+x</span>
+   URLReplace<span class="br0">(</span><span class="br0">)</span>
+   <span class="kw3">Send</span> <span class="sy0">^</span>v <span class="co1">; Ctrl+v</span>
+<span class="kw1">Return</span>
+ 
+URLReplace<span class="br0">(</span><span class="br0">)</span> <span class="br0">{</span>
+   <span class="kw3">StringReplace</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> <span class="br0">(</span><span class="sy0">,</span> `%28<span class="sy0">,</span> All
+   <span class="kw3">StringReplace</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> <span class="br0">)</span><span class="sy0">,</span> `%29<span class="sy0">,</span> All
+<span class="br0">}</span>
+</pre></div>
+</div>
+<p>In this example, once the contents of a user name or IP Address link have been copied from anywhere on Wikipedia's site to the Clipboard (using <a href="/wiki/Mozilla_Firefox" title="Mozilla Firefox" class="mw-redirect">Firefox</a>), the following script allows a user to perform the function CopyUser on the Clipboard's contents and save it to a variable designated by either the hotkey <kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;"><span class="Unicode">^</span> Ctrl</kbd>+<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;"><span class="Unicode">⇧</span> Shift</kbd>+<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;">W</kbd> or the hotkey <kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;"><span class="Unicode">^</span> Ctrl</kbd>+<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;"><span class="Unicode">⇧</span> Shift</kbd>+<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;">E</kbd>. The hotkey <kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;"><span class="Unicode">^</span> Ctrl</kbd>+<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;"><span class="Unicode">⇧</span> Shift</kbd>+<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: 0.1em 0.2em 0.2em #ddd; -webkit-box-shadow: 0.1em 0.2em 0.2em #ddd; box-shadow: 0.1em 0.2em 0.2em #ddd; background-color: #f9f9f9; background-image: -moz-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 0.1em 0.3em; font-family: inherit; font-size: 0.85em;">R</kbd> utilizes the resultant variables to produce a revert edits summary.</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="autohotkey source-autohotkey">
+<pre class="de1">
+<span class="sy0">^+</span>w::last <span class="sy0">:=</span> CopyUser<span class="br0">(</span><span class="br0">)</span> <span class="co1">; Ctrl+Shift+w</span>
+<span class="sy0">^+</span>e::<span class="kw8">edit</span> <span class="sy0">:=</span> CopyUser<span class="br0">(</span><span class="br0">)</span> <span class="co1">; Ctrl+Shift+e</span>
+ 
+CopyUser<span class="br0">(</span><span class="br0">)</span> <span class="br0">{</span>
+   <span class="kw2">Clipboard</span> <span class="sy0">=</span>
+   <span class="kw3">StringReplace</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> http:<span class="sy0">//</span>en<span class="sy0">.</span>wikipedia<span class="sy0">.</span>org<span class="sy0">/</span>
+   <span class="kw3">StringReplace</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> wiki<span class="sy0">/</span>
+   <span class="kw3">StringReplace</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> w<span class="sy0">/</span>index<span class="sy0">.</span>php?title<span class="sy0">=</span>
+   <span class="kw3">StringReplace</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> Special:Contributions<span class="sy0">&amp;</span>target<span class="sy0">=</span>
+   <span class="kw3">StringReplace</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> <span class="re2">User:
+</span>   <span class="kw3">StringReplace</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> <span class="sy0">&amp;</span>action<span class="sy0">=</span><span class="kw8">edit</span>
+   <span class="kw3">StringReplace</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> <span class="kw2">Clipboard</span><span class="sy0">,</span> _<span class="sy0">,</span> <span class="re0">%A_Space%</span><span class="sy0">,</span> All
+   <span class="kw1">Return</span><span class="sy0">,</span> <span class="kw2">Clipboard</span>
+<span class="br0">}</span>
+ 
+<span class="co1">; Ctrl+Shift+r</span>
+<span class="sy0">^+</span>r::<span class="kw3">Send</span> revert edits by <span class="br0">[</span><span class="br0">[</span>Special:Contributions<span class="sy0">/</span><span class="re0">%edit%</span>|<span class="re0">%edit%</span><span class="br0">]</span><span class="br0">]</span> to last version by <span class="re0">%last%</span>
+</pre></div>
+</div>
+<p>More examples of what can be done with AutoHotkey can be found in the <a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/viewforum.php?f=2">Scripts and Functions</a> section of AutoHotkey's online forum.</p>
+<h2><span class="mw-headline" id="Community">Community</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=AutoHotkey&amp;action=edit&amp;section=4" title="Edit section: Community">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The online community forum for AutoHotkey has around 27,300 registered users and around 482,000 posts as of January 2012.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup></p>
+<p>The online chat room for AutoHotkey is located on <a href="/wiki/Freenode" title="Freenode">Freenode</a> <a href="/wiki/Internet_Relay_Chat" title="Internet Relay Chat">IRC</a> with an average of 40 connected users as of November 2009.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup></p>
+<p>The administration of the official site may have changed.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="User-contributed_features">User-contributed features</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=AutoHotkey&amp;action=edit&amp;section=5" title="Edit section: User-contributed features">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The following extensions/interops/inline script libraries for usage with/from other programming languages are available or in development:</p>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/topic26191.html">.NET Framework</a> – <a href="/wiki/Visual_Basic_.NET" title="Visual Basic .NET">VB</a>/<a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a> (<a href="/wiki/Net_Framework" title="Net Framework" class="mw-redirect">.NET</a>)</li>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/topic44204.html">LibLua</a> – <a href="/wiki/Lua_(programming_language)" title="Lua (programming language)">Lua</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/topic43081.html">Lisp on win32</a> – <a href="/wiki/Lisp_(programming_language)" title="Lisp (programming language)">Lisp</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/topic36225.html">Embeddable Common Lisp</a> – <a href="/wiki/Embeddable_Common_Lisp" title="Embeddable Common Lisp">ECL</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/topic21674.html">Windows Scripting Host</a> – <a href="/wiki/VBScript" title="VBScript">VBScript</a>/<a href="/wiki/JScript" title="JScript">JScript</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/topic21172.html">Embedded machine code</a> – <a href="/wiki/Machine_code" title="Machine code">Machine code</a></li>
+</ul>
+<p>Other:</p>
+<ul>
+<li><a href="/wiki/Aspect-oriented_programming" title="Aspect-oriented programming">Aspect-oriented programming</a>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/viewtopic.php?t=39838">Function Hooks</a></li>
+</ul>
+</li>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/viewtopic.php?t=22923">COM Wrappers</a> – <a href="/wiki/Component_Object_Model" title="Component Object Model">COM</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/board/topic/96895-libcon-autohotkey-library-for-console-support/">Console Interaction (LibCon)</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/viewtopic.php?t=26300">Dynamic Code Generation</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.net/~Micha/HIDsupport/Autohotkey.html">Human Interface Device(HID) Support</a> – <a href="/wiki/Human_interface_device" title="Human interface device">HID</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/viewtopic.php?p=197475#197475">Internet Explorer Automation</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/viewtopic.php?t=775">SmartGUI Creator</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/viewtopic.php?t=36047">Sparrow AHK Web Server</a></li>
+<li><a href="/wiki/Synthetic_programming" title="Synthetic programming" class="mw-redirect">Synthetic programming</a>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/viewtopic.php?t=21172">Bit Wizardry</a></li>
+</ul>
+</li>
+<li><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/viewtopic.php?t=35659">Windows Event Hooks</a></li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=AutoHotkey&amp;action=edit&amp;section=6" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px;margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9;font-size:85%;line-height:110%;max-width:175px;">
+<tr valign="middle">
+<td style="text-align:center;"><a href="/wiki/File:Free_and_open-source_software_logo_(2009).svg" class="image"><img alt="Portal icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Free_and_open-source_software_logo_%282009%29.svg/28px-Free_and_open-source_software_logo_%282009%29.svg.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Free_and_open-source_software_logo_%282009%29.svg/42px-Free_and_open-source_software_logo_%282009%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/31/Free_and_open-source_software_logo_%282009%29.svg/56px-Free_and_open-source_software_logo_%282009%29.svg.png 2x" /></a></td>
+<td style="padding:0 0.2em;vertical-align:middle;font-style:italic;font-weight:bold;"><a href="/wiki/Portal:Free_software" title="Portal:Free software">Free software portal</a></td>
+</tr>
+</table>
+</div>
+<ul>
+<li><a href="/wiki/AutoIt" title="AutoIt">AutoIt</a></li>
+<li><a href="/wiki/KiXtart" title="KiXtart">KiXtart</a></li>
+<li><a href="/wiki/Winbatch" title="Winbatch">Winbatch</a></li>
+<li><a href="/wiki/Macro_Express" title="Macro Express">Macro Express</a></li>
+<li><a href="/wiki/AutoKey" title="AutoKey">AutoKey</a> (for Linux)</li>
+<li><a href="/wiki/Automator_(software)" title="Automator (software)">Automator</a> (for Macintosh)</li>
+<li><a href="/wiki/Bookmarklet" title="Bookmarklet">Bookmarklet</a></li>
+<li><a href="/wiki/IMacros" title="IMacros">iMacros for Firefox</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=AutoHotkey&amp;action=edit&amp;section=7" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://ahkscript.org/download/">"AutoHotkey Downloads"</a>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=AutoHotkey+Downloads&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fahkscript.org%2Fdownload%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation web">Contact Erica Sadun: Comment (2005-08-19). <a rel="nofollow" class="external text" href="http://lifehacker.com/software/software/download-of-the-day-autohotkey-118270.php">"Ericasadun 2005 Life Hacker"</a>. Lifehacker.com<span class="reference-accessdate">. Retrieved 2011-12-02</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.au=Contact+Erica+Sadun%3A+Comment&amp;rft.aulast=Contact+Erica+Sadun%3A+Comment&amp;rft.btitle=Ericasadun+2005+Life+Hacker&amp;rft.date=2005-08-19&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Flifehacker.com%2Fsoftware%2Fsoftware%2Fdownload-of-the-day-autohotkey-118270.php&amp;rft.pub=Lifehacker.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.autohotkey.com/docs/Tutorial.htm">"AutoHotkey Tutorial: Macro and Hotkey Creation"</a>. Autohotkey.com<span class="reference-accessdate">. Retrieved 2011-12-02</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=AutoHotkey+Tutorial%3A+Macro+and+Hotkey+Creation&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.autohotkey.com%2Fdocs%2FTutorial.htm&amp;rft.pub=Autohotkey.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.autohotkey.com/docs/misc/Remap.htm">"Remapping Keys and Buttons"</a>. Autohotkey.com<span class="reference-accessdate">. Retrieved 2011-12-02</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=Remapping+Keys+and+Buttons&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.autohotkey.com%2Fdocs%2Fmisc%2FRemap.htm&amp;rft.pub=Autohotkey.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.autohotkey.com/docs/Hotstrings.htm">"Hotstrings and Auto-replace (similar to AutoText and AutoCorrect)"</a>. Autohotkey.com. 2005-01-09<span class="reference-accessdate">. Retrieved 2011-12-02</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=Hotstrings+and+Auto-replace+%28similar+to+AutoText+and+AutoCorrect%29&amp;rft.date=2005-01-09&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.autohotkey.com%2Fdocs%2FHotstrings.htm&amp;rft.pub=Autohotkey.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.autohotkey.com/changelog/">"AutoHotkey Changes and New Features, v1.0.47 - June 19, 2007"</a>. Autohotkey.com<span class="reference-accessdate">. Retrieved 2011-12-02</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=AutoHotkey+Changes+and+New+Features%2C+v1.0.47+-+June+19%2C+2007&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.autohotkey.com%2Fchangelog%2F&amp;rft.pub=Autohotkey.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.autohotkey.com/changelog/2004.htm">"AutoHotkey Changelog for Years 2003-2004"</a>. Autohotkey.com<span class="reference-accessdate">. Retrieved 2011-12-02</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=AutoHotkey+Changelog+for+Years+2003-2004&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.autohotkey.com%2Fchangelog%2F2004.htm&amp;rft.pub=Autohotkey.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/viewtopic.php?p=20176#20176">"Author Chris Mallett's post on the AutoHotkey Forums"</a>. Autohotkey.com<span class="reference-accessdate">. Retrieved 2011-12-02</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=Author+Chris+Mallett%27s+post+on+the+AutoHotkey+Forums&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.autohotkey.com%2Fforum%2Fviewtopic.php%3Fp%3D20176%2320176&amp;rft.pub=Autohotkey.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://paperlined.org/apps/autohotkey/autoit_and_autohotkey.html">"An AutoIt / AutoHotkey nonfunctional comparison"</a>. Paperlined.org<span class="reference-accessdate">. Retrieved 2011-12-02</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=An+AutoIt+%2F+AutoHotkey+nonfunctional+comparison&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fpaperlined.org%2Fapps%2Fautohotkey%2Fautoit_and_autohotkey.html&amp;rft.pub=Paperlined.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/viewtopic.php?p=19710#19710">"Author Chris Mallett's post on the AutoHotkey Forums"</a>. Autohotkey.com<span class="reference-accessdate">. Retrieved 2011-12-02</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=Author+Chris+Mallett%27s+post+on+the+AutoHotkey+Forums&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.autohotkey.com%2Fforum%2Fviewtopic.php%3Fp%3D19710%2319710&amp;rft.pub=Autohotkey.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.autoitscript.com/forum/index.php?showtopic=7204">"Licensing Opinions - AutoIt Forums"</a>. Autoitscript.com<span class="reference-accessdate">. Retrieved 2011-12-02</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=Licensing+Opinions+-+AutoIt+Forums&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.autoitscript.com%2Fforum%2Findex.php%3Fshowtopic%3D7204&amp;rft.pub=Autoitscript.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.siimweb.org/index.cfm?id=5522">Tarik K. Alkasab. "Tools to Simplify Follow-up of Patient Outcomes."</a> <i><a href="/w/index.php?title=Society_for_Imaging_Informatics_in_Medicine&amp;action=edit&amp;redlink=1" class="new" title="Society for Imaging Informatics in Medicine (page does not exist)">SIIM</a> News</i>, Fall 2008 issue.</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/viewtopic.php?t=63474">"Forum post by Chris, announcing AutoHotkey_L now main platform"</a>. Autohotkey.com<span class="reference-accessdate">. Retrieved 2011-12-02</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=Forum+post+by+Chris%2C+announcing+AutoHotkey_L+now+main+platform&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.autohotkey.com%2Fforum%2Fviewtopic.php%3Ft%3D63474&amp;rft.pub=Autohotkey.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.autohotkey.com/download/">"Download page showing AutoHotkey_L as ongoing platform"</a>. Autohotkey.com<span class="reference-accessdate">. Retrieved 2011-12-02</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=Download+page+showing+AutoHotkey_L+as+ongoing+platform&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.autohotkey.com%2Fdownload%2F&amp;rft.pub=Autohotkey.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/">"AutoHotkey Community Forum Page"</a>. Autohotkey.com<span class="reference-accessdate">. Retrieved 2011-12-02</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=AutoHotkey+Community+Forum+Page&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.autohotkey.com%2Fforum%2F&amp;rft.pub=Autohotkey.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/viewtopic.php?t=28311">"Getting connected to AutoHotkey's IRC Chat"</a>. Autohotkey.com<span class="reference-accessdate">. Retrieved 2011-12-02</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=Getting+connected+to+AutoHotkey%27s+IRC+Chat&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.autohotkey.com%2Fforum%2Fviewtopic.php%3Ft%3D28311&amp;rft.pub=Autohotkey.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.autohotkey.com/forum/viewtopic.php?t=81753">"The future of AutoHotkey.com"</a>. Chris. 2012-01-26<span class="reference-accessdate">. Retrieved 2012-02-01</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAutoHotkey&amp;rft.btitle=The+future+of+AutoHotkey.com&amp;rft.date=2012-01-26&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.autohotkey.com%2Fforum%2Fviewtopic.php%3Ft%3D81753&amp;rft.pub=Chris&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=AutoHotkey&amp;action=edit&amp;section=8" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><span class="official website"><span class="url"><a rel="nofollow" class="external text" href="http://www.autohotkey.com/">Official website</a></span></span></li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1105
+CPU time usage: 1.344 seconds
+Real time usage: 1.411 seconds
+Preprocessor visited node count: 6256/1000000
+Preprocessor generated node count: 12572/1500000
+Post‐expand include size: 66273/2048000 bytes
+Template argument size: 4464/2048000 bytes
+Highest expansion depth: 19/40
+Expensive parser function count: 3/500
+Lua time usage: 0.093s
+Lua memory usage: 2.82 MB
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1485612-0!*!0!!en!4!* and timestamp 20140124114735
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>								<div class="printfooter">
+				Retrieved from "<a href="http://en.wikipedia.org/w/index.php?title=AutoHotkey&amp;oldid=591968987">http://en.wikipedia.org/w/index.php?title=AutoHotkey&amp;oldid=591968987</a>"				</div>
+												<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Personal_computer_automation_software" title="Category:Personal computer automation software">Personal computer automation software</a></li><li><a href="/wiki/Category:Free_system_software" title="Category:Free system software">Free system software</a></li><li><a href="/wiki/Category:Free_software_programmed_in_C%2B%2B" title="Category:Free software programmed in C++">Free software programmed in C++</a></li><li><a href="/wiki/Category:Windows-only_free_software" title="Category:Windows-only free software">Windows-only free software</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Wikipedia_references_cleanup_from_August_2012" title="Category:Wikipedia references cleanup from August 2012">Wikipedia references cleanup from August 2012</a></li><li><a href="/wiki/Category:All_articles_needing_references_cleanup" title="Category:All articles needing references cleanup">All articles needing references cleanup</a></li><li><a href="/wiki/Category:Articles_covered_by_WikiProject_Wikify_from_August_2012" title="Category:Articles covered by WikiProject Wikify from August 2012">Articles covered by WikiProject Wikify from August 2012</a></li><li><a href="/wiki/Category:All_articles_covered_by_WikiProject_Wikify" title="Category:All articles covered by WikiProject Wikify">All articles covered by WikiProject Wikify</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+				<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+	<h3 id="p-personal-label">Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=AutoHotkey&amp;type=signup">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=AutoHotkey" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+				<div id="left-navigation">
+					<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/AutoHotkey"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:AutoHotkey"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3 id="p-variants-label"><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+				</div>
+				<div id="right-navigation">
+					<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/AutoHotkey" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="/w/index.php?title=AutoHotkey&amp;action=edit"  title="You can edit this page. &#10;Please review your changes before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=AutoHotkey&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+	<h3 id="p-cactions-label"><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" placeholder="Search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="//bits.wikimedia.org/static-1.23wmf11/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel">
+					<div id="p-logo" role="banner"><a style="background-image: url(//upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+	<h3 id='p-navigation-label'>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li>
+			<li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikimedia Shop">Wikimedia Shop</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+	<h3 id='p-interaction-label'>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact page</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+	<h3 id='p-tb-label'>Tools</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/AutoHotkey" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/AutoHotkey" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="/w/index.php?title=AutoHotkey&amp;oldid=591968987" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="/w/index.php?title=AutoHotkey&amp;action=info">Page information</a></li>
+			<li id="t-wikibase"><a href="//www.wikidata.org/wiki/Q784816" title="Link to connected data repository item [g]" accesskey="g">Data item</a></li>
+<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=AutoHotkey&amp;id=591968987" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+	<h3 id='p-coll-print_export-label'>Print/export</h3>
+	<div class="body">
+		<ul>
+			<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=AutoHotkey">Create a book</a></li>
+			<li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=AutoHotkey&amp;oldid=591968987&amp;writer=rl">Download as PDF</a></li>
+			<li id="t-print"><a href="/w/index.php?title=AutoHotkey&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+	<h3 id='p-lang-label'>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interlanguage-link interwiki-de"><a href="//de.wikipedia.org/wiki/AutoHotkey" title="AutoHotkey – German" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interlanguage-link interwiki-es"><a href="//es.wikipedia.org/wiki/AutoHotkey" title="AutoHotkey – Spanish" lang="es" hreflang="es">Español</a></li>
+			<li class="interlanguage-link interwiki-fr"><a href="//fr.wikipedia.org/wiki/AutoHotkey" title="AutoHotkey – French" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interlanguage-link interwiki-ko"><a href="//ko.wikipedia.org/wiki/%EC%98%A4%ED%86%A0%ED%95%AB%ED%82%A4" title="오토핫키 – Korean" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interlanguage-link interwiki-it"><a href="//it.wikipedia.org/wiki/AutoHotkey" title="AutoHotkey – Italian" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interlanguage-link interwiki-nl"><a href="//nl.wikipedia.org/wiki/AutoHotkey" title="AutoHotkey – Dutch" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interlanguage-link interwiki-ja"><a href="//ja.wikipedia.org/wiki/AutoHotkey" title="AutoHotkey – Japanese" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interlanguage-link interwiki-pl"><a href="//pl.wikipedia.org/wiki/AutoHotkey" title="AutoHotkey – Polish" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interlanguage-link interwiki-pt"><a href="//pt.wikipedia.org/wiki/Auto_Hot_Key" title="Auto Hot Key – Portuguese" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interlanguage-link interwiki-ru"><a href="//ru.wikipedia.org/wiki/AutoHotkey" title="AutoHotkey – Russian" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interlanguage-link interwiki-sk"><a href="//sk.wikipedia.org/wiki/AutoHotkey" title="AutoHotkey – Slovak" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interlanguage-link interwiki-sv"><a href="//sv.wikipedia.org/wiki/Autohotkey" title="Autohotkey – Swedish" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interlanguage-link interwiki-zh"><a href="//zh.wikipedia.org/wiki/AutoHotkey" title="AutoHotkey – Chinese" lang="zh" hreflang="zh">中文</a></li>
+			<li class="wbc-editpage"><a href="//www.wikidata.org/wiki/Q784816#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></li>
+		</ul>
+	</div>
+</div>
+			</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 23 January 2014 at 03:16.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy.</a> <br/>
+Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a class="external" href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/wiki/AutoHotkey" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="//wikimediafoundation.org/"><img src="//bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="//bits.wikimedia.org/static-1.23wmf11/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.cite","mobile.desktop","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.articleFeedbackv5.startup","ext.wikimediaShopLink.core","ext.navigationTiming","skins.vector.collapsibleNav"],null,true);
+}</script>
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<!-- Served by mw1216 in 0.160 secs. -->
+	</body>
+</html>

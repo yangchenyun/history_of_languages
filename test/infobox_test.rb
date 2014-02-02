@@ -5,6 +5,8 @@ require 'infobox'
 [
   'Ruby_(programming_language)',
   'Potion_(programming_language)',
+  'Ratfor',
+  'AutoHotkey',
   'OpenVera'
 ].each do |page|
   FakeWeb.register_uri(:get,
@@ -65,6 +67,16 @@ class InfoBoxTest < Minitest::Test
   def test_empty_influenced_or_influenced_by_links
     @potion_wiki = InfoBox.new('/wiki/potion_(programming_language)').result
     assert_nil @potion_wiki['influenced_links']
+  end
+
+  def test_empty_paradigms
+    @ratfor_wiki = InfoBox.new('/wiki/Ratfor').result
+    assert_nil @ratfor_wiki['paradigms']
+  end
+
+  def test_empty_appeared_in
+    @autohotkey_wiki = InfoBox.new('/wiki/AutoHotkey').result
+    assert_nil @autohotkey_wiki['appeared_in']
   end
 
   def test_empty_infobox
