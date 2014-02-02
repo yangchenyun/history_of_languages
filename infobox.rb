@@ -56,7 +56,10 @@ class InfoBox
 
     # parse_paradigms
     if @result['paradigms']
-      @result['paradigms'] = @result['paradigms'].gsub(/[-\w]+:/, '').split(/,/).map(&:strip).map(&:downcase)
+      @result['paradigms'] = @result['paradigms']
+        .gsub(/[-\w]+:/, '')
+        .gsub(/\[\d\]|\s+/, '') # remove footnote such as "[1]" in string
+        .split(/,/).map(&:strip).map(&:downcase)
     end
   end
 end
