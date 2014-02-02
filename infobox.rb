@@ -41,6 +41,6 @@ class InfoBox
     @result['appeared_in'] = @result['appeared_in'][/\d\d\d\d/]
 
     # parse_paradigms
-    @result['paradigms'] = @result['paradigms'].gsub(/[-\w]+:|\s+/, '').split(',')
+    @result['paradigms'] = @result['paradigms'].gsub(/[-\w]+:/, '').split(/,/).map(&:strip).map(&:downcase)
   end
 end
