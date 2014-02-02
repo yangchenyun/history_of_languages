@@ -4,7 +4,8 @@ require 'infobox'
 
 [
   'Ruby_(programming_language)',
-  'Potion_(programming_language)'
+  'Potion_(programming_language)',
+  'OpenVera'
 ].each do |page|
   FakeWeb.register_uri(:get,
       "http://en.wikipedia.org/wiki/#{page}",
@@ -64,5 +65,10 @@ class InfoBoxTest < Minitest::Test
   def test_empty_influenced_or_influenced_by_links
     @potion_wiki = InfoBox.new('/wiki/potion_(programming_language)').result
     assert_nil @potion_wiki['influenced_links']
+  end
+
+  def test_empty_infobox
+    @openvera_wiki = InfoBox.new('/wiki/OpenVera').result
+    assert_equal( { 'name' => 'OpenVera' }, @openvera_wiki )
   end
 end

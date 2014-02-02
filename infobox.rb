@@ -9,7 +9,14 @@ class InfoBox
   def initialize(link)
     @result = {}
     @agent = Mechanize.new
-    @infobox = @agent.get(URI.join(DOMAIN, link)).search('.infobox')
+    @page = @agent.get URI.join(DOMAIN, link)
+    @infobox = @page.search('.infobox')
+
+    if @infobox.empty?
+      @result['name'] = @page.search('#firstHeading').text()
+      return
+    end
+
     @rows = @infobox.search('tr:has(th)')
 
     # parse name
