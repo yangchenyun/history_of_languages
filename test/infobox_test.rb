@@ -83,4 +83,9 @@ class InfoBoxTest < Minitest::Test
     @openvera_wiki = InfoBox.new('/wiki/OpenVera').result
     assert_equal( { 'name' => 'OpenVera' }, @openvera_wiki )
   end
+
+  def test_404_response
+    @soql_wiki = InfoBox.new('/w/index.php?title=Concat_(programming_language)&action=edit&redlink=1').result
+    assert_equal( { 'name' => 'Concat' }, @soql_wiki )
+  end
 end

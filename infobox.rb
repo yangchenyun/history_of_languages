@@ -9,8 +9,13 @@ class InfoBox
   def initialize(link)
     @result = {}
     @agent = Mechanize.new
-    @page = @agent.get URI.join(DOMAIN, link)
-    @infobox = @page.search('.infobox')
+    begin
+      @page = @agent.get URI.join(DOMAIN, link)
+    rescue Mechanize::ResponseCodeError
+      @result['name'] = link.match(/title=([^&]+)/)[1].gsub(/_\(.*\)$/, '').gsub('_', ' ')
+      return
+    end
+    @infobox = @page.search('.infobox.vevent')
 
     if @infobox.empty?
       @result['name'] = @page.search('#firstHeading').text()
