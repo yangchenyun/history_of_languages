@@ -26,7 +26,7 @@ class VisitorTest < Minitest::Test
 
   def test_pop_link
     assert_equal 'http://google.com', @visitor.pop_link
-    refute @visitor.has_links?
+    refute @visitor.has_links?, "visitor has #{@visitor.link_length} links."
   end
 
   def test_link_length
@@ -50,14 +50,14 @@ class VisitorTest < Minitest::Test
   end
 
   def test_not_add_link_visited_links
-    @visitor.visit 'http://google.com'
+    @visitor.visit
     @visitor.add_link 'http://google.com'
     refute @visitor.has_links?
   end
 
   def test_visit_mark_link_visited
     refute @visitor.visited? 'http://google.com'
-    @visitor.visit 'http://google.com'
+    @visitor.visit
     assert @visitor.visited? 'http://google.com'
   end
 
