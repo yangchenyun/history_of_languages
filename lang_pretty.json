@@ -582,7 +582,7 @@
             "Ratfor"
         ],
         "influenced_by": [
-            "Assemblylanguage",
+            "Assembly",
             "Machinecode"
         ],
         "name": "Speedcoding",
@@ -2261,7 +2261,7 @@
         "name": "Disha Institute Of Computer & IT Mangement",
         "os": "Cross-platform: JOHNNIAC, IBM 650, IBM 704, IBM 7090",
         "paradigms": [
-            "assembly"
+            "Assembly"
         ],
         "stable_release": "IPL-VI"
     },
@@ -5132,7 +5132,7 @@
         "platform": "UNIVAC I"
     },
     {
-        "name": "Assembly language"
+        "name": "Assembly"
     },
     {
         "appeared_in": "1968",
