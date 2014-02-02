@@ -4,4 +4,5 @@ gem "mechanize", '~> 2.7'
 
 group :test do
   gem 'minitest'
+  gem 'fakeweb'
 end

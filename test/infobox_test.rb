@@ -1,5 +1,13 @@
 require_relative 'test_helper.rb'
+require 'fakeweb'
+
 require 'infobox'
+
+result = File.read(File.expand_path('../stub/Ruby_programming_language.html', __FILE__))
+FakeWeb.register_uri(:get,
+    "http://http://en.wikipedia.org/wiki/Ruby_(programming_language)",
+    body: result,
+    content_type: "text/html")
 
 class InfoBoxTest < Minitest::Test
   def setup
