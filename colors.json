@@ -8,6 +8,7 @@
     "Ada": "#02f88c",
     "VimL": "#199c4b",
     "Perl": "#0298c3",
+    "Perl6": "#0298c3",
     "Lua": "#fa1fa1",
     "Rebol": "#358a5b",
     "Verilog": "#848bf3",
@@ -74,5 +75,12 @@
     "Vala": "#3581ba",
     "Smalltalk": "#596706",
     "Matlab": "#bb92ac",
-    "C#": "#bb92af"
+    "C#": "#bb92af",
+    "Processing": "#2779AB",
+    "F#": "#B845FC",
+    "Awk": "#ccc",
+    "BASIC": "#ccc",
+    "LogTalk": "#ccc",
+    "Elm": "#ccc",
+    "Falcon" : "#ccc"
 }
