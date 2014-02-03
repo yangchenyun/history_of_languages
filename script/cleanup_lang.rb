@@ -75,5 +75,5 @@ filtered_lang.each do |l|
 end
 
 output = File.new(File.expand_path("../../lang.json", __FILE__), 'w+')
-output.write(filtered_lang.to_a.to_json)
+output.write(JSON.pretty_generate(filtered_lang.to_a))
 output.close
