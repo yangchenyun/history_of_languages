@@ -24,9 +24,9 @@
             "Lisp",
             "Perl",
             "Python",
-            "SmallTalk"
+            "Smalltalk"
         ],
-        "license": "Ruby License or BSD License[7][8]",
+        "license": "Ruby License or BSD License",
         "major_implementations": "Ruby MRI, YARV, Rubinius, MagLev, JRuby, MacRuby, RubyMotion, HotRuby, IronRuby, mruby",
         "name": "Ruby",
         "os": "Cross-platform",
@@ -51,7 +51,7 @@
             "Ocaml",
             "Lua",
             "REBOL",
-            "SmallTalk",
+            "Smalltalk",
             "C"
         ],
         "license": "MIT License",
@@ -333,7 +333,7 @@
         "designed_by": "John George Kemeny and Thomas Eugene Kurtz",
         "influenced": [
             "COMAL",
-            "VisualBasic",
+            "Visual Basic",
             ".NET",
             "Realbasic",
             "GRASS",
@@ -345,7 +345,7 @@
             "FORTRANII",
             "JOSS"
         ],
-        "major_implementations": "Apple BASIC, Atari BASIC, Sinclair BASIC, Commodore BASIC, Microsoft BASIC, Liberty BASIC, BBC BASIC, TI-BASIC, VisualBasic",
+        "major_implementations": "Apple BASIC, Atari BASIC, Sinclair BASIC, Commodore BASIC, Microsoft BASIC, Liberty BASIC, BBC BASIC, TI-BASIC, Visual Basic",
         "name": "BASIC",
         "paradigms": [
             "unstructured",
@@ -359,7 +359,7 @@
         "name": "AutoHotkey",
         "operating_system": "Microsoft Windows",
         "preview_release": "2.0-a044 / January\u00a011, 2014; 13 days ago\u00a0(2014-01-11)",
-        "stable_release": "1.1.14.01 / 15\u00a0January 2014; 9 days ago\u00a0(2014-01-15)[1]",
+        "stable_release": "1.1.14.01 / 15\u00a0January 2014; 9 days ago\u00a0(2014-01-15)",
         "type": "Scripting language Automation GUI utility",
         "website": "www.autohotkey.com"
     },
@@ -369,7 +369,7 @@
         "license": "Freeware closed source",
         "name": "AutoIt",
         "operating_system": "Microsoft Windows",
-        "stable_release": "3.3.10.2 / December\u00a030,\u00a02013\u00a0(2013-12-30)[1]",
+        "stable_release": "3.3.10.2 / December\u00a030,\u00a02013\u00a0(2013-12-30)",
         "type": "GUI Scripting language Automation",
         "website": "www.autoitscript.com/autoit3/"
     },
@@ -390,7 +390,7 @@
         "appeared_in": "2001",
         "designed_by": "Microsoft",
         "developer": "Microsoft",
-        "dialects": "Microsoft VisualBasic",
+        "dialects": "Microsoft Visual Basic",
         "influenced_by": [
             ".NETFramework"
         ],
@@ -404,7 +404,7 @@
         ],
         "platform": "CLR",
         "stable_release": "2012 (11.0.0.0) (15\u00a0August 2012; 17 months ago\u00a0(2012-08-15))",
-        "typing_discipline": "Static, both strong and weak,[1]both safe and unsafe,[1]nominative",
+        "typing_discipline": "Static, both strong and weak,both safe and unsafe,nominative",
         "usual_filename_extensions": ".vb",
         "website": "msdn.microsoft.com/en-us/vstudio/hh388573"
     },
@@ -420,7 +420,7 @@
             "BASIC"
         ],
         "major_implementations": "Microsoft Visual Studio",
-        "name": "VisualBasic",
+        "name": "Visual Basic",
         "os": "Microsoft Windows and MS-DOS",
         "paradigms": [
             "object-based and event-driven"
@@ -433,7 +433,7 @@
         "appeared_in": "2005",
         "designed_by": "Anywhere Software/Erel Uziel",
         "influenced_by": [
-            "VisualBasic"
+            "Visual Basic"
         ],
         "name": "Basic4ppc",
         "os": "Microsoft Windows, Windows Mobile",
@@ -458,13 +458,13 @@
         "appeared_in": "1999",
         "designed_by": "Beno\u00eet Minisini",
         "influenced_by": [
-            "VisualBasic",
+            "Visual Basic",
             "Java"
         ],
         "license": "GNU GPLv2+",
         "name": "Gambas",
         "os": "Linux, FreeBSD; version forMac OS X in progress",
-        "stable_release": "3.5.1 (November\u00a08, 2013; 2 months ago\u00a0(2013-11-08)[1])",
+        "stable_release": "3.5.1 (November\u00a08, 2013; 2 months ago\u00a0(2013-11-08))",
         "website": "gambas.sourceforge.net"
     },
     {
@@ -668,7 +668,7 @@
         "preview_release": "5.8.6 (July 14, 2010)",
         "stable_release": "5.8.6 (July 14, 2010)",
         "typing_discipline": "strong, static, safe or if unsafe explicitly safe isolated",
-        "website": "[1]"
+        "website": ""
     },
     {
         "appeared_in": "1985",
@@ -758,7 +758,7 @@
         ],
         "influenced_by": [
             "Prolog",
-            "SmallTalk"
+            "Smalltalk"
         ],
         "license": "Modified MPL",
         "major_implementations": "Erlang",
@@ -767,7 +767,7 @@
             "concurrent",
             "functional"
         ],
-        "stable_release": "R16B03[1] (11\u00a0December\u00a02013\u00a0(2013-12-11))",
+        "stable_release": "R16B03 (11\u00a0December\u00a02013\u00a0(2013-12-11))",
         "typing_discipline": "dynamic, strong",
         "usual_filename_extensions": ".erl .hrl",
         "website": "www.erlang.org"
@@ -787,7 +787,7 @@
             "functional",
             "imperative"
         ],
-        "stable_release": "1.1.0 (stable) (February\u00a013, 2013; 11 months ago\u00a0(2013-02-13)[1])",
+        "stable_release": "1.1.0 (stable) (February\u00a013, 2013; 11 months ago\u00a0(2013-02-13))",
         "typing_discipline": "static, strong, inferred",
         "website": "opalang.org"
     },
@@ -813,7 +813,7 @@
             "functional"
         ],
         "platform": "JVM, CLR, JavaScript",
-        "stable_release": "1.5.1[1] (March\u00a010, 2013; 10 months ago\u00a0(2013-03-10))",
+        "stable_release": "1.5.1 (March\u00a010, 2013; 10 months ago\u00a0(2013-03-10))",
         "typing_discipline": "dynamic, strong",
         "usual_filename_extensions": ".clj, .edn",
         "website": "clojure.org"
@@ -879,7 +879,7 @@
             "meta"
         ],
         "platform": "x86, PowerPC, SPARC, MIPS, ARM",
-        "stable_release": "5.3.6[1] (August\u00a010, 2013; 5 months ago\u00a0(2013-08-10))",
+        "stable_release": "5.3.6 (August\u00a010, 2013; 5 months ago\u00a0(2013-08-10))",
         "typing_discipline": "Dynamic, strong, static",
         "website": "racket-lang.org"
     },
@@ -919,7 +919,7 @@
         "influenced_by": [
             "Mathematical Notation"
         ],
-        "major_implementations": "Dyalog APL, IBM APL2, APL2000, Sharp APL, APLX, NARS2000, GNU APL[1]",
+        "major_implementations": "Dyalog APL, IBM APL2, APL2000, Sharp APL, APLX, NARS2000, GNU APL",
         "name": "APL",
         "paradigms": [
             "array",
@@ -964,7 +964,7 @@
         "influenced_by": [
             "Mathematical Notation"
         ],
-        "major_implementations": "Dyalog APL, IBM APL2, APL2000, Sharp APL, APLX, NARS2000, GNU APL[1]",
+        "major_implementations": "Dyalog APL, IBM APL2, APL2000, Sharp APL, APLX, NARS2000, GNU APL",
         "name": "APL",
         "paradigms": [
             "array",
@@ -1014,8 +1014,8 @@
         "developer": "MathWorks",
         "developers": "MathWorks",
         "license": "Proprietary",
-        "name": "MATLABMATLAB",
-        "operating_system": "Cross-platform[1]",
+        "name": "MATLAB",
+        "operating_system": "Cross-platform",
         "os": "Cross-platform",
         "paradigms": [
             "imperative",
@@ -1034,7 +1034,7 @@
     {
         "available_in": "English, Chinese and Japanese.",
         "developers": "Wolfram Research",
-        "initial_release": "June\u00a023,\u00a01988\u00a0(1988-06-23)[1]",
+        "initial_release": "June\u00a023,\u00a01988\u00a0(1988-06-23)",
         "license": "Proprietary",
         "name": "Mathematica",
         "platform": "Cross-platform (list)",
@@ -1042,7 +1042,7 @@
         "stable_release": "9.0.1 (January\u00a030,\u00a02013\u00a0(2013-01-30)) [\u00b1]",
         "type": "Computer algebra, numerical computations, Information visualization, statistics, user interface creation",
         "website": "www.wolfram.com/mathematica/",
-        "written_in": "Wolfram,[2]C/C++, Java and Mathematica[3]"
+        "written_in": "Wolfram,C/C++, Java and Mathematica"
     },
     {
         "appeared_in": "1993",
@@ -1083,8 +1083,8 @@
             "function-level",
             "tacit"
         ],
-        "preview_release": "J801[2] (21\u00a0April\u00a02013\u00a0(2013-04-21))",
-        "stable_release": "J701 (1\u00a0February\u00a02011\u00a0(2011-02-01)[1])",
+        "preview_release": "J801 (21\u00a0April\u00a02013\u00a0(2013-04-21))",
+        "stable_release": "J701 (1\u00a0February\u00a02011\u00a0(2011-02-01))",
         "typing_discipline": "dynamic",
         "website": "www.jsoftware.com"
     },
@@ -1093,7 +1093,7 @@
         "initial_release": "1996",
         "license": "GNU General Public License",
         "name": "SuperCollider",
-        "operating_system": "FreeBSD,[1]Linux, OS X, Windows",
+        "operating_system": "FreeBSD,Linux, OS X, Windows",
         "stable_release": "3.6.5 / April\u00a02013; 10\u00a0months ago\u00a0(2013-04)",
         "website": "http://supercollider.github.io/"
     },
@@ -1209,7 +1209,7 @@
             "ObjVlisp",
             "OaklispDylan"
         ],
-        "major_implementations": "EuXLisp [1], Youtoo [2], Eu2C [3]",
+        "major_implementations": "EuXLisp , Youtoo , Eu2C ",
         "name": "EuLisp",
         "os": "Linux",
         "paradigms": [
@@ -1235,7 +1235,7 @@
         "influenced_by": [
             "Scheme",
             "T",
-            "SmallTalk"
+            "Smalltalk"
         ],
         "major_implementations": "Oaklisp",
         "name": "Oaklisp",
@@ -1280,7 +1280,7 @@
         "implementation_language": "C, Lasso",
         "influenced_by": [
             "Dylan",
-            "SmallTalk",
+            "Smalltalk",
             "Scala"
         ],
         "license": "Proprietary",
@@ -1427,7 +1427,7 @@
             "Rebol",
             "Racket",
             "Ruby",
-            "SmallTalk",
+            "Smalltalk",
             "Tcl"
         ],
         "influenced_by": [
@@ -1463,7 +1463,7 @@
             "event-driven programming",
             "imperative"
         ],
-        "stable_release": "8.6.1[1] (September\u00a020,\u00a02013\u00a0(2013-09-20))",
+        "stable_release": "8.6.1 (September\u00a020,\u00a02013\u00a0(2013-09-20))",
         "typing_discipline": "dynamic typing, everything can be treated as a string",
         "usual_filename_extensions": ".tcl",
         "website": "tcl.sourceforge.net"
@@ -1537,7 +1537,7 @@
         "name": "Chef",
         "operating_system": "GNU/Linux, AT&T Unix, MS Windows",
         "original_authors": "Opscode",
-        "stable_release": "11.8.0[1] / October\u00a031, 2013; 2 months ago\u00a0(2013-10-31)",
+        "stable_release": "11.8.0 / October\u00a031, 2013; 2 months ago\u00a0(2013-10-31)",
         "type": "Configuration management, System administration, Network management",
         "website": "http://www.opscode.com/chef/",
         "written_in": "Ruby (client) and Erlang (server)"
@@ -1573,7 +1573,7 @@
             "Datalog"
         ],
         "initial_release": "1986\u00a0(1986)",
-        "internet_media_type": "application/sql[2][3]",
+        "internet_media_type": "application/sql",
         "latest_release": "SQL:2898 / 2011; 3\u00a0years ago\u00a0(2011)",
         "major_implementations": "Many",
         "name": "SQL",
@@ -1661,13 +1661,13 @@
     {
         "available_in": "English",
         "development_status": "Active",
-        "initial_release": "1983[1][2]",
+        "initial_release": "1983",
         "license": "Common Public License (AT&T KornShell), mostly public domain with some GPL (pdksh), proprietary (dtksh)",
         "name": "KornShell",
         "operating_system": "Cross-platform",
         "original_authors": "David Korn",
         "platform": "Unix",
-        "stable_release": "ksh93v / May\u00a020, 2013; 8 months ago\u00a0(2013-05-20)[3]",
+        "stable_release": "ksh93v / May\u00a020, 2013; 8 months ago\u00a0(2013-05-20)",
         "type": "Unix shell",
         "website": "www.kornshell.org",
         "written_in": "C"
@@ -1686,7 +1686,7 @@
             "Lisp",
             "Logo"
         ],
-        "license": "2.7.8 is Freely redistributable software,[3] 2.101.0 has Apache 2.0 license[4]",
+        "license": "2.7.8 is Freely redistributable software, 2.101.0 has Apache 2.0 license",
         "name": "Rebol",
         "os": "cross-platform",
         "paradigms": [
@@ -1741,7 +1741,7 @@
             "REBOL"
         ],
         "influenced_by": [
-            "SmallTalk"
+            "Smalltalk"
         ],
         "major_implementations": "Self",
         "name": "Self",
@@ -1818,7 +1818,7 @@
         "designed_by": "Beno\u00eet Sonntag",
         "developer": "Beno\u00eet Sonntag & J\u00e9r\u00f4me Boutet",
         "influenced_by": [
-            "SmallTalk",
+            "Smalltalk",
             "Self",
             "Eiffel"
         ],
@@ -1839,7 +1839,7 @@
         "operating_system": "Cross-platform (multi-platform): Unix-like, Mac OS X, iOS, Windows, more",
         "original_authors": "Alan Kay, Dan Ingalls, Adele Goldberg",
         "stable_release": "4.4 / December\u00a031,\u00a02012\u00a0(2012-12-31)",
-        "type": "SmallTalk virtual machine, development environment",
+        "type": "Smalltalk virtual machine, development environment",
         "website": "www.squeak.org"
     },
     {
@@ -1848,7 +1848,7 @@
     {
         "appeared_in": "1998",
         "influenced_by": [
-            "SmallTalk",
+            "Smalltalk",
             "Self",
             "Forth",
             "NewtonScript",
@@ -1892,7 +1892,7 @@
             "Luna"
         ],
         "influenced_by": [
-            "SmallTalk",
+            "Smalltalk",
             "NewtonScript",
             "Self",
             "Lua",
@@ -1934,7 +1934,7 @@
         "developer": "Wally Feurzeig, Seymour Papert",
         "dialects": "StarLogo, NetLogo",
         "influenced": [
-            "SmallTalk",
+            "Smalltalk",
             "Etoys",
             "Scratch",
             "NetLogo",
@@ -2016,7 +2016,7 @@
         "implementation_language": "Squeak, ActionScript (Scratch 2.0)",
         "influenced_by": [
             "Logo",
-            "SmallTalk",
+            "Smalltalk",
             "HyperCard",
             "StarLogo",
             "AgentSheets",
@@ -2044,7 +2044,7 @@
         "influenced_by": [
             "Lisp",
             "Logo",
-            "SmallTalk"
+            "Smalltalk"
         ],
         "name": "AgentSheets",
         "paradigms": [
@@ -2075,12 +2075,12 @@
         ],
         "influenced_by": [
             "Logo",
-            "SmallTalk",
+            "Smalltalk",
             "HyperCard",
             "StarLogo",
             "AgentSheets"
         ],
-        "license": "MIT and Apache 2.0 licenses[1]",
+        "license": "MIT and Apache 2.0 licenses",
         "major_implementations": "\nSqueak (Morphic)\nSqueak (Tweak)",
         "name": "Etoys",
         "paradigms": [
@@ -2324,53 +2324,11 @@
         "name": "Lisp Machine Lisp"
     },
     {
-        "appeared_in": "1972",
-        "designed_by": "Alan Kay, Dan Ingalls, Adele Goldberg",
-        "developer": "Alan Kay, Dan Ingalls, Adele Goldberg, Ted Kaehler, Diana Merry, Scott Wallace, Peter Deutsch and Xerox PARC",
-        "influenced": [
-            "Objective-C",
-            "Self",
-            "Java",
-            "PHP5",
-            "Logtalk",
-            "Dylan",
-            "AppleScript",
-            "Lisaac",
-            "NewtonScript",
-            "Lasso",
-            "Python",
-            "Ruby",
-            "Groovy",
-            "Scala",
-            "Perl6",
-            "CommonLispObjectSystem",
-            "Falcon",
-            "Io",
-            "Ioke",
-            "Fancy",
-            "Dart"
-        ],
-        "influenced_by": [
-            "Lisp",
-            "Simula",
-            "Logo",
-            "Sketchpad"
-        ],
-        "major_implementations": "Pharo, Squeak, GNU SmallTalk, VisualWorks, Dolphin SmallTalk, SmallTalk/X, VA SmallTalk",
-        "name": "SmallTalk",
-        "os": "Cross-platform (multi-platform)",
-        "paradigms": [
-            "object-oriented"
-        ],
-        "stable_release": "SmallTalk-80 version 2 (1980)",
-        "typing_discipline": "strong, dynamic"
-    },
-    {
         "appeared_in": "2011",
         "developer": "Google",
         "influenced_by": [
             "JavaScript",
-            "SmallTalk",
+            "Smalltalk",
             "Erlang",
             "Strongtalk",
             "C#"
@@ -2381,8 +2339,8 @@
             "object-oriented",
             "class-based"
         ],
-        "preview_release": "1.1.0-dev.5.0[2] (December\u00a027, 2013; 32 days ago\u00a0(2013-12-27))",
-        "stable_release": "1.1.1[1] (January\u00a016, 2014; 12 days ago\u00a0(2014-01-16))",
+        "preview_release": "1.1.0-dev.5.0 (December\u00a027, 2013; 32 days ago\u00a0(2013-12-27))",
+        "stable_release": "1.1.1 (January\u00a016, 2014; 12 days ago\u00a0(2014-01-16))",
         "typing_discipline": "Optional",
         "website": "www.dartlang.org"
     },
@@ -2397,7 +2355,7 @@
             "JavaScript",
             "Perl",
             "Ruby",
-            "SmallTalk"
+            "Smalltalk"
         ],
         "license": "GNU General Public License, Artistic License",
         "major_implementations": "Rakudo, Niecza",
@@ -2406,7 +2364,7 @@
         "paradigms": [
             "multi-paradigm"
         ],
-        "stable_release": "(varies by implementation)\nRakudo Star / January\u00a031,\u00a02014\u00a0(2014-01-31) [1]\nNiecza Perl 6 / March\u00a026,\u00a02013\u00a0(2013-03-26)[2]",
+        "stable_release": "(varies by implementation)\nRakudo Star / January\u00a031,\u00a02014\u00a0(2014-01-31) \nNiecza Perl 6 / March\u00a026,\u00a02013\u00a0(2013-03-26)",
         "typing_discipline": "dynamic, static, gradual",
         "website": "Perl6.org"
     },
@@ -2437,7 +2395,7 @@
         "designed_by": "Paulo Moura",
         "influenced_by": [
             "Prolog",
-            "SmallTalk",
+            "Smalltalk",
             "Objective-C"
         ],
         "license": "Artistic License 2.0 (2.x) / GNU GPL v3 (3.x)",
@@ -2503,7 +2461,7 @@
             "Lisp",
             "Prolog"
         ],
-        "license": "MIT X11 [1]",
+        "license": "MIT X11 ",
         "major_implementations": "Mozart Programming System",
         "name": "Oz",
         "paradigms": [
@@ -2597,7 +2555,7 @@
             "StandardML",
             "OCaml",
             "Scheme",
-            "SmallTalk",
+            "Smalltalk",
             "Oz"
         ],
         "license": "BSD[citation needed]",
@@ -2609,8 +2567,8 @@
             "concurrent"
         ],
         "platform": "JVM, LLVM",
-        "preview_release": "2.11.0-M5 (August\u00a028,\u00a02013\u00a0(2013-08-28)[2])",
-        "stable_release": "2.10.3 (October\u00a01,\u00a02013\u00a0(2013-10-01)[1])",
+        "preview_release": "2.11.0-M5 (August\u00a028,\u00a02013\u00a0(2013-08-28))",
+        "stable_release": "2.10.3 (October\u00a01,\u00a02013\u00a0(2013-10-01))",
         "typing_discipline": "static, strong, inferred, structural",
         "usual_filename_extensions": ".scala",
         "website": "www.scala-lang.org"
@@ -2621,14 +2579,14 @@
         "influenced_by": [
             "Java",
             "Scala",
-            "SmallTalk"
+            "Smalltalk"
         ],
         "license": "Apache v2",
         "name": "Ceylon",
         "paradigms": [
             "object-oriented"
         ],
-        "stable_release": "1.0[1] (November\u00a012, 2013; 2 months ago\u00a0(2013-11-12))",
+        "stable_release": "1.0 (November\u00a012, 2013; 2 months ago\u00a0(2013-11-12))",
         "typing_discipline": "Static, strong, safe",
         "website": "http://ceylon-lang.org/"
     },
@@ -2642,12 +2600,12 @@
             "Ruby",
             "Erlang"
         ],
-        "license": "Academic Free License version 3.0[3]",
+        "license": "Academic Free License version 3.0",
         "name": "Fantom",
         "paradigms": [
             "multi-paradigm"
         ],
-        "stable_release": "1.0.65[2] (May\u00a020,\u00a02013\u00a0(2013-05-20))",
+        "stable_release": "1.0.65 (May\u00a020,\u00a02013\u00a0(2013-05-20))",
         "typing_discipline": "static, dynamic",
         "website": "www.fantom.org"
     },
@@ -2862,7 +2820,7 @@
         "dialects": "GIPSY, Granular Lucid",
         "influenced": [
             "SISAL",
-            "PureData",
+            "Pure Data",
             "Lustre"
         ],
         "influenced_by": [
@@ -2885,7 +2843,7 @@
             "Patcher"
         ],
         "license": "Modified BSD",
-        "name": "Pure DataPure Data",
+        "name": "Pure Data",
         "operating_system": "Cross-platform",
         "original_authors": "Miller Puckette",
         "os": "Cross-platform",
@@ -2978,7 +2936,7 @@
             "StandardML",
             "OCaml",
             "Scheme",
-            "SmallTalk",
+            "Smalltalk",
             "Oz"
         ],
         "license": "BSD[citation needed]",
@@ -2990,8 +2948,8 @@
             "concurrent"
         ],
         "platform": "JVM, LLVM",
-        "preview_release": "2.11.0-M5 (August\u00a028,\u00a02013\u00a0(2013-08-28)[2])",
-        "stable_release": "2.10.3 (October\u00a01,\u00a02013\u00a0(2013-10-01)[1])",
+        "preview_release": "2.11.0-M5 (August\u00a028,\u00a02013\u00a0(2013-08-28))",
+        "stable_release": "2.10.3 (October\u00a01,\u00a02013\u00a0(2013-10-01))",
         "typing_discipline": "static, strong, inferred, structural",
         "usual_filename_extensions": ".scala",
         "website": "www.scala-lang.org"
@@ -3018,22 +2976,22 @@
         "influenced": [
             "Agda",
             "Bluespec",
-            "C++11/Concepts",
-            "C#/LINQ",
-            "[10]CAL",
+            "C++",
+            "C#",
+            "CAL",
             "Clean",
             "Clojure",
-            "[11]CoffeeScript",
-            "[12]Curry",
+            "CoffeeScript",
+            "Curry",
             "Elm",
             "Epigram",
-            "[13]Isabelle",
+            "Isabelle",
             "Java/Generics",
             "Kaya",
             "Omega",
-            "[14]Python",
-            "[15]Qi",
-            "[16]Timber"
+            "Python",
+            "Qi",
+            "Timber"
         ],
         "influenced_by": [
             "Clean",
@@ -3059,8 +3017,8 @@
             "lazy/non-strict",
             "modular"
         ],
-        "preview_release": "Announced as Haskell 2014[2]",
-        "stable_release": "Haskell 2010[1] (July\u00a02010; 3\u00a0years ago\u00a0(2010-07))",
+        "preview_release": "Announced as Haskell 2014",
+        "stable_release": "Haskell 2010 (July\u00a02010; 3\u00a0years ago\u00a0(2010-07))",
         "typing_discipline": "static, strong, inferred",
         "website": "haskell.org"
     },
@@ -3113,7 +3071,7 @@
         "influenced_by": [
             "ALF"
         ],
-        "license": "MIT[1]",
+        "license": "MIT",
         "name": "Epigram",
         "os": "Cross-platform: Linux, Windows, Mac OS X",
         "paradigms": [
@@ -3190,46 +3148,15 @@
         "website": "coffeescript.org"
     },
     {
-        "appeared_in": "1995",
-        "designed_by": "Brendan Eich",
-        "developer": "Netscape Communications Corporation, Mozilla Foundation",
-        "influenced": [
-            "ActionScript",
-            "CoffeeScript",
-            "Dart",
-            "JScript.NET",
-            "Objective-J",
-            "QML",
-            "TypeScript",
-            "Node.js",
-            "LiveScript"
-        ],
-        "influenced_by": [
-            "Scheme",
-            "Self",
-            "Java"
-        ],
-        "major_implementations": "KJS, Rhino, SpiderMonkey, V8, Carakan, Chakra",
-        "name": "JavaScript",
-        "paradigms": [
-            "scripting",
-            "object-oriented (prototype-based)",
-            "imperative",
-            "functional[1]"
-        ],
-        "stable_release": "1.8.5[2] (March\u00a022, 2011; 2 years ago\u00a0(2011-03-22))",
-        "typing_discipline": "dynamic, duck"
-    },
-    {
         "developers": "Node.js Developers, Joyent",
         "development_status": "Active",
-        "initial_release": "May\u00a027,\u00a02009\u00a0(2009-05-27)[1]",
+        "initial_release": "May\u00a027,\u00a02009\u00a0(2009-05-27)",
         "license": "MIT",
         "name": "Node.js",
         "operating_system": "Mac OS X, Linux, Solaris, FreeBSD, OpenBSD, Windows (older versions require Cygwin), webOS",
         "original_authors": "Ryan Lienhart Dahl",
-        "preview_release": "0.11.11 / January\u00a029,\u00a02014\u00a0(2014-01-29)[3]",
-        "stable_release": "0.10.25 / January\u00a023,\u00a02014\u00a0(2014-01-23)[2]",
+        "preview_release": "0.11.11 / January\u00a029,\u00a02014\u00a0(2014-01-29)",
+        "stable_release": "0.10.25 / January\u00a023,\u00a02014\u00a0(2014-01-23)",
         "type": "Event-driven networking",
         "website": "nodejs.org",
         "written_in": "C, C++, JavaScript"
@@ -3271,21 +3198,21 @@
             "reactive",
             "scripting"
         ],
-        "stable_release": "5.2.0[1] (December\u00a012, 2013; 42 days ago\u00a0(2013-12-12))",
+        "stable_release": "5.2.0 (December\u00a012, 2013; 42 days ago\u00a0(2013-12-12))",
         "typing_discipline": "dynamic, strong",
         "website": "For Developers"
     },
     {
         "developers": "Qt Project, Digia",
         "development_status": "Active",
-        "initial_release": "20\u00a0May 1995; 18 years ago\u00a0(1995-05-20)[1]",
-        "license": "LGPL\u00a02.1 (Qt open-source version)[4]Qt Commercial License (Qt Commercial version)[5]",
+        "initial_release": "20\u00a0May 1995; 18 years ago\u00a0(1995-05-20)",
+        "license": "LGPL\u00a02.1 (Qt open-source version)Qt Commercial License (Qt Commercial version)",
         "name": "Qt",
         "operating_system": "Linux (Embedded, Wayland, X11), OS X, Windows, \u2026",
-        "original_authors": "Haavard Nord and Eirik Chambe-Eng[1]",
+        "original_authors": "Haavard Nord and Eirik Chambe-Eng",
         "platform": "Cross-platform",
-        "preview_release": "5.2.0 rc1 (November\u00a029, 2013; 2 months ago\u00a0(2013-11-29)) [\u00b1] [3]",
-        "stable_release": "5.2 (December\u00a012, 2013; 51 days ago\u00a0(2013-12-12)) [\u00b1] [2]",
+        "preview_release": "5.2.0 rc1 (November\u00a029, 2013; 2 months ago\u00a0(2013-11-29)) [\u00b1] ",
+        "stable_release": "5.2 (December\u00a012, 2013; 51 days ago\u00a0(2013-12-12)) [\u00b1] ",
         "type": "Application framework",
         "website": "qt-project.org",
         "written_in": "C++"
@@ -3426,68 +3353,6 @@
             "modular"
         ],
         "typing_discipline": "static, strong, inferred"
-    },
-    {
-        "appeared_in": "1990",
-        "designed_by": "Simon Peyton Jones, Lennart Augustsson, Dave Barton, Brian Boutel, Warren Burton, Joseph Fasel, Kevin Hammond, Ralf Hinze, Paul Hudak, John Hughes, Thomas Johnsson, Mark Jones, John Launchbury, Erik Meijer, John Peterson, Alastair Reid, Colin Runciman, Philip Wadler",
-        "dialects": "Helium, Gofer",
-        "influenced": [
-            "Agda",
-            "Bluespec",
-            "C++11/Concepts",
-            "C#/LINQ",
-            "[10]CAL",
-            "Clean",
-            "Clojure",
-            "[11]CoffeeScript",
-            "[12]Curry",
-            "Elm",
-            "Epigram",
-            "[13]Isabelle",
-            "Java/Generics",
-            "Kaya",
-            "Omega",
-            "[14]Python",
-            "[15]Qi",
-            "[16]Timber"
-        ],
-        "influenced_by": [
-            "Clean",
-            "FP",
-            "Gofer",
-            "Hope",
-            "Id",
-            "ISWIM",
-            "KRC",
-            "Lisp",
-            "Miranda",
-            "MLandStandardML",
-            "Orwell",
-            "SASL",
-            "SISAL",
-            "Scheme"
-        ],
-        "major_implementations": "GHC, Hugs, NHC, JHC, Yhc, UHC",
-        "name": "Haskell",
-        "os": "Cross-platform",
-        "paradigms": [
-            "functional",
-            "lazy/non-strict",
-            "modular"
-        ],
-        "preview_release": "Announced as Haskell 2014[2]",
-        "stable_release": "Haskell 2010[1] (July\u00a02010; 3\u00a0years ago\u00a0(2010-07))",
-        "typing_discipline": "static, strong, inferred",
-        "website": "haskell.org"
-    },
-    {
-        "name": "Concepts (C++)"
-    },
-    {
-        "name": "C++11"
-    },
-    {
-        "name": "Bluespec, Inc."
     },
     {
         "influenced_by": [
@@ -3762,7 +3627,7 @@
         ],
         "influenced_by": [
             "Pascal",
-            "SmallTalk"
+            "Smalltalk"
         ],
         "major_implementations": "Delphi (x86, ARM and CLI), Oxygene (CLI, Java, Native Cocoa), Free Pascal (x86, x86-64, PowerPC, ppc64, SPARC and ARM), Virtual Pascal (x86), Turbo51 (Intel 8051), Smart Mobile Studio (JavaScript)",
         "name": "Object Pascal",
@@ -3822,7 +3687,7 @@
     {
         "developers": "Khronos Group",
         "initial_release": "January\u00a01992\u00a0(1992-01)",
-        "license": "Various[1]",
+        "license": "Various",
         "name": "OpenGL",
         "operating_system": "Cross-platform",
         "original_authors": "Silicon Graphics",
@@ -4019,9 +3884,9 @@
             "scripting",
             "object-oriented (prototype-based)",
             "imperative",
-            "functional[1]"
+            "functional"
         ],
-        "stable_release": "1.8.5[2] (March\u00a022, 2011; 2 years ago\u00a0(2011-03-22))",
+        "stable_release": "1.8.5 (March\u00a022, 2011; 2 years ago\u00a0(2011-03-22))",
         "typing_discipline": "dynamic, duck"
     },
     {
@@ -4057,7 +3922,7 @@
             "Oberon",
             "Objective-C",
             "UCSDPascal",
-            "SmallTalk"
+            "Smalltalk"
         ],
         "license": "GNU General Public License, Java Community Process",
         "major_implementations": "OpenJDK, many others",
@@ -4095,7 +3960,7 @@
             "structured",
             "object-oriented"
         ],
-        "stable_release": "0.23.1[1] (22\u00a0December 2013; 33 days ago\u00a0(2013-12-22))",
+        "stable_release": "0.23.1 (22\u00a0December 2013; 33 days ago\u00a0(2013-12-22))",
         "typing_discipline": "static, strong",
         "website": "live.gnome.org/Vala"
     },
@@ -4195,7 +4060,7 @@
             "Sather",
             "StandardML"
         ],
-        "license": "Apache License 2.0 or MIT License[2]",
+        "license": "Apache License 2.0 or MIT License",
         "name": "Rust",
         "os": "Linux, Mac OS X, Windows, FreeBSD, Android",
         "paradigms": [
@@ -4206,7 +4071,7 @@
             "object-oriented",
             "structured"
         ],
-        "preview_release": "0.9[1] (9\u00a0January 2014; 15 days ago\u00a0(2014-01-09))",
+        "preview_release": "0.9 (9\u00a0January 2014; 15 days ago\u00a0(2014-01-09))",
         "typing_discipline": "static, strong, inferred, structural",
         "usual_filename_extensions": ".rs",
         "website": "rust-lang.org"
@@ -4311,17 +4176,17 @@
             "Pascal",
             "Python"
         ],
-        "license": "BSD-style[4] + Patent grant[5]",
+        "license": "BSD-style + Patent grant",
         "major_implementations": "gc (8g, 6g, 5g), gccgo",
         "name": "Go",
-        "os": "Linux, Mac OS X, FreeBSD, NetBSD, OpenBSD, MS Windows, Plan 9[3]",
+        "os": "Linux, Mac OS X, FreeBSD, NetBSD, OpenBSD, MS Windows, Plan 9",
         "paradigms": [
             "compiled",
             "concurrent",
             "imperative",
             "structured"
         ],
-        "stable_release": "version 1.2[1] (1\u00a0December 2013; 60 days ago\u00a0(2013-12-01))",
+        "stable_release": "version 1.2 (1\u00a0December 2013; 60 days ago\u00a0(2013-12-01))",
         "typing_discipline": "strong, static, inferred",
         "usual_filename_extensions": ".go",
         "website": "golang.org"
@@ -4351,7 +4216,7 @@
         ],
         "influenced_by": [
             "C",
-            "SmallTalk"
+            "Smalltalk"
         ],
         "major_implementations": "Clang, GCC",
         "name": "Objective-C",
@@ -4407,7 +4272,7 @@
         ],
         "platform": "Common Language Infrastructure",
         "stable_release": "5.0 (August\u00a015, 2012; 17 months ago\u00a0(2012-08-15))",
-        "typing_discipline": "static, dynamic,[1]strong, safe, nominative, partially inferred",
+        "typing_discipline": "static, dynamic,strong, safe, nominative, partially inferred",
         "usual_filename_extensions": ".cs"
     },
     {
@@ -4434,7 +4299,7 @@
     {
         "appeared_in": "2011",
         "designed_by": "Mark Sibly",
-        "developer": "Blitz Research Ltd.[1]",
+        "developer": "Blitz Research Ltd.",
         "influenced_by": [
             "BlitzBasic",
             "BlitzMax",
@@ -4456,7 +4321,7 @@
             "concurrent"
         ],
         "platform": "Crossplatform (See the targets section for a full list of supported platforms)",
-        "stable_release": "0.77(d)[2] (January\u00a029, 2014; 1 day ago\u00a0(2014-01-29))",
+        "stable_release": "0.77(d) (January\u00a029, 2014; 1 day ago\u00a0(2014-01-29))",
         "typing_discipline": "Static, Weak, Strong (Optional), Safe, Nominative, Partially Inferred",
         "website": "www.monkey-x.com"
     },
@@ -4473,7 +4338,7 @@
             "Java",
             "PHP",
             "D",
-            "C99",
+            "C",
             "C#",
             "Falcon",
             "Seed7"
@@ -4490,7 +4355,7 @@
         "name": "C++",
         "os": "Cross-platform (multi-platform)",
         "paradigms": [
-            "[1]procedural",
+            "procedural",
             "functional",
             "object-oriented",
             "generic"
@@ -4499,9 +4364,6 @@
         "typing_discipline": "Static, Nominative",
         "usual_filename_extensions": ".h .hh .hpp .hxx .h++ .cc .cpp .cxx .c++",
         "website": "News, status & discussion about Standard C++"
-    },
-    {
-        "name": "C99"
     },
     {
         "appeared_in": "2004",
@@ -4681,50 +4543,20 @@
         "name": "C shell",
         "operating_system": "BSD, UNIX, Linux, Mac OS X",
         "original_authors": "Bill Joy",
-        "stable_release": "tcsh 6.18.00 / 14\u00a0January 2012; 2 years ago\u00a0(2012-01-14)[1]",
+        "stable_release": "tcsh 6.18.00 / 14\u00a0January 2012; 2 years ago\u00a0(2012-01-14)",
         "type": "Unix Shell",
         "written_in": "C"
     },
     {
-        "appeared_in": "1977",
-        "designed_by": "Alfred Aho, Peter Weinberger, and Brian Kernighan",
-        "dialects": "old Awk oawk 1977, new Awk nawk 1985, GNU Awk gawk",
-        "influenced": [
-            "Tcl",
-            "AMPL",
-            "Perl",
-            "KornShell(ksh93",
-            "dtksh",
-            "tksh)",
-            "Lua"
-        ],
-        "influenced_by": [
-            "C",
-            "SNOBOL",
-            "Bourneshell"
-        ],
-        "major_implementations": "Awk, GNU Awk, mawk, nawk, MKS Awk, Thompson Awk (compiler), Awka (compiler)",
-        "name": "Awk",
-        "os": "Cross-platform",
-        "paradigms": [
-            "scripting",
-            "procedural",
-            "data-driven[1]"
-        ],
-        "stable_release": "IEEE Std 1003.1-2008 (POSIX) / 1985",
-        "typing_discipline": "none; can handle strings, integers and floating point numbers; regular expressions",
-        "website": "cm.bell-labs.com/cm/cs/awkbook"
-    },
-    {
         "available_in": "English",
         "development_status": "Active",
-        "initial_release": "1983[1][2]",
+        "initial_release": "1983",
         "license": "Common Public License (AT&T KornShell), mostly public domain with some GPL (pdksh), proprietary (dtksh)",
         "name": "KornShell",
         "operating_system": "Cross-platform",
         "original_authors": "David Korn",
         "platform": "Unix",
-        "stable_release": "ksh93v / May\u00a020, 2013; 8 months ago\u00a0(2013-05-20)[3]",
+        "stable_release": "ksh93v / May\u00a020, 2013; 8 months ago\u00a0(2013-05-20)",
         "type": "Unix shell",
         "website": "www.kornshell.org",
         "written_in": "C"
@@ -4732,7 +4564,7 @@
     {
         "initial_release": "1977",
         "license": "[under discussion]",
-        "name": "Bourne shell",
+        "name": "Bourneshell",
         "operating_system": "Unix",
         "original_authors": "Stephen Bourne",
         "type": "Unix shell"
@@ -4821,7 +4653,7 @@
             "ALGOL",
             "EXEC2"
         ],
-        "major_implementations": "VM/SP and later, TSO/E V2 and later, IBM NetRexx, Object REXX, Open Object Rexx,[1] Regina,[2] others",
+        "major_implementations": "VM/SP and later, TSO/E V2 and later, IBM NetRexx, Object REXX, Open Object Rexx, Regina, others",
         "name": "Rexx",
         "paradigms": [
             "procedural",
@@ -4859,8 +4691,8 @@
             "REXX",
             "Java"
         ],
-        "license": "ICU[2]",
-        "major_implementations": "RexxLA NetRexx[1]",
+        "license": "ICU",
+        "major_implementations": "RexxLA NetRexx",
         "name": "NetRexx",
         "paradigms": [
             "object-oriented",
@@ -5211,7 +5043,7 @@
             "Lisp",
             "Logo"
         ],
-        "license": "2.7.8 is Freely redistributable software,[3] 2.101.0 has Apache 2.0 license[4]",
+        "license": "2.7.8 is Freely redistributable software, 2.101.0 has Apache 2.0 license",
         "name": "Rebol",
         "os": "cross-platform",
         "paradigms": [
@@ -5354,7 +5186,7 @@
             "Luna"
         ],
         "influenced_by": [
-            "SmallTalk",
+            "Smalltalk",
             "NewtonScript",
             "Self",
             "Lua",
@@ -5446,7 +5278,7 @@
         "designed_by": "Ola Bini",
         "influenced_by": [
             "Io",
-            "SmallTalk",
+            "Smalltalk",
             "Lisp",
             "Ruby"
         ],
@@ -5472,7 +5304,7 @@
             "Python",
             "Ruby",
             "Perl",
-            "SmallTalk",
+            "Smalltalk",
             "Objective-C"
         ],
         "license": "Apache License v2.0",
@@ -5494,7 +5326,7 @@
         "designed_by": "Christopher Bertels",
         "developer": "Christopher Bertels",
         "influenced_by": [
-            "SmallTalk",
+            "Smalltalk",
             "Ruby",
             "Erlang",
             "Io"
@@ -5510,48 +5342,6 @@
         "website": "www.fancy-lang.org"
     },
     {
-        "appeared_in": "1972",
-        "designed_by": "Alan Kay, Dan Ingalls, Adele Goldberg",
-        "developer": "Alan Kay, Dan Ingalls, Adele Goldberg, Ted Kaehler, Diana Merry, Scott Wallace, Peter Deutsch and Xerox PARC",
-        "influenced": [
-            "Objective-C",
-            "Self",
-            "Java",
-            "PHP5",
-            "Logtalk",
-            "Dylan",
-            "AppleScript",
-            "Lisaac",
-            "NewtonScript",
-            "Lasso",
-            "Python",
-            "Ruby",
-            "Groovy",
-            "Scala",
-            "Perl6",
-            "CommonLispObjectSystem",
-            "Falcon",
-            "Io",
-            "Ioke",
-            "Fancy",
-            "Dart"
-        ],
-        "influenced_by": [
-            "Lisp",
-            "Simula",
-            "Logo",
-            "Sketchpad"
-        ],
-        "major_implementations": "Pharo, Squeak, GNU SmallTalk, VisualWorks, Dolphin SmallTalk, SmallTalk/X, VA SmallTalk",
-        "name": "SmallTalk",
-        "os": "Cross-platform (multi-platform)",
-        "paradigms": [
-            "object-oriented"
-        ],
-        "stable_release": "SmallTalk-80 version 2 (1980)",
-        "typing_discipline": "strong, dynamic"
-    },
-    {
         "appeared_in": "2003",
         "designed_by": "Giancarlo Niccolai",
         "developer": "Falcon Committee",
@@ -5559,13 +5349,13 @@
             "C++",
             "Perl",
             "Lua",
-            "SmallTalk",
+            "Smalltalk",
             "PHP",
             "Lisp",
             "Python",
             "Ruby"
         ],
-        "license": "GPLv2, FPLLv1.1[2] (a modified version of the Apache License)",
+        "license": "GPLv2, FPLLv1.1 (a modified version of the Apache License)",
         "name": "Falcon",
         "os": "Cross-platform",
         "paradigms": [
@@ -5576,7 +5366,7 @@
             "tabular",
             "message passing"
         ],
-        "stable_release": "0.9.6.8 (Chimera) (December\u00a031, 2010; 3 years ago\u00a0(2010-12-31)[1])",
+        "stable_release": "0.9.6.8 (Chimera) (December\u00a031, 2010; 3 years ago\u00a0(2010-12-31))",
         "typing_discipline": "Dynamic",
         "usual_filename_extensions": ".ftd, .fal, .fam",
         "website": "falconpl.org"
@@ -5621,7 +5411,7 @@
             "Python",
             "Ruby"
         ],
-        "license": "GPL/Artistic (DMD frontend),Boost (standard and runtime libraries),\nsource available (DMD backend),[4]\nFully open-source (LDC and GDC)[5]",
+        "license": "GPL/Artistic (DMD frontend),Boost (standard and runtime libraries),\nsource available (DMD backend),\nFully open-source (LDC and GDC)",
         "major_implementations": "DMD (reference implementation), GDC, LDC",
         "name": "D",
         "os": "DMD: Unix-like, Windows, Mac OS X",
@@ -5631,7 +5421,7 @@
             "functional",
             "meta"
         ],
-        "stable_release": "2.064.2 [2] (November\u00a05, 2013; 2 months ago\u00a0(2013-11-05)[3])",
+        "stable_release": "2.064.2  (November\u00a05, 2013; 2 months ago\u00a0(2013-11-05))",
         "typing_discipline": "strong, static",
         "usual_filename_extensions": ".d",
         "website": "dlang.org"
@@ -5650,7 +5440,7 @@
             "Objective-C",
             "Self",
             "Java",
-            "PHP5",
+            "PHP",
             "Logtalk",
             "Dylan",
             "AppleScript",
@@ -5662,7 +5452,8 @@
             "Groovy",
             "Scala",
             "Perl6",
-            "CommonLispObjectSystem",
+            "CommonLisp",
+            "ObjectSystem",
             "Falcon",
             "Io",
             "Ioke",
@@ -5675,13 +5466,13 @@
             "Logo",
             "Sketchpad"
         ],
-        "major_implementations": "Pharo, Squeak, GNU SmallTalk, VisualWorks, Dolphin SmallTalk, SmallTalk/X, VA SmallTalk",
-        "name": "SmallTalk",
+        "major_implementations": "Pharo, Squeak, GNU Smalltalk, VisualWorks, Dolphin Smalltalk, Smalltalk/X, VA Smalltalk",
+        "name": "Smalltalk",
         "os": "Cross-platform (multi-platform)",
         "paradigms": [
             "object-oriented"
         ],
-        "stable_release": "SmallTalk-80 version 2 (1980)",
+        "stable_release": "Smalltalk-80 version 2 (1980)",
         "typing_discipline": "strong, dynamic"
     },
     {
@@ -5697,7 +5488,7 @@
             "Falcon",
             "Go",
             "Groovy",
-            "Ruby[11]"
+            "Ruby"
         ],
         "influenced_by": [
             "ABC",
@@ -5723,7 +5514,7 @@
             "procedural",
             "reflective"
         ],
-        "preview_release": "3.4.0 beta 3 /\n26\u00a0January\u00a02014\u00a0(2014-01-26)[1]",
+        "preview_release": "3.4.0 beta 3 /\n26\u00a0January\u00a02014\u00a0(2014-01-26)",
         "stable_release": "3.3.3 /\n19\u00a0November\u00a02013\u00a0(2013-11-19)\n2.7.6 /\n10\u00a0November\u00a02013\u00a0(2013-11-10)",
         "typing_discipline": "duck, dynamic, strong",
         "usual_filename_extensions": ".py, .pyw, .pyc, .pyo, .pyd",
@@ -5813,7 +5604,7 @@
         ],
         "influenced_by": [
             "Awk",
-            "SmallTalk80",
+            "Smalltalk80",
             "Lisp",
             "C",
             "C++",
@@ -5821,7 +5612,7 @@
             "Unixshell",
             "Pascal"
         ],
-        "license": "GNU General Public License or Artistic License[3]",
+        "license": "GNU General Public License or Artistic License",
         "name": "Perl",
         "os": "Cross-platform",
         "paradigms": [
@@ -5833,8 +5624,8 @@
             "data-driven",
             "generic"
         ],
-        "preview_release": "5.19.5[2] (October\u00a020,\u00a02013\u00a0(2013-10-20))",
-        "stable_release": "5.18.2[1] (January\u00a07,\u00a02014\u00a0(2014-01-07))",
+        "preview_release": "5.19.5 (October\u00a020,\u00a02013\u00a0(2013-10-20))",
+        "stable_release": "5.18.2 (January\u00a07,\u00a02014\u00a0(2014-01-07))",
         "typing_discipline": "Dynamic",
         "usual_filename_extensions": ".pl .pm .t .pod[citation needed]",
         "website": "www.perl.org"
@@ -5864,7 +5655,7 @@
             "Sed",
             "Awk"
         ],
-        "major_implementations": "[1]",
+        "major_implementations": "",
         "name": "pp, chomski virtual machine",
         "os": "Cross-platform",
         "paradigms": [
@@ -5897,7 +5688,7 @@
         "paradigms": [
             "scripting",
             "procedural",
-            "data-driven[1]"
+            "data-driven"
         ],
         "stable_release": "IEEE Std 1003.1-2008 (POSIX) / 1985",
         "typing_discipline": "none; can handle strings, integers and floating point numbers; regular expressions",
@@ -5905,78 +5696,6 @@
     },
     {
         "name": "ed (text editor)"
-    },
-    {
-        "appeared_in": "1972",
-        "designed_by": "Alan Kay, Dan Ingalls, Adele Goldberg",
-        "developer": "Alan Kay, Dan Ingalls, Adele Goldberg, Ted Kaehler, Diana Merry, Scott Wallace, Peter Deutsch and Xerox PARC",
-        "influenced": [
-            "Objective-C",
-            "Self",
-            "Java",
-            "PHP5",
-            "Logtalk",
-            "Dylan",
-            "AppleScript",
-            "Lisaac",
-            "NewtonScript",
-            "Lasso",
-            "Python",
-            "Ruby",
-            "Groovy",
-            "Scala",
-            "Perl6",
-            "CommonLispObjectSystem",
-            "Falcon",
-            "Io",
-            "Ioke",
-            "Fancy",
-            "Dart"
-        ],
-        "influenced_by": [
-            "Lisp",
-            "Simula",
-            "Logo",
-            "Sketchpad"
-        ],
-        "major_implementations": "Pharo, Squeak, GNU SmallTalk, VisualWorks, Dolphin SmallTalk, SmallTalk/X, VA SmallTalk",
-        "name": "SmallTalk",
-        "os": "Cross-platform (multi-platform)",
-        "paradigms": [
-            "object-oriented"
-        ],
-        "stable_release": "SmallTalk-80 version 2 (1980)",
-        "typing_discipline": "strong, dynamic"
-    },
-    {
-        "appeared_in": "1977",
-        "designed_by": "Alfred Aho, Peter Weinberger, and Brian Kernighan",
-        "dialects": "old Awk oawk 1977, new Awk nawk 1985, GNU Awk gawk",
-        "influenced": [
-            "Tcl",
-            "AMPL",
-            "Perl",
-            "KornShell(ksh93",
-            "dtksh",
-            "tksh)",
-            "Lua"
-        ],
-        "influenced_by": [
-            "C",
-            "SNOBOL",
-            "Bourneshell"
-        ],
-        "major_implementations": "Awk, GNU Awk, mawk, nawk, MKS Awk, Thompson Awk (compiler), Awka (compiler)",
-        "name": "Awk",
-        "os": "Cross-platform",
-        "paradigms": [
-            "scripting",
-            "procedural",
-            "data-driven[1]"
-        ],
-        "stable_release": "IEEE Std 1003.1-2008 (POSIX) / 1985",
-        "typing_discipline": "none; can handle strings, integers and floating point numbers; regular expressions",
-        "website": "cm.bell-labs.com/cm/cs/awkbook"
     },
     {
         "appeared_in": "1958",
@@ -6011,7 +5730,7 @@
             "Rebol",
             "Racket",
             "Ruby",
-            "SmallTalk",
+            "Smalltalk",
             "Tcl"
         ],
         "influenced_by": [
@@ -6134,9 +5853,9 @@
             "Lisp",
             "Perl",
             "Python",
-            "SmallTalk"
+            "Smalltalk"
         ],
-        "license": "Ruby License or BSD License[7][8]",
+        "license": "Ruby License or BSD License",
         "major_implementations": "Ruby MRI, YARV, Rubinius, MagLev, JRuby, MacRuby, RubyMotion, HotRuby, IronRuby, mruby",
         "name": "Ruby",
         "os": "Cross-platform",
@@ -6165,7 +5884,7 @@
             "Java",
             "PHP",
             "D",
-            "C99",
+            "C",
             "C#",
             "Falcon",
             "Seed7"
@@ -6182,7 +5901,7 @@
         "name": "C++",
         "os": "Cross-platform (multi-platform)",
         "paradigms": [
-            "[1]procedural",
+            "procedural",
             "functional",
             "object-oriented",
             "generic"
@@ -6209,17 +5928,17 @@
             "ALGOL68",
             "Pascal",
             "C++",
-            "SmallTalk",
+            "Smalltalk",
             "Java",
             "Eiffel"
         ],
-        "major_implementations": "\nAdaCore GNAT,Green Hills Software Optimising Ada 95 compiler,\nAonix ObjectAda,[2]\nDDC-I Score",
+        "major_implementations": "\nAdaCore GNAT,Green Hills Software Optimising Ada 95 compiler,\nAonix ObjectAda,\nDDC-I Score",
         "name": "Ada",
         "os": "Cross-platform (multi-platform)",
         "paradigms": [
             "multi-paradigm"
         ],
-        "preview_release": "Ada 2012[1] (November\u00a02011; 2\u00a0years ago\u00a0(2011-11))",
+        "preview_release": "Ada 2012 (November\u00a02011; 2\u00a0years ago\u00a0(2011-11))",
         "stable_release": "Ada 2012 (December\u00a010, 2012; 13 months ago\u00a0(2012-12-10))",
         "typing_discipline": "static, strong, safe, nominative",
         "usual_filename_extensions": ".adb .ads",
