@@ -599,7 +599,7 @@
             "imperative",
             "structured",
             "modular",
-            "object oriented"
+            "object-oriented"
         ],
         "typing_discipline": "strong, hybrid (static and dynamic)"
     },
@@ -897,7 +897,7 @@
         "name": "S",
         "paradigms": [
             "imperative",
-            "object oriented"
+            "object-oriented"
         ],
         "typing_discipline": "dynamic, strong",
         "website": "stat.bell-labs.com/S/"
