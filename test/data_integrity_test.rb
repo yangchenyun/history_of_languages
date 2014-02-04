@@ -33,11 +33,13 @@ class DataIntegrityTest < Minitest::Test
         assert il['influenced_by'].include?(l_name),
           "#{l_name} influenced #{il_name}, but not stated in #{il_name}"
       end
+
+      (l['influenced_by'] || []).each do |il_name|
+        il = LANG_HASH[il_name]
+        assert il['influenced'].include?(l_name),
+          "#{l_name} influenced_by #{il_name}, but not stated in #{il_name}"
+      end
     end
-  end
-
-  def test_one_paradigm_is_assigned
-
   end
 
   def test_paradigm_names_are_unique
