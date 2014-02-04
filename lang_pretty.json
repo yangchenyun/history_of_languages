@@ -1498,7 +1498,8 @@
             "SQL",
             "Tcl",
             "Tk",
-            "ChefPuppet"
+            "Chef",
+            "Puppet"
         ],
         "initial_release": "November\u00a014, 2006; 7 years ago\u00a0(2006-11-14)",
         "license": "Proprietary software; a component of Microsoft Windows",
@@ -2315,7 +2316,15 @@
         "name": "Moose (Perl)"
     },
     {
-        "name": "Emacs Lisp"
+        "name": "Emacs Lisp",
+        "paradigms": [
+          "procedural",
+          "functional",
+          "object-oriented",
+          "meta",
+          "reflective",
+          "generic"
+        ]
     },
     {
         "name": "Maclisp"
@@ -4921,7 +4930,8 @@
         "platform": "UNIVAC I"
     },
     {
-        "name": "Assembly"
+        "name": "Assembly",
+        "paradigms": ["machine_code"]
     },
     {
         "appeared_in": "1968",
