@@ -48,6 +48,7 @@ lang.each do |l|
     filtered_lang << l
   end
 end
+filtered_lang = filtered_lang.to_a
 
 # clean influenced and influenced_by properties
 filtered_lang_names = filtered_lang.map {|i| i['name']}
@@ -74,6 +75,32 @@ filtered_lang.each do |l|
   end
 end
 
-output = File.new(File.expand_path("../../lang.json", __FILE__), 'w+')
-output.write(JSON.pretty_generate(filtered_lang.to_a))
+lang_hash = {}
+filtered_lang.each { |l| lang_hash[l['name']] = l }
+
+# build missing bi-relationship between influenced and influence_by
+filtered_lang.each do |l|
+  l_name = l['name']
+  (l['influenced'] || []).each do |il_name|
+    il = lang_hash[il_name]
+    il['influenced_by'] ||= []
+    il['influenced_by'] << l_name unless il['influenced_by'].include?(l_name)
+  end
+
+  (l['influenced_by'] || []).each do |il_name|
+    il = lang_hash[il_name]
+    il['influenced'] ||= []
+    il['influenced'] << l_name unless il['influenced'].include?(l_name)
+  end
+end
+
+# remove self-reference
+filtered_lang.each do |l|
+  l_name = l['name']
+  l['influenced_by'].delete(l_name) if (l['influenced_by'] || []).include?(l_name)
+  l['influenced'].delete(l_name) if (l['influenced'] || []).include?(l_name)
+end
+
+output = File.new(File.expand_path("../../lang.json", __FILE__), 'w')
+output.write(JSON.pretty_generate(filtered_lang))
 output.close

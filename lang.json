@@ -20,7 +20,8 @@
       "Eiffel",
       "Perl",
       "Python",
-      "Smalltalk"
+      "Smalltalk",
+      "Scheme"
     ],
     "license": "Ruby License or BSD License",
     "major_implementations": "Ruby MRI, YARV, Rubinius, MagLev, JRuby, MacRuby, RubyMotion, HotRuby, IronRuby, mruby",
@@ -59,7 +60,8 @@
     ],
     "influenced_by": [
       "Assembly",
-      "FORTRAN"
+      "FORTRAN",
+      "C++"
     ],
     "major_implementations": "Clang, GCC, Intel C, MSVC, Pelles C, Watcom C",
     "name": "C",
@@ -115,7 +117,7 @@
       "AutoHotkey"
     ],
     "influenced_by": [
-
+      "FORTRAN"
     ],
     "major_implementations": "Apple BASIC, Atari BASIC, Sinclair BASIC, Commodore BASIC, Microsoft BASIC, Liberty BASIC, BBC BASIC, TI-BASIC, Visual Basic",
     "name": "BASIC",
@@ -133,7 +135,10 @@
     "preview_release": "2.0-a044 / January 11, 2014; 13 days ago (2014-01-11)",
     "stable_release": "1.1.14.01 / 15 January 2014; 9 days ago (2014-01-15)",
     "type": "Scripting language Automation GUI utility",
-    "website": "www.autohotkey.com"
+    "website": "www.autohotkey.com",
+    "influenced_by": [
+      "BASIC"
+    ]
   },
   {
     "appeared_in": "1991",
@@ -252,7 +257,7 @@
       "Ruby"
     ],
     "influenced_by": [
-
+      "Racket"
     ],
     "major_implementations": "Many. See Category:Scheme implementations",
     "name": "Scheme",
@@ -332,7 +337,8 @@
     "designed_by": "Ross Ihaka and Robert Gentleman",
     "developer": "R Development Core Team",
     "influenced_by": [
-      "Scheme"
+      "Scheme",
+      "Common Lisp"
     ],
     "license": "GNU General Public License",
     "name": "R",
@@ -358,7 +364,9 @@
       "Ruby"
     ],
     "influenced_by": [
-      "Scheme"
+      "Scheme",
+      "Common Lisp",
+      "Smalltalk"
     ],
     "major_implementations": "Open Dylan, Gwydion Dylan",
     "name": "Dylan",
@@ -507,7 +515,8 @@
       "R"
     ],
     "influenced_by": [
-      "Scheme"
+      "Scheme",
+      "Smalltalk"
     ],
     "major_implementations": "Allegro CL, ABCL, CLISP, Clozure CL, CMUCL, Corman Common Lisp, ECL, GCL, LispWorks, Movitz, Scieneer CL, SBCL, Symbolics Common Lisp",
     "name": "Common Lisp",
@@ -526,7 +535,10 @@
     "website": "common-lisp.net"
   },
   {
-    "name": "Emacs Lisp"
+    "name": "Emacs Lisp",
+    "influenced_by": [
+      "Common Lisp"
+    ]
   },
   {
     "appeared_in": "2011",
@@ -572,7 +584,7 @@
     "appeared_in": "1993",
     "developer": "Apple Inc.",
     "influenced_by": [
-
+      "Smalltalk"
     ],
     "license": "Apple EULA (parts available under APSL)",
     "name": "AppleScript",
@@ -860,7 +872,8 @@
       "C",
       "C++",
       "Java",
-      "Tcl"
+      "Tcl",
+      "Smalltalk"
     ],
     "license": "PHP License",
     "major_implementations": "Zend Engine, Phalanger, Quercus, Project Zero, HipHop",
@@ -889,7 +902,9 @@
     "influenced_by": [
       "Scheme",
       "Self",
-      "Java"
+      "Java",
+      "C",
+      "Perl"
     ],
     "major_implementations": "KJS, Rhino, SpiderMonkey, V8, Carakan, Chakra",
     "name": "JavaScript",
@@ -925,7 +940,8 @@
       "C#",
       "Eiffel",
       "Objective-C",
-      "Smalltalk"
+      "Smalltalk",
+      "C"
     ],
     "license": "GNU General Public License, Java Community Process",
     "major_implementations": "OpenJDK, many others",
@@ -981,7 +997,8 @@
       "OCaml",
       "Racket",
       "Ruby",
-      "Standard ML"
+      "Standard ML",
+      "C"
     ],
     "license": "Apache License 2.0 or MIT License",
     "name": "Rust",
@@ -1064,8 +1081,8 @@
       "Eiffel",
       "Java",
       "Haskell",
-      "C#",
-      "F#"
+      "F#",
+      "C"
     ],
     "license": "CLR is proprietary, Mono compiler is dual GPLv3, MIT/X11 and libraries are LGPLv2, DotGNU is dual GPL and LGPLv2",
     "major_implementations": "Visual C♯, .NET Framework, Mono, DotGNU",
@@ -1120,7 +1137,8 @@
     ],
     "influenced_by": [
       "C",
-      "Ada"
+      "Ada",
+      "Haskell"
     ],
     "major_implementations": "LLVM Clang, GCC, Microsoft Visual C++, Intel C++ Compiler, Comeau C/C++, Sun Studio",
     "name": "C++",
@@ -1167,7 +1185,9 @@
     ],
     "influenced_by": [
       "C++",
-      "Scheme"
+      "Scheme",
+      "Self",
+      "Awk"
     ],
     "license": "MIT License",
     "major_implementations": "Lua, LuaJIT, LLVM-Lua, Lua Alchemy",
@@ -1435,7 +1455,8 @@
       "Dylan",
       "Haskell",
       "Java",
-      "Perl"
+      "Perl",
+      "Smalltalk"
     ],
     "license": "Python Software Foundation License",
     "major_implementations": "CPython, PyPy, IronPython, Jython",
