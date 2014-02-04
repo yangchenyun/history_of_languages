@@ -42,7 +42,9 @@ class DataIntegrityTest < Minitest::Test
     end
   end
 
-  def test_paradigm_names_are_unique
-
+  def test_at_least_one_paradigm_is_assigned
+    LANGS.map do |l|
+      assert l['paradigms'], "#{l['name']} has no paradigms."
+    end
   end
 end
