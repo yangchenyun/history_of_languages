@@ -1,0 +1,21 @@
+{
+  "name": "languages_visualize",
+  "version": "0.0.1",
+  "authors": [
+    "Steven Yang <yangchenyun@gmail.com>"
+  ],
+  "description": "application to visulizae language history",
+  "main": "web/index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.4.1"
+  }
+}

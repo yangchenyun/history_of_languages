@@ -24,3 +24,4 @@
 # Gemfile.lock
 # .ruby-version
 # .ruby-gemset
+**/bower_components/*
