@@ -12,7 +12,7 @@ class DataIntegrityTest < Minitest::Test
 
   def test_no_self_influence
     LANGS.map do |l|
-      (l['influenced'] || []).concat(l['influenced_by'] || []).each do |il_name|
+      (l['influenced'] || []).dup.concat(l['influenced_by'] || []).each do |il_name|
         refute_equal l['name'], il_name end
     end
   end
@@ -28,7 +28,6 @@ class DataIntegrityTest < Minitest::Test
   def test_influenced_and_influenced_by_are_bidirection
     LANGS.map do |l|
       l_name = l['name']
-      # ruby
       (l['influenced'] || []).each do |il_name|
         il = LANG_HASH[il_name]
         assert il['influenced_by'].include?(l_name),
