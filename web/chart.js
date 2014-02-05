@@ -18,8 +18,8 @@ function reducedToLinks (langs, type) {
 }
 
 function draw (data) {
-  var dimention = { w: 1280, h: 800 },
-      margins = { left: 20, top: 20, bottom: 20, right: 20 },
+  var dimention = { w: 3000, h: 600 },
+      margins = { left: 80, top: 20, bottom: 20, right: 20 },
       circleR = 5;
 
   var timeScale = d3.time.scale()
@@ -51,7 +51,7 @@ function draw (data) {
   // draw x axis
   chart.append("g")
     .attr("class", "x axis")
-    .attr("transform", "translate(" + margins.left + "," + (dimention.h - margins.bottom) + ")")
+    .attr("transform", "translate(" + 0 + "," + (dimention.h - margins.bottom) + ")")
     .call(timeAxis);
 
   // draw language points
@@ -89,7 +89,7 @@ function draw (data) {
     .attr('text-anchor','end')
     .attr('class', 'lang_name')
     .attr('transform', function (d) {
-      return "translate(-5, 10)" + "rotate (-45," + d.x + "," + d.y + ")";
+      return "translate(-5, 10)" + "rotate (-55," + d.x + "," + d.y + ")";
     })
     .attr('x', function (d) { return d.x; })
     .attr('y', function (d) { return d.y; })
