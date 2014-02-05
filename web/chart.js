@@ -82,6 +82,17 @@ function draw (data) {
         return d.y;
       });
 
+  chart.select('.lang_container')
+    .selectAll('text.lang_name')
+    .data(data)
+    .enter()
+    .append('text')
+      .text(function (d) { return d['name']; })
+      .attr('text-anchor','end')
+      .attr('class', 'lang_name')
+      .attr('x', function (d) { return d.x; })
+      .attr('y', function (d) { return d.y; });
+
   // draw influenced path
   var influencedLinks = reducedToLinks (data, 'influenced');
 

@@ -4,3 +4,7 @@
   stroke-opacity: .4;
   pointer-events: none;
 }
+
+.lang_name {
+  font-size: 0.7em;
+}
