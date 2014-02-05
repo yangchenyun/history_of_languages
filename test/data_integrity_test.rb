@@ -47,4 +47,10 @@ class DataIntegrityTest < Minitest::Test
       assert l['paradigms'], "#{l['name']} has no paradigms."
     end
   end
+
+  def test_appeared_in
+    LANGS.map do |l|
+      assert l['appeared_in'], "#{l['name']} doesnt have appeared data."
+    end
+  end
 end

@@ -514,6 +514,7 @@
   },
   {
     "name": "Emacs Lisp",
+    "appeared_in": "1985",
     "paradigms": [
       "procedural",
       "functional",
@@ -686,6 +687,7 @@
     ],
     "major_implementations": "MLKit, MLton, MLWorks, Moscow ML, Poly/ML, SML/NJ, MLj, SML.NET",
     "name": "Standard ML",
+    "appeared_in": "1990",
     "paradigms": [
       "functional",
       "imperative"
@@ -1180,6 +1182,7 @@
   },
   {
     "name": "Assembly",
+    "appeared_in": "1949",
     "paradigms": [
 
     ],
@@ -1282,6 +1285,7 @@
     "license": "MIT",
     "major_implementations": "ikj (JVM), ikc (CLR)",
     "name": "Ioke",
+    "appeared_in": "2008",
     "paradigms": [
       "object-oriented",
       "prototype"
