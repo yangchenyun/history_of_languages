@@ -101,6 +101,11 @@ filtered_lang.each do |l|
   l['influenced'].delete(l_name) if (l['influenced'] || []).include?(l_name)
 end
 
+# add github colors
+filtered_lang.each do |l|
+  l['color'] = github_langs[l['name']]
+end
+
 output = File.new(File.expand_path("../../lang.json", __FILE__), 'w')
 output.write(JSON.pretty_generate(filtered_lang))
 output.close
