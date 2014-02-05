@@ -72,6 +72,7 @@ function draw (data) {
       .attr('class', 'lang');
 
   langs.append('circle')
+    .attr('fill', function (d) { return d.color; })
     .attr('r', circleR)
     .attr('cx', function (d) {
       d.x = timeScale(new Date(d['appeared_in']));
@@ -91,7 +92,8 @@ function draw (data) {
       return "translate(-5, 10)" + "rotate (-45," + d.x + "," + d.y + ")";
     })
     .attr('x', function (d) { return d.x; })
-    .attr('y', function (d) { return d.y; });
+    .attr('y', function (d) { return d.y; })
+    .attr('fill', function (d) { return d.color; });
 
   // draw influenced path
   var influencedLinks = reducedToLinks (data, 'influenced');
@@ -108,6 +110,7 @@ function draw (data) {
       .data(influencedLinks)
     .enter().append("path")
       .attr("class", function(d) { return "link source-" + d.source.name + " target-" + d.target.name; })
+      .attr('stroke', function (d) { return d.source.color; })
       .attr("d", function(d) {
         var source = d.source,
             target = d.target,

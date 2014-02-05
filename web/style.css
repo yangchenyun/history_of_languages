@@ -1,10 +1,9 @@
 .link {
   fill: none;
-  stroke: #1f77b4;
-  stroke-opacity: .4;
+  stroke-opacity: .7;
   pointer-events: none;
 }
 
 .lang_name {
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
