@@ -42,7 +42,8 @@
     "stable_release": "2.1.0 (December 25, 2013 (2013-12-25))",
     "typing_discipline": "duck, dynamic",
     "usual_filename_extensions": ".rb, .rbw",
-    "website": "www.ruby-lang.org"
+    "website": "www.ruby-lang.org",
+    "color": "#701516"
   },
   {
     "appeared_in": "1972",
@@ -79,7 +80,8 @@
     ],
     "stable_release": "C11 (December 2011)",
     "typing_discipline": "Static, weak, manifest, nominal",
-    "usual_filename_extensions": ".c, .h"
+    "usual_filename_extensions": ".c, .h",
+    "color": "#555"
   },
   {
     "appeared_in": "1984",
@@ -91,7 +93,8 @@
       "structured"
     ],
     "stable_release": "IEEE1364-2005 (9 November 2005; 8 years ago (2005-11-09))",
-    "typing_discipline": "Static, weak"
+    "typing_discipline": "Static, weak",
+    "color": "#848bf3"
   },
   {
     "appeared_in": "1957",
@@ -114,7 +117,8 @@
     ],
     "stable_release": "Fortran 2008 (ISO/IEC 1539-1:2010) (2010)",
     "typing_discipline": "strong, static, manifest",
-    "usual_filename_extensions": ".f, .for, .f90, .f95"
+    "usual_filename_extensions": ".f, .for, .f90, .f95",
+    "color": "#4d41b1"
   },
   {
     "appeared_in": "1964",
@@ -131,7 +135,8 @@
       "structured",
       "procedural",
       "object-oriented"
-    ]
+    ],
+    "color": "#ccc"
   },
   {
     "appeared_in": "1991",
@@ -150,7 +155,8 @@
     ],
     "stable_release": "6.0 (1998; 16 years ago (1998))",
     "typing_discipline": "Static, strong",
-    "website": "msdn.microsoft.com/en-us/vstudio/ms788229.aspx"
+    "website": "msdn.microsoft.com/en-us/vstudio/ms788229.aspx",
+    "color": "#945db7"
   },
   {
     "appeared_in": "2005",
@@ -180,7 +186,8 @@
     ],
     "stable_release": "3.0.50727.1 (September 12, 2012 (2012-09-12))",
     "typing_discipline": "static, strong, inferred",
-    "website": "fsharp.org"
+    "website": "fsharp.org",
+    "color": "#B845FC"
   },
   {
     "appeared_in": "1986",
@@ -210,7 +217,8 @@
     "stable_release": "R16B03 (11 December 2013 (2013-12-11))",
     "typing_discipline": "dynamic, strong",
     "usual_filename_extensions": ".erl .hrl",
-    "website": "www.erlang.org"
+    "website": "www.erlang.org",
+    "color": "#949e0e"
   },
   {
     "appeared_in": "2007",
@@ -236,7 +244,8 @@
     "stable_release": "1.5.1 (March 10, 2013; 10 months ago (2013-03-10))",
     "typing_discipline": "dynamic, strong",
     "usual_filename_extensions": ".clj, .edn",
-    "website": "clojure.org"
+    "website": "clojure.org",
+    "color": "#db5855"
   },
   {
     "appeared_in": "1975",
@@ -267,7 +276,8 @@
     "scope": "lexical",
     "stable_release": "R6RS (ratified standard) (2007)",
     "typing_discipline": "strong, dynamic",
-    "usual_filename_extensions": ".scm, .ss"
+    "usual_filename_extensions": ".scm, .ss",
+    "color": "#1e4aec"
   },
   {
     "appeared_in": "1994",
@@ -296,7 +306,8 @@
     "platform": "x86, PowerPC, SPARC, MIPS, ARM",
     "stable_release": "5.3.6 (August 10, 2013; 5 months ago (2013-08-10))",
     "typing_discipline": "Dynamic, strong, static",
-    "website": "racket-lang.org"
+    "website": "racket-lang.org",
+    "color": "#ae17ff"
   },
   {
     "appeared_in": "1970",
@@ -319,7 +330,8 @@
     "typing_discipline": "dynamic, weak",
     "usual_filename_extensions": ".m",
     "website": "MATLAB product page",
-    "written_in": "C, C++, Java"
+    "written_in": "C, C++, Java",
+    "color": "#bb92ac"
   },
   {
     "appeared_in": "1993",
@@ -343,7 +355,8 @@
     "preview_release": "Through Subversion",
     "stable_release": "3.0.2 (September 25, 2013; 4 months ago (2013-09-25))",
     "typing_discipline": "Dynamic",
-    "website": "www.r-project.org"
+    "website": "www.r-project.org",
+    "color": "#198ce7"
   },
   {
     "appeared_in": "1990",
@@ -366,7 +379,8 @@
     ],
     "stable_release": "2013.2",
     "typing_discipline": "Strong, dynamic",
-    "website": "opendylan.org"
+    "website": "opendylan.org",
+    "color": "#3ebc27"
   },
   {
     "appeared_in": "1988",
@@ -390,7 +404,8 @@
     "stable_release": "8.6.1 (September 20, 2013 (2013-09-20))",
     "typing_discipline": "dynamic typing, everything can be treated as a string",
     "usual_filename_extensions": ".tcl",
-    "website": "tcl.sourceforge.net"
+    "website": "tcl.sourceforge.net",
+    "color": "#e4cc98"
   },
   {
     "appeared_in": "1997",
@@ -413,7 +428,8 @@
     "preview_release": "2.101.0 (December, 2012)",
     "stable_release": "2.7.8 (January, 2011)",
     "typing_discipline": "dynamic, strong",
-    "website": "www.rebol.com"
+    "website": "www.rebol.com",
+    "color": "#358a5b"
   },
   {
     "appeared_in": "1987",
@@ -436,7 +452,8 @@
     ],
     "stable_release": "4.5.0 (12 January 2014)",
     "typing_discipline": "dynamic, strong",
-    "website": "selflanguage.org"
+    "website": "selflanguage.org",
+    "color": "#0579aa"
   },
   {
     "appeared_in": "2003",
@@ -456,7 +473,8 @@
     ],
     "stable_release": "0.96 (April 20, 2013 (2013-04-20))",
     "typing_discipline": "strong, dynamic",
-    "website": "factorcode.org"
+    "website": "factorcode.org",
+    "color": "#636746"
   },
   {
     "appeared_in": "2002",
@@ -477,7 +495,8 @@
     "paradigms": [
       "object-oriented"
     ],
-    "typing_discipline": "dynamic, strong"
+    "typing_discipline": "dynamic, strong",
+    "color": "#a9188d"
   },
   {
     "appeared_in": "1984",
@@ -510,7 +529,8 @@
     "scope": "lexical, optionally dynamic",
     "typing_discipline": "dynamic, strong",
     "usual_filename_extensions": ".lisp",
-    "website": "common-lisp.net"
+    "website": "common-lisp.net",
+    "color": "#3fb68b"
   },
   {
     "name": "Emacs Lisp",
@@ -525,7 +545,8 @@
     ],
     "influenced_by": [
       "Common Lisp"
-    ]
+    ],
+    "color": "#c065db"
   },
   {
     "appeared_in": "2011",
@@ -544,7 +565,8 @@
     "preview_release": "1.1.0-dev.5.0 (December 27, 2013; 32 days ago (2013-12-27))",
     "stable_release": "1.1.1 (January 16, 2014; 12 days ago (2014-01-16))",
     "typing_discipline": "Optional",
-    "website": "www.dartlang.org"
+    "website": "www.dartlang.org",
+    "color": "#cccccc"
   },
   {
     "appeared_in": "2000",
@@ -565,7 +587,8 @@
     ],
     "stable_release": "(varies by implementation)\nRakudo Star / January 31, 2014 (2014-01-31) \nNiecza Perl 6 / March 26, 2013 (2013-03-26)",
     "typing_discipline": "dynamic, static, gradual",
-    "website": "Perl6.org"
+    "website": "Perl6.org",
+    "color": "#0298c3"
   },
   {
     "appeared_in": "1993",
@@ -582,7 +605,8 @@
     "stable_release": "2.4.2 (February 1, 2012 (2012-02-01))",
     "typing_discipline": "weak, dynamic",
     "usual_filename_extensions": ".scpt .AppleScript",
-    "website": "http://developer.apple.com/applescript/"
+    "website": "http://developer.apple.com/applescript/",
+    "color": "#3581ba"
   },
   {
     "appeared_in": "1998",
@@ -600,7 +624,8 @@
     ],
     "preview_release": "3.00.0 Alpha 34 (January 30, 2014 (2014-01-30))",
     "stable_release": "2.44.1 (May 28, 2012 (2012-05-28))",
-    "website": "logtalk.org"
+    "website": "logtalk.org",
+    "color": "#ccc"
   },
   {
     "appeared_in": "1972",
@@ -619,7 +644,8 @@
     "paradigms": [
       "logic"
     ],
-    "usual_filename_extensions": ".pl .pro .P"
+    "usual_filename_extensions": ".pl .pro .P",
+    "color": "#74283c"
   },
   {
     "appeared_in": "2003",
@@ -653,7 +679,8 @@
     "stable_release": "2.10.3 (October 1, 2013 (2013-10-01))",
     "typing_discipline": "static, strong, inferred, structural",
     "usual_filename_extensions": ".scala",
-    "website": "www.scala-lang.org"
+    "website": "www.scala-lang.org",
+    "color": "#7dd3b0"
   },
   {
     "appeared_in": "2005",
@@ -672,7 +699,8 @@
     ],
     "stable_release": "1.0.65 (May 20, 2013 (2013-05-20))",
     "typing_discipline": "static, dynamic",
-    "website": "www.fantom.org"
+    "website": "www.fantom.org",
+    "color": "#dbded5"
   },
   {
     "dialects": "Alice, Dependent ML",
@@ -693,7 +721,8 @@
       "imperative"
     ],
     "typing_discipline": "strong, static, inferred",
-    "usual_filename_extensions": ".sml"
+    "usual_filename_extensions": ".sml",
+    "color": "#dc566d"
   },
   {
     "appeared_in": "1996",
@@ -711,7 +740,8 @@
     ],
     "platform": "Cross-platform",
     "stable_release": "0.45.3 (October 3, 2013; 3 months ago (2013-10-03))",
-    "website": "puredata.info"
+    "website": "puredata.info",
+    "color": "#f15501"
   },
   {
     "appeared_in": "1990",
@@ -743,7 +773,8 @@
     "preview_release": "Announced as Haskell 2014",
     "stable_release": "Haskell 2010 (July 2010; 3 years ago (2010-07))",
     "typing_discipline": "static, strong, inferred",
-    "website": "haskell.org"
+    "website": "haskell.org",
+    "color": "#29b544"
   },
   {
     "appeared_in": "2011",
@@ -761,7 +792,8 @@
     ],
     "typing_discipline": "static, strong, inferred",
     "usual_filename_extensions": ".elm",
-    "website": "elm-lang.org"
+    "website": "elm-lang.org",
+    "color": "#ccc"
   },
   {
     "appeared_in": "2009",
@@ -788,7 +820,8 @@
     ],
     "stable_release": "1.6.3 (June 2, 2013; 7 months ago (2013-06-02))",
     "usual_filename_extensions": ".coffee",
-    "website": "coffeescript.org"
+    "website": "coffeescript.org",
+    "color": "#244776"
   },
   {
     "appeared_in": "2008",
@@ -806,7 +839,8 @@
       "scripting"
     ],
     "typing_discipline": "dynamic, weak, duck",
-    "website": "cappuccino.org"
+    "website": "cappuccino.org",
+    "color": "#ff0c5a"
   },
   {
     "appeared_in": "1996",
@@ -832,7 +866,8 @@
     ],
     "stable_release": "4.01.0 (September 12, 2013; 4 months ago (2013-09-12))",
     "typing_discipline": "static, strong, inferred",
-    "website": "caml.inria.fr, ocaml.org"
+    "website": "caml.inria.fr, ocaml.org",
+    "color": "#3be133"
   },
   {
     "appeared_in": "2001",
@@ -850,7 +885,8 @@
     "typing_discipline": "strong",
     "usual_filename_extensions": ".pde",
     "website": "www.processing.org",
-    "written_in": "Java, GLSL, JavaScript"
+    "written_in": "Java, GLSL, JavaScript",
+    "color": "#2779AB"
   },
   {
     "appeared_in": "1995",
@@ -881,7 +917,8 @@
     "website": "www.php.net",
     "influenced": [
       "Falcon"
-    ]
+    ],
+    "color": "#6e03c1"
   },
   {
     "appeared_in": "1995",
@@ -909,7 +946,8 @@
       "functional"
     ],
     "stable_release": "1.8.5 (March 22, 2011; 2 years ago (2011-03-22))",
-    "typing_discipline": "dynamic, duck"
+    "typing_discipline": "dynamic, duck",
+    "color": "#f15501"
   },
   {
     "appeared_in": "1995",
@@ -956,7 +994,8 @@
     "stable_release": "Java Standard Edition 7 Update 51 (1.7.51) (January 14, 2014; 18 days ago (2014-01-14))",
     "typing_discipline": "Static, strong, safe, nominative, manifest",
     "usual_filename_extensions": ".java , .class, .jar",
-    "website": "For Java Developers"
+    "website": "For Java Developers",
+    "color": "#b07219"
   },
   {
     "appeared_in": "2006",
@@ -979,7 +1018,8 @@
     ],
     "stable_release": "0.23.1 (22 December 2013; 33 days ago (2013-12-22))",
     "typing_discipline": "static, strong",
-    "website": "live.gnome.org/Vala"
+    "website": "live.gnome.org/Vala",
+    "color": "#3581ba"
   },
   {
     "appeared_in": "2012",
@@ -1012,7 +1052,8 @@
     "preview_release": "0.9 (9 January 2014; 15 days ago (2014-01-09))",
     "typing_discipline": "static, strong, inferred, structural",
     "usual_filename_extensions": ".rs",
-    "website": "rust-lang.org"
+    "website": "rust-lang.org",
+    "color": "#dea584"
   },
   {
     "appeared_in": "2009",
@@ -1036,7 +1077,8 @@
     "stable_release": "version 1.2 (1 December 2013; 60 days ago (2013-12-01))",
     "typing_discipline": "strong, static, inferred",
     "usual_filename_extensions": ".go",
-    "website": "golang.org"
+    "website": "golang.org",
+    "color": "#8d04eb"
   },
   {
     "appeared_in": "1983",
@@ -1062,7 +1104,8 @@
     ],
     "stable_release": "2.0",
     "typing_discipline": "static, dynamic, weak",
-    "website": "developer.apple.com/library/mac/navigation"
+    "website": "developer.apple.com/library/mac/navigation",
+    "color": "#f15501"
   },
   {
     "appeared_in": "2000",
@@ -1104,7 +1147,8 @@
     "platform": "Common Language Infrastructure",
     "stable_release": "5.0 (August 15, 2012; 17 months ago (2012-08-15))",
     "typing_discipline": "static, dynamic,strong, safe, nominative, partially inferred",
-    "usual_filename_extensions": ".cs"
+    "usual_filename_extensions": ".cs",
+    "color": "#bb92af"
   },
   {
     "appeared_in": "2003",
@@ -1123,7 +1167,8 @@
     "platform": "CLI (.Net & Mono)",
     "stable_release": "1.0.0 (May 13, 2011 (2011-05-13))",
     "typing_discipline": "static, strong, inferred, nominal",
-    "website": "http://nemerle.org"
+    "website": "http://nemerle.org",
+    "color": "#0d3c6e"
   },
   {
     "appeared_in": "1983",
@@ -1161,7 +1206,8 @@
     "stable_release": "ISO/IEC 14882:2011 (2011)",
     "typing_discipline": "Static, Nominative",
     "usual_filename_extensions": ".h .hh .hpp .hxx .h++ .cc .cpp .cxx .c++",
-    "website": "News, status & discussion about Standard C++"
+    "website": "News, status & discussion about Standard C++",
+    "color": "#f34b7d"
   },
   {
     "appeared_in": "1982",
@@ -1178,7 +1224,8 @@
       "object-oriented",
       "procedural"
     ],
-    "typing_discipline": "static, manifest"
+    "typing_discipline": "static, manifest",
+    "color": "#45f715"
   },
   {
     "name": "Assembly",
@@ -1188,7 +1235,8 @@
     ],
     "influenced": [
       "C"
-    ]
+    ],
+    "color": "#a67219"
   },
   {
     "appeared_in": "1993",
@@ -1217,7 +1265,8 @@
     ],
     "stable_release": "5.2.3 (December 7, 2013 (2013-12-07))",
     "typing_discipline": "dynamic, strong, duck",
-    "website": "www.lua.org"
+    "website": "www.lua.org",
+    "color": "#fa1fa1"
   },
   {
     "appeared_in": "2007",
@@ -1236,7 +1285,8 @@
     ],
     "stable_release": "2.1.0 (April 15, 2013; 9 months ago (2013-04-15))",
     "typing_discipline": "dynamic",
-    "website": "programming.nu"
+    "website": "programming.nu",
+    "color": "#c9df40"
   },
   {
     "appeared_in": "2008",
@@ -1251,7 +1301,8 @@
       "object-oriented",
       "imperative"
     ],
-    "typing_discipline": "static, with dynamic features, strong, inferred"
+    "typing_discipline": "static, with dynamic features, strong, inferred",
+    "color": "#c7a938"
   },
   {
     "appeared_in": "2003",
@@ -1273,7 +1324,8 @@
     "website": "boo.codehaus.org",
     "influenced": [
       "Mirah"
-    ]
+    ],
+    "color": "#d4bec1"
   },
   {
     "designed_by": "Ola Bini",
@@ -1294,7 +1346,8 @@
     "stable_release": "P (ikj-0.4.0, ikc-0.4.0)",
     "typing_discipline": "strong",
     "usual_filename_extensions": ".ik",
-    "website": "ioke.org"
+    "website": "ioke.org",
+    "color": "#078193"
   },
   {
     "appeared_in": "2003",
@@ -1320,7 +1373,8 @@
     "platform": "Java Virtual Machine",
     "stable_release": "2.2.1 (November 26, 2013; 2 months ago (2013-11-26))",
     "typing_discipline": "Dynamic, Static, Strong, Duck",
-    "website": "groovy.codehaus.org"
+    "website": "groovy.codehaus.org",
+    "color": "#e69f56"
   },
   {
     "appeared_in": "2010",
@@ -1340,7 +1394,8 @@
     ],
     "typing_discipline": "strong, dynamic",
     "usual_filename_extensions": ".fy, .fyc, .fancypack",
-    "website": "www.fancy-lang.org"
+    "website": "www.fancy-lang.org",
+    "color": "#7b9db4"
   },
   {
     "appeared_in": "2003",
@@ -1367,7 +1422,8 @@
     "stable_release": "0.9.6.8 (Chimera) (December 31, 2010; 3 years ago (2010-12-31))",
     "typing_discipline": "Dynamic",
     "usual_filename_extensions": ".ftd, .fal, .fam",
-    "website": "falconpl.org"
+    "website": "falconpl.org",
+    "color": "#ccc"
   },
   {
     "appeared_in": "2012",
@@ -1386,7 +1442,8 @@
     "stable_release": "0.12.0",
     "typing_discipline": "dynamic, strong",
     "usual_filename_extensions": ".ex, .exs",
-    "website": "www.elixir-lang.org"
+    "website": "www.elixir-lang.org",
+    "color": "#6e4a7e"
   },
   {
     "appeared_in": "2001",
@@ -1417,7 +1474,8 @@
     "stable_release": "2.064.2  (November 5, 2013; 2 months ago (2013-11-05))",
     "typing_discipline": "strong, static",
     "usual_filename_extensions": ".d",
-    "website": "dlang.org"
+    "website": "dlang.org",
+    "color": "#fcd46d"
   },
   {
     "appeared_in": "1972",
@@ -1455,7 +1513,8 @@
       "object-oriented"
     ],
     "stable_release": "Smalltalk-80 version 2 (1980)",
-    "typing_discipline": "strong, dynamic"
+    "typing_discipline": "strong, dynamic",
+    "color": "#596706"
   },
   {
     "appeared_in": "1991",
@@ -1498,7 +1557,8 @@
     "stable_release": "3.3.3 /\n19 November 2013 (2013-11-19)\n2.7.6 /\n10 November 2013 (2013-11-10)",
     "typing_discipline": "duck, dynamic, strong",
     "usual_filename_extensions": ".py, .pyw, .pyc, .pyo, .pyd",
-    "website": "Official website"
+    "website": "Official website",
+    "color": "#3581ba"
   },
   {
     "appeared_in": "1987",
@@ -1535,7 +1595,8 @@
     "stable_release": "5.18.2 (January 7, 2014 (2014-01-07))",
     "typing_discipline": "Dynamic",
     "usual_filename_extensions": ".pl .pm .t .pod[citation needed]",
-    "website": "www.perl.org"
+    "website": "www.perl.org",
+    "color": "#0298c3"
   },
   {
     "appeared_in": "1977",
@@ -1558,7 +1619,8 @@
     ],
     "stable_release": "IEEE Std 1003.1-2008 (POSIX) / 1985",
     "typing_discipline": "none; can handle strings, integers and floating point numbers; regular expressions",
-    "website": "cm.bell-labs.com/cm/cs/awkbook"
+    "website": "cm.bell-labs.com/cm/cs/awkbook",
+    "color": "#ccc"
   },
   {
     "appeared_in": "1986",
@@ -1581,7 +1643,8 @@
     "paradigms": [
       "object-oriented"
     ],
-    "typing_discipline": "static"
+    "typing_discipline": "static",
+    "color": "#946d57"
   },
   {
     "appeared_in": "1980",
@@ -1610,7 +1673,8 @@
     "stable_release": "Ada 2012 (December 10, 2012; 13 months ago (2012-12-10))",
     "typing_discipline": "static, strong, safe, nominative",
     "usual_filename_extensions": ".adb .ads",
-    "website": "http://www.adaic.org/"
+    "website": "http://www.adaic.org/",
+    "color": "#02f88c"
   },
   {
     "appeared_in": "1980",
@@ -1623,6 +1687,7 @@
       "reactive"
     ],
     "typing_discipline": "strong",
-    "website": "IEEE VASG"
+    "website": "IEEE VASG",
+    "color": "#543978"
   }
 ]

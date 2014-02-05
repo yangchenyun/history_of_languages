@@ -69,6 +69,7 @@ function draw (data) {
     .data(data)
     .enter()
     .append('svg:circle')
+      .attr('fill', function (d) { return d.color; })
       .attr('class', 'lang')
       .attr('r', circleR)
       .attr('cx', function (d) {
