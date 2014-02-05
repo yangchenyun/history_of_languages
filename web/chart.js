@@ -65,33 +65,33 @@ function draw (data) {
 
   var langs = chart.append("g")
     .attr('class', 'lang_container')
-    .selectAll('circle.lang')
+    .selectAll('g.lang')
     .data(data)
     .enter()
-    .append('svg:circle')
-      .attr('fill', function (d) { return d.color; })
-      .attr('class', 'lang')
-      .attr('r', circleR)
-      .attr('cx', function (d) {
-        d.x = timeScale(new Date(d['appeared_in']));
-        return d.x;
-      })
-      .attr('cy', function (d) {
-        // distribute langs appeared in the same year
-        d.y = yPos(d);
-        return d.y;
-      });
+    .append('svg:g')
+      .attr('class', 'lang');
 
-  chart.select('.lang_container')
-    .selectAll('text.lang_name')
-    .data(data)
-    .enter()
-    .append('text')
-      .text(function (d) { return d['name']; })
-      .attr('text-anchor','end')
-      .attr('class', 'lang_name')
-      .attr('x', function (d) { return d.x; })
-      .attr('y', function (d) { return d.y; });
+  langs.append('circle')
+    .attr('r', circleR)
+    .attr('cx', function (d) {
+      d.x = timeScale(new Date(d['appeared_in']));
+      return d.x;
+    })
+    .attr('cy', function (d) {
+      // distribute langs appeared in the same year
+      d.y = yPos(d);
+      return d.y;
+    });
+
+  langs.append('text')
+    .text(function (d) { return d['name']; })
+    .attr('text-anchor','end')
+    .attr('class', 'lang_name')
+    .attr('transform', function (d) {
+      return "translate(-5, 10)" + "rotate (-45," + d.x + "," + d.y + ")";
+    })
+    .attr('x', function (d) { return d.x; })
+    .attr('y', function (d) { return d.y; });
 
   // draw influenced path
   var influencedLinks = reducedToLinks (data, 'influenced');
