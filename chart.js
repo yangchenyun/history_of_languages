@@ -18,11 +18,6 @@ function draw (data) {
     .scale(timeScale)
     .orient('left');
 
-  // draw container
-  d3.select("body")
-    .append("div")
-      .attr('id', 'chart_container');
-
   // draw the chart canvas
   var chart = d3.select('#chart_container')
     .append('svg')

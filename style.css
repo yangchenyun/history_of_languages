@@ -1,6 +1,11 @@
 html {
   background: url('grey.png');
 }
+
+#container {
+  width: 960px;
+}
+
 .title {
   width: 550px;
   margin-left: 80px;
@@ -39,12 +44,21 @@ html {
   font-size: 0.8em;
 }
 
-#panel {
-  position: absolute;
-  top: auto;
-  right: 50px;
-  width: 300px;
+#container {
+  width: 1280px;
+}
 
+#chart_container {
+  float: left;
+  width: 800px;
+}
+
+#panel_container {
+  float: left;
+  width: 250px;
+}
+
+#panel {
   background-color: transparent;
   border-radius: 2px;
 }
