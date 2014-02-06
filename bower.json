@@ -16,6 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "d3": "~3.4.1"
+    "d3": "~3.4.1",
+    "underscore": "~1.5.2",
+    "normalize-css": "~3.0.0"
   }
 }
