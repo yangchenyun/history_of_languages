@@ -32,7 +32,7 @@
                 <% } %>
               <% }); %>
 
-              <% if ( data['influenced'] ){ %>
+              <% if ( !_.isEmpty(data['influenced']) ){ %>
               <dt class="section">
                 <h4>Influenced</h4>
                 <dl>
@@ -47,7 +47,7 @@
               </dt>
               <% } %>
 
-              <% if ( data['influenced_by'] ){ %>
+              <% if ( !_.isEmpty(data['influenced_by']) ){ %>
               <dt class="section">
                 <h4>Influenced By</h4>
                 <dl>
