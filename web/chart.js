@@ -78,22 +78,23 @@ function reducedToLinks (langs, type) {
 }
 
 function draw (data) {
-  var dimention = { w: 3000, h: 600 },
-      margins = { left: 80, top: 20, bottom: 20, right: 20 },
+  var dimention = { w: 800, h: 3000 },
+      margins = { left: 100, top: 80, bottom: 80, right: 20 },
       circleR = 5;
 
   var timeScale = d3.time.scale()
-    .range([margins.left, dimention.w - margins.right])
+    .range([dimention.h - margins.bottom, margins.top])
     .domain(d3.extent(_.map(data, function (lang) {
       return new Date(lang['appeared_in']);
     })));
 
-  var verticalScale = d3.scale.linear()
-    .range([dimention.h - margins.bottom, margins.top])
-    .domain([-1, 5]); // -1 to avoid collaspe with the bottom axie line
+  var horizontalScale = d3.scale.linear()
+    .range([dimention.w - margins.right, margins.left])
+    .domain([-2, 6]); // -2 to avoid collaspe with the bottom axie line
 
   var timeAxis = d3.svg.axis()
-    .scale(timeScale);
+    .scale(timeScale)
+    .orient('left');
 
   // draw container
   d3.select("body")
@@ -108,22 +109,17 @@ function draw (data) {
     .append("g")
       .attr("id","chart");
 
-  // draw x axis
-  chart.append("g")
-    .attr("class", "x axis")
-    .attr("transform", "translate(" + 0 + "," + (dimention.h - margins.bottom) + ")")
-    .call(timeAxis);
-
   // draw language points
   var groupByAppear = _.groupBy(data, function (lang) {
     return lang['appeared_in'];
   });
 
-  function yPos (lang) {
-    return verticalScale(groupByAppear[lang['appeared_in']].indexOf(lang));
+  function xPos (lang) {
+    return horizontalScale(groupByAppear[lang['appeared_in']].indexOf(lang));
   }
 
   var langs = chart.append("g")
+  // show panel
     .attr('class', 'lang_container')
     .selectAll('g.lang')
     .data(data)
@@ -139,14 +135,14 @@ function draw (data) {
   langs.append('circle')
     .attr('fill', function (d) { return d.color; })
     .attr('r', circleR)
-    .attr('cx', function (d) {
-      d.x = timeScale(new Date(d['appeared_in']));
-      return d.x;
-    })
     .attr('cy', function (d) {
-      // distribute langs appeared in the same year
-      d.y = yPos(d);
+      d.y = timeScale(new Date(d['appeared_in']));
       return d.y;
+    })
+    .attr('cx', function (d) {
+      // distribute langs appeared in the same year
+      d.x = xPos(d);
+      return d.x;
     });
 
   langs.append('text')
@@ -183,6 +179,12 @@ function draw (data) {
 
         return line([source, middle, target]);
       });
+
+  // draw x axis
+  chart.append("g")
+    .attr("class", "y axis")
+    .attr("transform", "translate(" + margins.left + ",0)")
+    .call(timeAxis);
 }
 
 d3.json('lang.json', draw);
