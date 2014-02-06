@@ -2,8 +2,7 @@ function draw (data) {
   util.buildMap(data);
 
   var dimention = { w: 800, h: 3000 },
-      margins = { left: 100, top: 80, bottom: 80, right: 20 },
-      circleR = 5;
+      margins = { left: 100, top: 80, bottom: 80, right: 20 };
 
   var timeScale = d3.time.scale()
     .range([dimention.h - margins.bottom, margins.top])
