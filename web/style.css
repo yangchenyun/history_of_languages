@@ -14,10 +14,11 @@ html {
 }
 
 .lang {
+  transition: 0.5s;
   opacity: 0.4;
 }
 
-.lang.active {
+.lang.active, .lang:hover {
   opacity: 1;
 }
 
