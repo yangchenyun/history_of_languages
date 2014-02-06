@@ -44,7 +44,6 @@
     },
 
     toggleActiveNode: function () {
-      console.log(this.__data__);
       var state = this.__data__.active = !this.__data__.active;
 
       var data = this.__data__,
@@ -85,6 +84,18 @@
       document
         .getElementById('panel_container')
         .innerHTML = panel;
+      d3.select('#panel')
+        .on('click', function (d) {
+          var target = d3.event.target;
+          if (target.className.indexOf('lang_link') != -1) {
+            var refName = util.escapeName(_.last(target.href.split('/')).replace(/^#/, ''));
+            var ref = d3.select('#' + refName)[0][0];
+            util.inactivateAllNodes();
+            util.toggleActiveNode.apply(ref);
+            util.renderTmpl(ref.__data__);
+          }
+          d3.event.preventDefault();
+        });
     }
   };
 })();
