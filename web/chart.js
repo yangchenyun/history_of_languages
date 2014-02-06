@@ -1,15 +1,8 @@
-function printName (name) {
-  return name
-    .replace(' ', '-')
-    .replace(/\+/g, '_plus')
-    .replace('#', 'sharp');
-}
-
 function toggleActiveNode (node, active) {
   var state = node._active = !node._active;
 
   var data = node.__data__,
-      name = printName(data.name),
+      name = util.escapeName(data.name),
       related = [];
 
   d3.selectAll('path.source-' + name)
@@ -23,13 +16,13 @@ function toggleActiveNode (node, active) {
 
   if (data.influenced) {
     data.influenced.forEach(function (name) {
-      d3.select('#' + printName(name)).classed('related', state);
+      d3.select('#' + util.escapeName(name)).classed('related', state);
     });
   }
 
   if (data.influenced_by) {
     data.influenced_by.forEach(function (name) {
-      d3.select('#' + printName(name)).classed('related', state);
+      d3.select('#' + util.escapeName(name)).classed('related', state);
     });
   }
 }
@@ -107,7 +100,7 @@ function draw (data) {
     .append('svg:g')
       .attr('class', 'lang')
       .attr('id', function (d) {
-        return printName(d.name);
+        return util.escapeName(d.name);
       })
     .on('mouseenter', mouseOver)
     .on('mouseleave', mouseLeave);
@@ -152,7 +145,7 @@ function draw (data) {
     .selectAll("path.link")
       .data(influencedLinks)
     .enter().append("path")
-      .attr("class", function(d) { return "link source-" + printName(d.source.name) + " target-" + printName(d.target.name); })
+      .attr("class", function(d) { return "link source-" + util.escapeName(d.source.name) + " target-" + util.escapeName(d.target.name); })
       .attr('stroke', function (d) { return d.source.color; })
       .attr("d", function(d) {
         var source = d.source,

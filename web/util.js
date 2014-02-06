@@ -13,5 +13,11 @@
     getLangByName: function (name) {
       return dataMap[name];
     },
+
+    escapeName: function (name) {
+      return name.replace(' ', '-')
+        .replace(/\+/g, '_plus')
+        .replace('#', 'sharp');
+    },
   };
 })();
