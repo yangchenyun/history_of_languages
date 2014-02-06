@@ -35,7 +35,7 @@
       d3.selectAll('path.target-' + name)
         .classed("show", state);
 
-      d3.select(node)
+      d3.select(this)
         .classed('active', state);
 
       if (data.influenced) {
