@@ -20,7 +20,8 @@
         <div id="panel">
             <dl>
               <dt class="section">
-                <h3><%- data.name %></h3>
+                <h3 style = "border-color: <%- data.color %>;"><%- data.name %></h3>
+
               </dt>
               <% _.each(_.keys(data), function (key) { %>
                 <% if ( ['name', 'influenced', 'influenced_by', 'color', 'x', 'y'].indexOf(key) == -1  ){ %>
