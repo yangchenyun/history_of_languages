@@ -1,3 +1,7 @@
+html {
+  background: url('grey.png');
+}
+
 .link {
   fill: none;
   stroke-opacity: .7;
@@ -10,7 +14,7 @@
 }
 
 .lang {
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 .lang.active {
@@ -23,4 +27,70 @@
 
 .lang_name {
   font-size: 0.8em;
+}
+
+#panel {
+  position: absolute;
+  top: auto;
+  right: 50px;
+  width: 300px;
+
+  background-color: transparent;
+  border-radius: 2px;
+}
+
+#panel h3, #panel h4 {
+  padding: 5px ;
+  margin: 0;
+}
+
+#panel h3 {
+  border-left: 10px solid transparent;
+  border-color: #701516;
+}
+
+dl {
+  margin: 0 0 0 20px;
+}
+
+dt {
+  padding: 6px;
+  font-size: 13px;
+}
+
+.ref_link {
+  opacity: 0.7;
+  height: 18px;
+}
+
+.ref_link:hover {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+dt a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.section {
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+
+dt span, dt a {
+  font-size: 13px;
+}
+
+dt span.key_name {
+  font-weight: bold;
+}
+
+.lang_color {
+  display: inline-block;
+  padding: 0;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
 }

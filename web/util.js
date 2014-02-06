@@ -2,6 +2,8 @@
   window.util = {};
 
   var dataMap = {};
+  _.templateSettings.variable = "data";
+
   util = {
     buildMap: function (langs) {
       // Compute a map from name to node.
@@ -48,5 +50,19 @@
         });
       }
     },
+
+    printScreen: function (str) {
+      return _.map(str.split('_'), function (word) {
+        return word.charAt(0).toUpperCase() + word.slice(1);
+      }).join(' ');
+    },
+
+    renderTmpl: function (lang) {
+      var tmpl = _.template(document.getElementById('panel_tmpl').innerHTML);
+      var panel = tmpl(lang);
+      document
+        .getElementById('panel_container')
+        .innerHTML = panel;
+    }
   };
 })();

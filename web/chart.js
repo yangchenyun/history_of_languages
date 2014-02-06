@@ -123,6 +123,8 @@ function draw (data) {
     .attr("class", "y axis")
     .attr("transform", "translate(" + margins.left + ",0)")
     .call(timeAxis);
+
+  util.renderTmpl(data[0]);
 }
 
 d3.json('lang.json', draw);

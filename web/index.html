@@ -14,6 +14,55 @@
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div id="panel_container"> </div>
+
+        <script type="text/template" id="panel_tmpl">
+        <div id="panel">
+            <dl>
+              <dt class="section">
+                <h3><%- data.name %></h3>
+              </dt>
+              <% _.each(_.keys(data), function (key) { %>
+                <% if ( ['name', 'influenced', 'influenced_by', 'color', 'x', 'y'].indexOf(key) == -1  ){ %>
+                  <dt class="section">
+                    <span class="key_name"><%- util.printScreen(key) %>: </span>
+                    <span><%- data[key] %></span>
+                  </dt>
+                <% } %>
+              <% }); %>
+
+              <% if ( data['influenced'] ){ %>
+              <dt class="section">
+                <h4>Influenced</h4>
+                <dl>
+                    <% _.each( data['influenced'], function( il_name ){ %>
+                    <dt class='ref_link'>
+                        <span class="lang_color"
+                            style="background-color: <%- util.getLangByName(il_name).color %> ;"></span>
+                        <a class = 'lang_link' href=""> <%- il_name %> </a>
+                    </dt>
+                    <% }); %>
+                </dl>
+              </dt>
+              <% } %>
+
+              <% if ( data['influenced_by'] ){ %>
+              <dt class="section">
+                <h4>Influenced By</h4>
+                <dl>
+                    <% _.each( data['influenced_by'], function( il_name ){ %>
+                    <dt class='ref_link'>
+                        <span class="lang_color"
+                            style="background-color: <%- util.getLangByName(il_name).color %> ;"></span>
+                        <a class = 'lang_link' href=""> <%- il_name %> </a>
+                    </dt>
+                    <% }); %>
+                </dl>
+              </dt>
+              <% } %>
+            </dl>
+        </div>
+        </script>
 
         <script src="bower_components/d3/d3.js"></script>
         <script src="bower_components/underscore/underscore-min.js"></script>
