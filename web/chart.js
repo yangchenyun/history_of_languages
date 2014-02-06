@@ -1,40 +1,3 @@
-function toggleActiveNode (node, active) {
-  var state = node._active = !node._active;
-
-  var data = node.__data__,
-      name = util.escapeName(data.name),
-      related = [];
-
-  d3.selectAll('path.source-' + name)
-    .classed("show", state);
-
-  d3.selectAll('path.target-' + name)
-    .classed("show", state);
-
-  d3.select(node)
-    .classed('active', state);
-
-  if (data.influenced) {
-    data.influenced.forEach(function (name) {
-      d3.select('#' + util.escapeName(name)).classed('related', state);
-    });
-  }
-
-  if (data.influenced_by) {
-    data.influenced_by.forEach(function (name) {
-      d3.select('#' + util.escapeName(name)).classed('related', state);
-    });
-  }
-}
-
-function mouseOver () {
-  toggleActiveNode(this);
-}
-
-function mouseLeave () {
-  toggleActiveNode(this);
-}
-
 function reducedToLinks (langs, type) {
   result = [];
 
@@ -102,8 +65,8 @@ function draw (data) {
       .attr('id', function (d) {
         return util.escapeName(d.name);
       })
-    .on('mouseenter', mouseOver)
-    .on('mouseleave', mouseLeave);
+    .on('mouseenter', util.toggleActiveNode)
+    .on('mouseleave', util.toggleActiveNode);
 
   langs.append('circle')
     .attr('fill', function (d) { return d.color; })
