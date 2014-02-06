@@ -151,7 +151,7 @@ function draw (data) {
       .y(function(d) { return d.y; })
       .interpolate("basis");
 
-  var path = chart.append('g')
+  var path = chart.insert('g', '.lang_container')
       .attr('class', 'path_container')
     .selectAll("path.link")
       .data(influencedLinks)
