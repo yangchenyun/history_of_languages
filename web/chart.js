@@ -1,3 +1,10 @@
+function printName (name) {
+  return name
+    .replace(' ', '-')
+    .replace(/\+/g, '_plus')
+    .replace('#', 'sharp');
+}
+
 function reducedToLinks (langs, type) {
   var map = {},
   result = [];
@@ -69,7 +76,10 @@ function draw (data) {
     .data(data)
     .enter()
     .append('svg:g')
-      .attr('class', 'lang');
+      .attr('class', 'lang')
+      .attr('id', function (d) {
+        return printName(d.name);
+      })
 
   langs.append('circle')
     .attr('fill', function (d) { return d.color; })
@@ -109,7 +119,7 @@ function draw (data) {
     .selectAll("path.link")
       .data(influencedLinks)
     .enter().append("path")
-      .attr("class", function(d) { return "link source-" + d.source.name + " target-" + d.target.name; })
+      .attr("class", function(d) { return "link source-" + printName(d.source.name) + " target-" + printName(d.target.name); })
       .attr('stroke', function (d) { return d.source.color; })
       .attr("d", function(d) {
         var source = d.source,
@@ -118,7 +128,6 @@ function draw (data) {
 
         return line([source, middle, target]);
       });
-
 }
 
 d3.json('lang.json', draw);
