@@ -65,8 +65,11 @@ function draw (data) {
       .attr('id', function (d) {
         return util.escapeName(d.name);
       })
-    .on('mouseenter', util.toggleActiveNode)
-    .on('mouseleave', util.toggleActiveNode);
+    .on('click', function (d) {
+      util.inactivateAllNodes();
+      util.toggleActiveNode.apply(this);
+      util.renderTmpl(d);
+    });
 
   langs.append('circle')
     .attr('fill', function (d) { return d.color; })
@@ -123,8 +126,6 @@ function draw (data) {
     .attr("class", "y axis")
     .attr("transform", "translate(" + margins.left + ",0)")
     .call(timeAxis);
-
-  util.renderTmpl(data[0]);
 }
 
 d3.json('lang.json', draw);

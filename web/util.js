@@ -22,8 +22,17 @@
         .replace('#', 'sharp');
     },
 
+    inactivateAllNodes: function () {
+      d3.selectAll('g.lang').each(function (lang) {
+        if (lang.active) {
+          util.toggleActiveNode.apply(this);
+        }
+      });
+    },
+
     toggleActiveNode: function () {
-      var state = this._active = !this._active;
+      console.log(this.__data__);
+      var state = this.__data__.active = !this.__data__.active;
 
       var data = this.__data__,
           name = util.escapeName(data.name),
