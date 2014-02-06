@@ -5,57 +5,41 @@ function printName (name) {
     .replace('#', 'sharp');
 }
 
-function mouseOver () {
-  var data = this.__data__,
-      related = [],
-      name = printName(data.name);
+function toggleActiveNode (node, active) {
+  var state = node._active = !node._active;
+
+  var data = node.__data__,
+      name = printName(data.name),
+      related = [];
 
   d3.selectAll('path.source-' + name)
-    .classed("show", true);
+    .classed("show", state);
 
   d3.selectAll('path.target-' + name)
-    .classed("show", true);
+    .classed("show", state);
 
-  d3.select(this)
-    .classed('active', true);
+  d3.select(node)
+    .classed('active', state);
 
   if (data.influenced) {
     data.influenced.forEach(function (name) {
-      d3.select('#' + printName(name)).classed('related', true);
+      d3.select('#' + printName(name)).classed('related', state);
     });
   }
 
   if (data.influenced_by) {
     data.influenced_by.forEach(function (name) {
-      d3.select('#' + printName(name)).classed('related', true);
+      d3.select('#' + printName(name)).classed('related', state);
     });
   }
 }
 
+function mouseOver () {
+  toggleActiveNode(this);
+}
+
 function mouseLeave () {
-  var data = this.__data__,
-      name = printName(data.name);
-
-  d3.selectAll('path.source-' + name)
-    .classed("show", false);
-
-  d3.selectAll('path.target-' + name)
-    .classed("show", false);
-
-  d3.select(this)
-    .classed('active', false);
-
-  if (data.influenced) {
-    data.influenced.forEach(function (name) {
-      d3.select('#' + printName(name)).classed('related', false);
-    });
-  }
-
-  if (data.influenced_by) {
-    data.influenced_by.forEach(function (name) {
-      d3.select('#' + printName(name)).classed('related', false);
-    });
-  }
+  toggleActiveNode(this);
 }
 
 function reducedToLinks (langs, type) {
