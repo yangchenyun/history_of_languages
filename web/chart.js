@@ -118,7 +118,9 @@ function draw (data) {
 
   langs.append('circle')
     .attr('fill', function (d) { return d.color; })
-    .attr('r', circleR)
+    .attr('r', function (d) {
+      return d3.max([d.influenced ? d.influenced.length : 0, 5]);
+    })
     .attr('cy', function (d) {
       d.y = timeScale(new Date(d['appeared_in']));
       return d.y;
@@ -134,7 +136,7 @@ function draw (data) {
     .attr('text-anchor','end')
     .attr('class', 'lang_name')
     .attr('transform', function (d) {
-      return "translate(-5, 10)" + "rotate (-55," + d.x + "," + d.y + ")";
+      return "translate(-14, 16)" + "rotate (-40," + d.x + "," + d.y + ")";
     })
     .attr('x', function (d) { return d.x; })
     .attr('y', function (d) { return d.y; })
