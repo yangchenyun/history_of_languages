@@ -43,18 +43,12 @@ function mouseLeave () {
 }
 
 function reducedToLinks (langs, type) {
-  var map = {},
   result = [];
-
-  // Compute a map from name to node.
-  langs.forEach(function(n) {
-    map[n.name] = n;
-  });
 
   // For each import, construct a link from the source to target node.
   langs.forEach(function(n) {
     if (n[type]) n[type].forEach(function(i) {
-      result.push({source: map[n.name], target: map[i]});
+      result.push({source: util.getLangByName(n.name), target: util.getLangByName(i)});
     });
   });
 
@@ -62,6 +56,8 @@ function reducedToLinks (langs, type) {
 }
 
 function draw (data) {
+  util.buildMap(data);
+
   var dimention = { w: 800, h: 3000 },
       margins = { left: 100, top: 80, bottom: 80, right: 20 },
       circleR = 5;
