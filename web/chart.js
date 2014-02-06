@@ -5,6 +5,59 @@ function printName (name) {
     .replace('#', 'sharp');
 }
 
+function mouseOver () {
+  var data = this.__data__,
+      related = [],
+      name = printName(data.name);
+
+  d3.selectAll('path.source-' + name)
+    .classed("show", true);
+
+  d3.selectAll('path.target-' + name)
+    .classed("show", true);
+
+  d3.select(this)
+    .classed('active', true);
+
+  if (data.influenced) {
+    data.influenced.forEach(function (name) {
+      d3.select('#' + printName(name)).classed('related', true);
+    });
+  }
+
+  if (data.influenced_by) {
+    data.influenced_by.forEach(function (name) {
+      d3.select('#' + printName(name)).classed('related', true);
+    });
+  }
+}
+
+function mouseLeave () {
+  var data = this.__data__,
+      name = printName(data.name);
+
+  d3.selectAll('path.source-' + name)
+    .classed("show", false);
+
+  d3.selectAll('path.target-' + name)
+    .classed("show", false);
+
+  d3.select(this)
+    .classed('active', false);
+
+  if (data.influenced) {
+    data.influenced.forEach(function (name) {
+      d3.select('#' + printName(name)).classed('related', false);
+    });
+  }
+
+  if (data.influenced_by) {
+    data.influenced_by.forEach(function (name) {
+      d3.select('#' + printName(name)).classed('related', false);
+    });
+  }
+}
+
 function reducedToLinks (langs, type) {
   var map = {},
   result = [];
@@ -80,6 +133,8 @@ function draw (data) {
       .attr('id', function (d) {
         return printName(d.name);
       })
+    .on('mouseenter', mouseOver)
+    .on('mouseleave', mouseLeave);
 
   langs.append('circle')
     .attr('fill', function (d) { return d.color; })
