@@ -1,16 +1,3 @@
-function reducedToLinks (langs, type) {
-  result = [];
-
-  // For each import, construct a link from the source to target node.
-  langs.forEach(function(n) {
-    if (n[type]) n[type].forEach(function(i) {
-      result.push({source: util.getLangByName(n.name), target: util.getLangByName(i)});
-    });
-  });
-
-  return result;
-}
-
 function draw (data) {
   util.buildMap(data);
 
@@ -98,7 +85,7 @@ function draw (data) {
     .attr('fill', function (d) { return d.color; });
 
   // draw influenced path
-  var influencedLinks = reducedToLinks (data, 'influenced');
+  var influencedLinks = util.reducedToLinks (data, 'influenced');
 
   var line = d3.svg.line()
       .tension(0.85)

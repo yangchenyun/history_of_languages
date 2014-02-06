@@ -22,6 +22,19 @@
         .replace('#', 'sharp');
     },
 
+    reducedToLinks: function (langs, type) {
+      result = [];
+
+      // For each import, construct a link from the source to target node.
+      langs.forEach(function(n) {
+        if (n[type]) n[type].forEach(function(i) {
+          result.push({source: util.getLangByName(n.name), target: util.getLangByName(i)});
+        });
+      });
+
+      return result;
+    },
+
     inactivateAllNodes: function () {
       d3.selectAll('g.lang').each(function (lang) {
         if (lang.active) {
