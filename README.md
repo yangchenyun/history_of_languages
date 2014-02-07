@@ -1,4 +1,6 @@
 # History Of Languages
+![Analytics](https://ga-beacon.appspot.com/UA-27986795-3/resume/readme?pixel)
+
 [site](http://www.yangchenyun.com/history_of_languages/)
 
 This repo is a visualisation of language history.
@@ -19,15 +21,15 @@ rake test
 
 `lib/infobox.rb` is an object to fetch related data from each Wikipedia page.
 
-`script/crawler.rb` uses the above two scripts to fetch raw data.
-
-`script/cleanup_data.rb` uses to throw away unnecessary data and format data to satisfy the requirement in 'test/data_integrity_test.rb' (some manual cleanup is also required).
-
 For gh-pages branch:
 ```bash
 bower install
 python -m SimpleHTTPServer 8080
 ```
+
+`script/crawler.rb` uses the above two scripts to fetch raw data.
+
+`script/cleanup_data.rb` uses to throw away unnecessary data and format data to satisfy the requirement in 'test/data_integrity_test.rb' (some manual cleanup is also required).
 
 # Visulisation Details
 `d3` is used to visualize the data, including data influency, data relationships and appearing year.
