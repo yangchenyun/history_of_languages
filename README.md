@@ -1,6 +1,4 @@
-# History Of Languages
-![Analytics](https://ga-beacon.appspot.com/UA-27986795-3/resume/readme?pixel)
-
+# History Of Languages ![Analytics](https://ga-beacon.appspot.com/UA-27986795-3/history_of_languages/readme?pixel)
 [site](http://www.yangchenyun.com/history_of_languages/)
 
 This repo is a visualisation of language history.
